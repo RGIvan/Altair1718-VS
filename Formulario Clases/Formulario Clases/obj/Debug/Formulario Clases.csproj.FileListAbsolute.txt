@@ -1,0 +1,9 @@
+c:\users\alum01\documents\visual studio 2015\Projects\Formulario Clases\Formulario Clases\bin\Debug\Formulario Clases.exe.config
+c:\users\alum01\documents\visual studio 2015\Projects\Formulario Clases\Formulario Clases\bin\Debug\Formulario Clases.exe
+c:\users\alum01\documents\visual studio 2015\Projects\Formulario Clases\Formulario Clases\bin\Debug\Formulario Clases.pdb
+c:\users\alum01\documents\visual studio 2015\Projects\Formulario Clases\Formulario Clases\obj\Debug\Formulario Clases.csprojResolveAssemblyReference.cache
+c:\users\alum01\documents\visual studio 2015\Projects\Formulario Clases\Formulario Clases\obj\Debug\Formulario_Clases.Form1.resources
+c:\users\alum01\documents\visual studio 2015\Projects\Formulario Clases\Formulario Clases\obj\Debug\Formulario_Clases.Properties.Resources.resources
+c:\users\alum01\documents\visual studio 2015\Projects\Formulario Clases\Formulario Clases\obj\Debug\Formulario Clases.csproj.GenerateResource.Cache
+c:\users\alum01\documents\visual studio 2015\Projects\Formulario Clases\Formulario Clases\obj\Debug\Formulario Clases.exe
+c:\users\alum01\documents\visual studio 2015\Projects\Formulario Clases\Formulario Clases\obj\Debug\Formulario Clases.pdb
