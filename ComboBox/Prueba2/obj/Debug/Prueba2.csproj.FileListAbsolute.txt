@@ -25,3 +25,6 @@ C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\ComboBox\Prueba2\obj\Debug
 C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\ComboBox\Prueba2\obj\Debug\Prueba2.Form1.resources
 C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\ComboBox\Prueba2\obj\Debug\Prueba2.Properties.Resources.resources
 C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\ComboBox\Prueba2\obj\Debug\Prueba2.csproj.GenerateResource.Cache
+C:\Users\ALUM01\git\Altair1718-VS\ComboBox\Prueba2\bin\Debug\Prueba2.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\ComboBox\Prueba2\obj\Debug\Prueba2.exe
+C:\Users\ALUM01\git\Altair1718-VS\ComboBox\Prueba2\obj\Debug\Prueba2.pdb
