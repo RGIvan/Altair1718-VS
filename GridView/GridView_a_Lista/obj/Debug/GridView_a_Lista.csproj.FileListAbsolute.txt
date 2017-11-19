@@ -43,3 +43,12 @@ C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GridView\GridView_a_Lista\
 C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.Form1.resources
 C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.Properties.Resources.resources
 C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.csproj.GenerateResource.Cache
+C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\bin\Debug\GridView_a_Lista.exe.config
+C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.exe
+C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.pdb
+C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\bin\Debug\GridView_a_Lista.exe
+C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\bin\Debug\GridView_a_Lista.pdb
+C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.Form1.resources
+C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.Properties.Resources.resources
+C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.csproj.GenerateResource.Cache
