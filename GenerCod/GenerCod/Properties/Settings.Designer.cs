@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Formulario_Clases.Properties
+namespace GenerCod.Properties
 {
 
 

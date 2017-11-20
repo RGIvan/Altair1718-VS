@@ -16,3 +16,6 @@ E:\Prueba\Prueba\obj\Debug\Prueba.csprojResolveAssemblyReference.cache
 E:\Prueba\Prueba\obj\Debug\Prueba.Form1.resources
 E:\Prueba\Prueba\obj\Debug\Prueba.Properties.Resources.resources
 E:\Prueba\Prueba\obj\Debug\Prueba.csproj.GenerateResource.Cache
+C:\Users\Crono\git\Altair1718-VS\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\Crono\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\Crono\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.pdb
