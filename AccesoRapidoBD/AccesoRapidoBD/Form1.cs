@@ -21,7 +21,11 @@ namespace AccesoRapidoBD
         {
             // TODO: esta línea de código carga datos en la tabla 'dataSet1.Alumnos' Puede moverla o quitarla según sea necesario.
             this.alumnosTableAdapter.Fill(this.dataSet1.Alumnos);
+        }
 
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            alumnosTableAdapter.Update(this.dataSet1.Alumnos);
         }
     }
 }
