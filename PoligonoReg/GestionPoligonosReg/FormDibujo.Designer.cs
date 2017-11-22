@@ -71,27 +71,35 @@
             this.panelDibujo.Name = "panelDibujo";
             this.panelDibujo.Size = new System.Drawing.Size(500, 500);
             this.panelDibujo.TabIndex = 1;
-            this.panelDibujo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelDibujo_Click);
+            this.panelDibujo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelDibujo_MouseClick);
             // 
             // trackY
             // 
             this.trackY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.trackY.LargeChange = 50;
             this.trackY.Location = new System.Drawing.Point(530, 15);
             this.trackY.Maximum = 500;
             this.trackY.Name = "trackY";
             this.trackY.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.trackY.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.trackY.Size = new System.Drawing.Size(45, 520);
-            this.trackY.TabIndex = 10;
+            this.trackY.SmallChange = 10;
+            this.trackY.TabIndex = 1;
+            this.trackY.TickFrequency = 10;
             this.trackY.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
             // 
             // trackX
             // 
             this.trackX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.trackX.LargeChange = 50;
             this.trackX.Location = new System.Drawing.Point(15, 530);
             this.trackX.Maximum = 500;
             this.trackX.Name = "trackX";
+            this.trackX.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.trackX.Size = new System.Drawing.Size(520, 45);
-            this.trackX.TabIndex = 10;
+            this.trackX.SmallChange = 10;
+            this.trackX.TabIndex = 1;
+            this.trackX.TickFrequency = 10;
             this.trackX.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
             // 
             // label2
@@ -130,7 +138,7 @@
             this.trackRadio.Name = "trackRadio";
             this.trackRadio.Size = new System.Drawing.Size(258, 30);
             this.trackRadio.TabIndex = 28;
-            this.trackRadio.ValueChanged += new System.EventHandler(this.Caja);
+            this.trackRadio.ValueChanged += new System.EventHandler(this.trackRadio_ValueChanged);
             // 
             // txtRadio
             // 
@@ -142,8 +150,8 @@
             this.txtRadio.Name = "txtRadio";
             this.txtRadio.Size = new System.Drawing.Size(48, 29);
             this.txtRadio.TabIndex = 29;
-            this.txtRadio.Text = "100";
             this.txtRadio.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtRadio.TextChanged += new System.EventHandler(this.txtRadio_TextChanged);
             // 
             // nudNumLados
             // 
@@ -155,12 +163,17 @@
             0,
             0,
             0});
+            this.nudNumLados.Minimum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
             this.nudNumLados.Name = "nudNumLados";
             this.nudNumLados.Size = new System.Drawing.Size(57, 29);
             this.nudNumLados.TabIndex = 30;
             this.nudNumLados.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudNumLados.Value = new decimal(new int[] {
-            5,
+            3,
             0,
             0,
             0});
@@ -174,7 +187,6 @@
             this.cbGrosor.Name = "cbGrosor";
             this.cbGrosor.Size = new System.Drawing.Size(57, 30);
             this.cbGrosor.TabIndex = 31;
-            this.cbGrosor.Text = "2";
             // 
             // txtGiro
             // 
@@ -187,15 +199,19 @@
             this.txtGiro.Size = new System.Drawing.Size(48, 29);
             this.txtGiro.TabIndex = 35;
             this.txtGiro.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGiro.TextChanged += new System.EventHandler(this.txtGiro_TextChanged);
             // 
             // trackGiro
             // 
             this.trackGiro.AutoSize = false;
             this.trackGiro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.trackGiro.LargeChange = 1;
             this.trackGiro.Location = new System.Drawing.Point(607, 282);
+            this.trackGiro.Maximum = 90;
             this.trackGiro.Name = "trackGiro";
             this.trackGiro.Size = new System.Drawing.Size(258, 30);
             this.trackGiro.TabIndex = 34;
+            this.trackGiro.ValueChanged += new System.EventHandler(this.trackGiro_ValueChanged);
             // 
             // label5
             // 
@@ -259,7 +275,6 @@
             // 
             // lbColor
             // 
-            this.lbColor.BackColor = System.Drawing.Color.Black;
             this.lbColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbColor.Location = new System.Drawing.Point(11, 29);
             this.lbColor.Name = "lbColor";
@@ -287,7 +302,7 @@
             this.rbAzul.TabIndex = 3;
             this.rbAzul.Text = "Azul";
             this.rbAzul.UseVisualStyleBackColor = true;
-            this.rbAzul.CheckedChanged += new System.EventHandler(this.rbAzul_CheckedChanged);
+            this.rbAzul.CheckedChanged += new System.EventHandler(this.rbNegro_CheckedChanged);
             // 
             // rbVerde
             // 
@@ -299,7 +314,7 @@
             this.rbVerde.TabIndex = 2;
             this.rbVerde.Text = "Verde";
             this.rbVerde.UseVisualStyleBackColor = true;
-            this.rbVerde.CheckedChanged += new System.EventHandler(this.rbVerde_CheckedChanged);
+            this.rbVerde.CheckedChanged += new System.EventHandler(this.rbNegro_CheckedChanged);
             // 
             // rbRojo
             // 
@@ -311,7 +326,7 @@
             this.rbRojo.TabIndex = 1;
             this.rbRojo.Text = "Rojo";
             this.rbRojo.UseVisualStyleBackColor = true;
-            this.rbRojo.CheckedChanged += new System.EventHandler(this.rbRojo_CheckedChanged);
+            this.rbRojo.CheckedChanged += new System.EventHandler(this.rbNegro_CheckedChanged);
             // 
             // rbNegro
             // 
