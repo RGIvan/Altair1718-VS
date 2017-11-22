@@ -16,3 +16,6 @@ C:\Altair\_Trabajos csi_2 (DWS)\wd0a Generador de Clases\wd0a_Retuerta_Alvaro\Ge
 C:\Altair\_Trabajos csi_2 (DWS)\wd0a Generador de Clases\wd0a_Retuerta_Alvaro\GenerCod\obj\Debug\GenerCod.Form1.resources
 C:\Altair\_Trabajos csi_2 (DWS)\wd0a Generador de Clases\wd0a_Retuerta_Alvaro\GenerCod\obj\Debug\GenerCod.Properties.Resources.resources
 C:\Altair\_Trabajos csi_2 (DWS)\wd0a Generador de Clases\wd0a_Retuerta_Alvaro\GenerCod\obj\Debug\GenerCod.csproj.GenerateResource.Cache
+C:\Users\ALUM01\git\Altair1718-VS\GenerCod\GenerCod\bin\Debug\GenerCod.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\GenerCod\GenerCod\obj\Debug\GenerCod.exe
+C:\Users\ALUM01\git\Altair1718-VS\GenerCod\GenerCod\obj\Debug\GenerCod.pdb
