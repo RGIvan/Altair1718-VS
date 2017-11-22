@@ -1,2 +1,0 @@
-C:\Users\ALUM02\Source\Repos\DWS\PruebaBBDD\PruebaBBDD\bin\Debug\PruebaBBDD.exe.config
-C:\Users\ALUM01\git\Altair1718-VS\PruebaBBDD\PruebaBBDD\bin\Debug\PruebaBBDD.exe.config
