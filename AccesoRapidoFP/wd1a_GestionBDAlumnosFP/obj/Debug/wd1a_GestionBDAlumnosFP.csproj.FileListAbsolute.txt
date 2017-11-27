@@ -1,2 +1,12 @@
 C:\Users\Alberto\Desktop\wd1a_GestionBDAlumnosFP\wd1a_GestionBDAlumnosFP\bin\Debug\wd1a_GestionBDAlumnosFP.exe.config
 C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\bin\Debug\wd1a_GestionBDAlumnosFP.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\bin\Debug\BD_AlumnosFP.accdb
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\bin\Debug\wd1a_GestionBDAlumnosFP.exe
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\bin\Debug\wd1a_GestionBDAlumnosFP.pdb
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\obj\Debug\wd1a_GestionBDAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\obj\Debug\wd1a_GestionBDAlumnosFP.Form1.resources
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\obj\Debug\wd1a_GestionBDAlumnosFP.FormDetalleAlumno.resources
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\obj\Debug\wd1a_GestionBDAlumnosFP.Properties.Resources.resources
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\obj\Debug\wd1a_GestionBDAlumnosFP.csproj.GenerateResource.Cache
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\obj\Debug\wd1a_GestionBDAlumnosFP.exe
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoFP\wd1a_GestionBDAlumnosFP\obj\Debug\wd1a_GestionBDAlumnosFP.pdb
