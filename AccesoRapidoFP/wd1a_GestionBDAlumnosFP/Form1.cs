@@ -28,9 +28,6 @@ namespace wd1a_GestionBDAlumnosFP
             // Cargamos la tabla Grupos
             gruposAdapt.Fill(gruposTabla);
             gruposTabla = gruposAdapt.GetData();
-
-            
-
         }
     }
 }
