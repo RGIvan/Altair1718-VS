@@ -90,32 +90,29 @@ namespace GestionAlumnosFP_V1
 
         void CargaAlumnosGrupo()
         {
-            {
-                int idGrupo = Convert.ToInt32(cbGrupos.SelectedValue);
-                if (idGrupo == 0) //<-- Significa que hemos elegido "Todos los Grupos"
-                    alumnosTabla = alumnosAdapter.GetDataAlumnosConAliasGrupo();
-                else
-                {
-                    // Hemos elegido un grupo de los existentes
-                    // Previamente añado al adaptador de alumnos el Select según grupo
-                    // ahora la uso
-                    alumnosTabla = alumnosAdapter.GetDataByIdGrupo(idGrupo);
-                }
-                // Asociamos esa tabla al DataGridView
-                dgv.DataSource = alumnosTabla;
+            int idGrupo = Convert.ToInt32(cbGrupos.SelectedValue);
+            if (idGrupo == 0) //<-- Significa que hemos elegido "Todos los Grupos"
+                alumnosTabla = alumnosAdapter.GetDataAlumnosConAliasGrupo();
+            else
+           
+                // Hemos elegido un grupo de los existentes
+                // Previamente añado al adaptador de alumnos el Select según grupo
+                // ahora la uso
+                alumnosTabla = alumnosAdapter.GetDataByIdGrupo(idGrupo);
+            
+            // Asociamos esa tabla al DataGridView
+            dgv.DataSource = alumnosTabla;
 
-                // ocultábamos las columnas de id's
-                dgv.Columns["idAlumno"].Visible = false;
-                dgv.Columns["idGrupo"].Visible = false;
-                // si es un grupo concreto oculto la columna grupo porque ya no me sirve
-                if (idGrupo == 0)
-                    dgv.Columns[4].Visible = true;
-                else
-                    dgv.Columns[4].Visible = false;
+            // ocultábamos las columnas de id's
+            dgv.Columns["idAlumno"].Visible = false;
+            dgv.Columns["idGrupo"].Visible = false;
+            // si es un grupo concreto oculto la columna grupo porque ya no me sirve
 
-                lbCabecera.Text = String.Format("Alumnos de {0} ({1} alumnos)", cbGrupos.Text, dgv.RowCount);
-            }
+            dgv.Columns["Grupo"].Visible = (idGrupo == 0);
+
+            lbCabecera.Text = String.Format("Alumnos de {0} ({1} alumnos)", cbGrupos.Text, dgv.RowCount);
         }
+        
 
         //private void btnBorrar_Click(object sender, EventArgs e)
         //{
