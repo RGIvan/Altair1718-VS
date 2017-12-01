@@ -11,7 +11,7 @@ using GestionAlumnosFP_V1.DataSet1TableAdapters;
 
 namespace GestionAlumnosFP_V1
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
         // Construimos los adaptadores y tablas que necesitamos
         GruposTableAdapter gruposAdapter = new GruposTableAdapter();
@@ -24,12 +24,12 @@ namespace GestionAlumnosFP_V1
         FormDetalleAlumno fDetalle = new FormDetalleAlumno();
 
         bool comboCargado = false;
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
             // TODO: esta línea de código carga datos en la tabla 'dataSet1.Alumnos' Puede moverla o quitarla según sea necesario.
             this.alumnosTableAdapter.Fill(this.dataSet1.Alumnos);
@@ -271,9 +271,9 @@ namespace GestionAlumnosFP_V1
         private void btnGestionGrupo_Click(object sender, EventArgs e)
         {
             // Construyo el formulario de grupo
-            Form2 fGrupo = new Form2();
+            Form1 fAlumnos = new Form1();
 
-            fGrupo.Show();
+            fAlumnos.Show();
             this.Hide();
         }
     }

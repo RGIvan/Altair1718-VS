@@ -11,6 +11,7 @@ namespace GestionAlumnosFP_V1
         //Campos
 
         int idgrupo;
+        int idtutor;
         string alias;
         string nombre;
 

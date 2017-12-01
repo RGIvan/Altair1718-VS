@@ -80,3 +80,5 @@ C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V3\GestionAlumnosFP_V1\obj\De
 C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V3\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.FormDetalleAlumno.resources
 C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V3\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Properties.Resources.resources
 C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V3\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csproj.GenerateResource.Cache
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V3\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Form2.resources
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V3\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.FormDetalleGrupo.resources

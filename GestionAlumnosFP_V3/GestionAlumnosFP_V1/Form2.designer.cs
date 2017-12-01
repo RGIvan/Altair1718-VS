@@ -1,6 +1,6 @@
 ﻿namespace GestionAlumnosFP_V1
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -38,7 +38,7 @@
             this.btnGestionGrupo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cbGrupos = new System.Windows.Forms.ComboBox();
-            this.btnAnadirAlumno = new System.Windows.Forms.Button();
+            this.btnAnadirGrupo = new System.Windows.Forms.Button();
             this.dataSet1 = new GestionAlumnosFP_V1.DataSet1();
             this.alumnosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.alumnosTableAdapter = new GestionAlumnosFP_V1.DataSet1TableAdapters.AlumnosTableAdapter();
@@ -104,7 +104,7 @@
             this.panelControles.Controls.Add(this.btnGestionGrupo);
             this.panelControles.Controls.Add(this.label1);
             this.panelControles.Controls.Add(this.cbGrupos);
-            this.panelControles.Controls.Add(this.btnAnadirAlumno);
+            this.panelControles.Controls.Add(this.btnAnadirGrupo);
             this.panelControles.Location = new System.Drawing.Point(35, 420);
             this.panelControles.Name = "panelControles";
             this.panelControles.Size = new System.Drawing.Size(925, 107);
@@ -117,7 +117,7 @@
             this.btnGestionGrupo.Name = "btnGestionGrupo";
             this.btnGestionGrupo.Size = new System.Drawing.Size(206, 45);
             this.btnGestionGrupo.TabIndex = 25;
-            this.btnGestionGrupo.Text = "Gestionar Grupo";
+            this.btnGestionGrupo.Text = "Gestionar Alumno";
             this.btnGestionGrupo.UseVisualStyleBackColor = true;
             this.btnGestionGrupo.Click += new System.EventHandler(this.btnGestionGrupo_Click);
             // 
@@ -140,16 +140,16 @@
             this.cbGrupos.TabIndex = 12;
             this.cbGrupos.SelectedIndexChanged += new System.EventHandler(this.cbGrupos_SelectedIndexChanged);
             // 
-            // btnAnadirAlumno
+            // btnAnadirGrupo
             // 
-            this.btnAnadirAlumno.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnadirAlumno.Location = new System.Drawing.Point(45, 27);
-            this.btnAnadirAlumno.Name = "btnAnadirAlumno";
-            this.btnAnadirAlumno.Size = new System.Drawing.Size(206, 45);
-            this.btnAnadirAlumno.TabIndex = 21;
-            this.btnAnadirAlumno.Text = "Añadir Alumno";
-            this.btnAnadirAlumno.UseVisualStyleBackColor = true;
-            this.btnAnadirAlumno.Click += new System.EventHandler(this.btnAnadirAlumno_Click);
+            this.btnAnadirGrupo.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnadirGrupo.Location = new System.Drawing.Point(45, 27);
+            this.btnAnadirGrupo.Name = "btnAnadirGrupo";
+            this.btnAnadirGrupo.Size = new System.Drawing.Size(206, 45);
+            this.btnAnadirGrupo.TabIndex = 21;
+            this.btnAnadirGrupo.Text = "Añadir Grupo";
+            this.btnAnadirGrupo.UseVisualStyleBackColor = true;
+            this.btnAnadirGrupo.Click += new System.EventHandler(this.btnAnadirAlumno_Click);
             // 
             // dataSet1
             // 
@@ -165,7 +165,7 @@
             // 
             this.alumnosTableAdapter.ClearBeforeFill = true;
             // 
-            // Form1
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -175,9 +175,9 @@
             this.Controls.Add(this.lbCabecera);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
-            this.Text = "Gestión de Alumnos de FP (V3)";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "Form2";
+            this.Text = "Gestión de Grupos de FP (V3)";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.panelControles.ResumeLayout(false);
             this.panelControles.PerformLayout();
@@ -194,7 +194,7 @@
         private System.Windows.Forms.Panel panelControles;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbGrupos;
-        private System.Windows.Forms.Button btnAnadirAlumno;
+        private System.Windows.Forms.Button btnAnadirGrupo;
         private DataSet1 dataSet1;
         private System.Windows.Forms.BindingSource alumnosBindingSource;
         private DataSet1TableAdapters.AlumnosTableAdapter alumnosTableAdapter;
