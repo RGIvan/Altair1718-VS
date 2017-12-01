@@ -132,9 +132,9 @@
             this.btnAnadir.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAnadir.Location = new System.Drawing.Point(45, 27);
             this.btnAnadir.Name = "btnAnadir";
-            this.btnAnadir.Size = new System.Drawing.Size(140, 45);
+            this.btnAnadir.Size = new System.Drawing.Size(206, 45);
             this.btnAnadir.TabIndex = 21;
-            this.btnAnadir.Text = "Añadir";
+            this.btnAnadir.Text = "Añadir Alumno";
             this.btnAnadir.UseVisualStyleBackColor = true;
             this.btnAnadir.Click += new System.EventHandler(this.btnAnadir_Click);
             // 

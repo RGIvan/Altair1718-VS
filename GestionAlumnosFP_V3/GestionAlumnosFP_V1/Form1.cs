@@ -35,8 +35,23 @@ namespace GestionAlumnosFP_V1
             this.alumnosTableAdapter.Fill(this.dataSet1.Alumnos);
             // Cargamos los combos
             CargaCombos();
+
             // Cargamos la tabla de alumnos
             CargaAlumnosGrupo();
+
+            //Vamos a añadir el botón de borrar
+
+            DataGridViewButtonColumn btnBorrar = new DataGridViewButtonColumn();
+
+            btnBorrar.Width = 40;
+            btnBorrar.Text = "X";
+            btnBorrar.HeaderText = "Del";
+            btnBorrar.ToolTipText = "Eliminar Registro";
+            btnBorrar.UseColumnTextForButtonValue = true;
+            //La coloco detrás del botón edit...//
+            dgv.Columns.Insert(1, btnBorrar);
+            //...pero la muestro al final de dgv
+            dgv.Columns[1].DisplayIndex = dgv.Columns.Count - 1;
         }
 
         private void CargaCombos()
@@ -78,7 +93,7 @@ namespace GestionAlumnosFP_V1
             {
                 int idGrupo = Convert.ToInt32(cbGrupos.SelectedValue);
                 if (idGrupo == 0) //<-- Significa que hemos elegido "Todos los Grupos"
-                    alumnosTabla = alumnosAdapter.GetData();
+                    alumnosTabla = alumnosAdapter.GetDataAlumnosConAliasGrupo();
                 else
                 {
                     // Hemos elegido un grupo de los existentes
@@ -89,19 +104,14 @@ namespace GestionAlumnosFP_V1
                 // Asociamos esa tabla al DataGridView
                 dgv.DataSource = alumnosTabla;
 
-                //Vamos a añadir el botón de borrar
-
-                DataGridViewButtonColumn btnBorrar = new DataGridViewButtonColumn();
-
-                btnBorrar.Width = 40;
-                btnBorrar.Text = "X";
-                btnBorrar.HeaderText = "Del";
-                btnBorrar.ToolTipText = "";
-                btnBorrar.UseColumnTextForButtonValue = true;
-                dgv.Columns.Add(btnBorrar);
                 // ocultábamos las columnas de id's
-                //dgv.Columns[0].Visible = false;
-                //dgv.Columns["idGrupo"].Visible = false;
+                dgv.Columns["idAlumno"].Visible = false;
+                dgv.Columns["idGrupo"].Visible = false;
+                // si es un grupo concreto oculto la columna grupo porque ya no me sirve
+                if (idGrupo == 0)
+                    dgv.Columns[4].Visible = true;
+                else
+                    dgv.Columns[4].Visible = false;
 
                 lbCabecera.Text = String.Format("Alumnos de {0} ({1} alumnos)", cbGrupos.Text, dgv.RowCount);
             }
@@ -188,6 +198,9 @@ namespace GestionAlumnosFP_V1
                 alumnosTabla.AddAlumnosRow(regAlumno);
                 // actualizo la bd
                 alumnosAdapter.Update(regAlumno);
+
+                lbCabecera.Text = String.Format("Alumnos de {0} ({1} alumnos)", cbGrupos.Text, dgv.RowCount);
+
                 // Para que aparezca el idAlumno real de la BD volvemos a cargar la tabla
                 CargaAlumnosGrupo();
             }
@@ -207,10 +220,10 @@ namespace GestionAlumnosFP_V1
 
         private void BorrarRegistro(int fila)
         {
-            if (DialogResult.No == MessageBox.Show("¿Estás seguro de querer eliminar a:\n" + dgv.Rows[fila].Cells[3].Value.ToString() + "?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
+            if (DialogResult.No == MessageBox.Show("¿Estás seguro de querer eliminar a:\n" + dgv.Rows[fila].Cells[5].Value.ToString() + "?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
             return;
             // obtengo el id del alumno que quiero eliminar
-            int idAlumno = Convert.ToInt32(dgv.Rows[fila].Cells[1].Value);
+            int idAlumno = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
 
             // Obtengo el registro correspondiente a dicho alumno
             DataSet1.AlumnosRow regAlumno = alumnosTabla.FindByidAlumno(idAlumno);
@@ -221,6 +234,8 @@ namespace GestionAlumnosFP_V1
             // actualizo la BD
             alumnosAdapter.Update(regAlumno);
 
+            lbCabecera.Text = String.Format("Alumnos de {0} ({1} alumnos)", cbGrupos.Text, dgv.RowCount);
+
             //** Otra forma: borramos el registro en la BD y recargamos la tabla
             //alumnosAdapter.DeleteByIdAlumno(idAlumno);
             //// cargar de nuevo la tabla del dgv
@@ -230,7 +245,7 @@ namespace GestionAlumnosFP_V1
         private void EditarRegistro(int fila)
         {
             // obtengo el id del alumno que quiero eliminar
-            int idAlumno = Convert.ToInt32(dgv.Rows[fila].Cells[1].Value);
+            int idAlumno = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
 
 
             // Obtengo el registro correspondiente a dicho alumno
