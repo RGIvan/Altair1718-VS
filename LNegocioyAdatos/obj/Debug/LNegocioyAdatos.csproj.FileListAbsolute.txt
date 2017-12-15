@@ -12,3 +12,10 @@ C:\Altair\_Trabajos csi_2 (DWS)\wd5 Gestión Alumnos y Grupos Capas\wd5(Capas)_S
 C:\Altair\_Trabajos csi_2 (DWS)\wd5 Gestión Alumnos y Grupos Capas\wd5(Capas)_Sanchez_Alvaro\LNegocioyAdatos\obj\Debug\LNegocioyAdatos.csprojResolveAssemblyReference.cache
 C:\Altair\_Trabajos csi_2 (DWS)\wd5 Gestión Alumnos y Grupos Capas\wd5(Capas)_Sanchez_Alvaro\LNegocioyAdatos\obj\Debug\LNegocioyAdatos.dll
 C:\Altair\_Trabajos csi_2 (DWS)\wd5 Gestión Alumnos y Grupos Capas\wd5(Capas)_Sanchez_Alvaro\LNegocioyAdatos\obj\Debug\LNegocioyAdatos.pdb
+C:\Users\ALUM01\git\Altair1718-VS\LNegocioyAdatos\bin\Debug\BD_AlumnosFP.accdb
+C:\Users\ALUM01\git\Altair1718-VS\LNegocioyAdatos\bin\Debug\LNegocioyAdatos.dll.config
+C:\Users\ALUM01\git\Altair1718-VS\LNegocioyAdatos\bin\Debug\LNegocioyAdatos.dll
+C:\Users\ALUM01\git\Altair1718-VS\LNegocioyAdatos\bin\Debug\LNegocioyAdatos.pdb
+C:\Users\ALUM01\git\Altair1718-VS\LNegocioyAdatos\obj\Debug\LNegocioyAdatos.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\git\Altair1718-VS\LNegocioyAdatos\obj\Debug\LNegocioyAdatos.dll
+C:\Users\ALUM01\git\Altair1718-VS\LNegocioyAdatos\obj\Debug\LNegocioyAdatos.pdb
