@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace GestionAlumnosFP_V1 {
+namespace GestionAlumnosFP_V2 {
     
     
     /// <summary>
@@ -1411,7 +1411,7 @@ namespace GestionAlumnosFP_V1 {
         }
     }
 }
-namespace GestionAlumnosFP_V1.DataSet1TableAdapters {
+namespace GestionAlumnosFP_V2.DataSet1TableAdapters {
     
     
     /// <summary>
@@ -1600,7 +1600,7 @@ namespace GestionAlumnosFP_V1.DataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::GestionAlumnosFP_V1.Properties.Settings.Default.BD_AlumnosFPConnectionString;
+            this._connection.ConnectionString = global::GestionAlumnosFP_V2.Properties.Settings.Default.BD_AlumnosFPConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2096,7 +2096,7 @@ namespace GestionAlumnosFP_V1.DataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::GestionAlumnosFP_V1.Properties.Settings.Default.BD_AlumnosFPConnectionString;
+            this._connection.ConnectionString = global::GestionAlumnosFP_V2.Properties.Settings.Default.BD_AlumnosFPConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

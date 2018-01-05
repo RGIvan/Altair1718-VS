@@ -7,8 +7,8 @@
     <ProjectGuid>{8ADA3640-17A6-48F2-B480-D207895D1AF4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GestionAlumnosFP_V1</RootNamespace>
-    <AssemblyName>GestionAlumnosFP_V1</AssemblyName>
+    <RootNamespace>GestionAlumnosFP_V3</RootNamespace>
+    <AssemblyName>GestionAlumnosFP_V3</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -102,6 +102,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
