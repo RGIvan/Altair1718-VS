@@ -27,6 +27,3 @@ C:\Altair\_Trabajos csi_2 (DWS)\wd5 Gestión Alumnos y Grupos Capas\wd5(Capas)_S
 C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosCapas\GestionAlumnos2Capas\bin\Debug\GestionAlumnos2Capas.exe.config
 C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosCapas\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.exe
 C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosCapas\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.pdb
-C:\Users\Crono\git\Altair1718-VS\GestionAlumnosCapas\GestionAlumnos2Capas\bin\Debug\GestionAlumnos2Capas.exe.config
-C:\Users\Crono\git\Altair1718-VS\GestionAlumnosCapas\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.exe
-C:\Users\Crono\git\Altair1718-VS\GestionAlumnosCapas\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.pdb
