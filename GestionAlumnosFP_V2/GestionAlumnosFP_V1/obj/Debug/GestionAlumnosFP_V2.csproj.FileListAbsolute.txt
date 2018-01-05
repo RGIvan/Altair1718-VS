@@ -1,0 +1,3 @@
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V2\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V2\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V2\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb
