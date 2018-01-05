@@ -10,7 +10,11 @@
 
 #pragma warning disable 1591
 
+<<<<<<< HEAD
 namespace GestionAlumnosFP_V3 {
+=======
+namespace GestionAlumnosFP_V1 {
+>>>>>>> parent of 88190e4... VS
     
     
     /// <summary>
@@ -1454,7 +1458,11 @@ namespace GestionAlumnosFP_V3 {
         }
     }
 }
+<<<<<<< HEAD
 namespace GestionAlumnosFP_V3.DataSet1TableAdapters {
+=======
+namespace GestionAlumnosFP_V1.DataSet1TableAdapters {
+>>>>>>> parent of 88190e4... VS
     
     
     /// <summary>
@@ -1643,7 +1651,11 @@ namespace GestionAlumnosFP_V3.DataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
+<<<<<<< HEAD
             this._connection.ConnectionString = global::GestionAlumnosFP_V3.Properties.Settings.Default.BD_AlumnosFPConnectionString;
+=======
+            this._connection.ConnectionString = global::GestionAlumnosFP_V1.Properties.Settings.Default.BD_AlumnosFPConnectionString;
+>>>>>>> parent of 88190e4... VS
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2169,7 +2181,11 @@ namespace GestionAlumnosFP_V3.DataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
+<<<<<<< HEAD
             this._connection.ConnectionString = global::GestionAlumnosFP_V3.Properties.Settings.Default.BD_AlumnosFPConnectionString;
+=======
+            this._connection.ConnectionString = global::GestionAlumnosFP_V1.Properties.Settings.Default.BD_AlumnosFPConnectionString;
+>>>>>>> parent of 88190e4... VS
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

@@ -8,7 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 namespace GestionAlumnosFP_V3.Properties {
+=======
+namespace GestionAlumnosFP_V1.Properties {
+>>>>>>> parent of 88190e4... VS
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
