@@ -1,9 +1,0 @@
-c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\bin\Debug\ControladorRatón.exe.config
-c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\bin\Debug\ControladorRatón.exe
-c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\bin\Debug\ControladorRatón.pdb
-c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.csprojResolveAssemblyReference.cache
-c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.Form1.resources
-c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.Properties.Resources.resources
-c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.csproj.GenerateResource.Cache
-c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.exe
-c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.pdb

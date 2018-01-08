@@ -1,9 +1,0 @@
-c:\users\alum01\documents\visual studio 2015\Projects\Sobre\Sobre\bin\Debug\Sobre.exe.config
-c:\users\alum01\documents\visual studio 2015\Projects\Sobre\Sobre\obj\Debug\Sobre.Form1.resources
-c:\users\alum01\documents\visual studio 2015\Projects\Sobre\Sobre\obj\Debug\Sobre.Properties.Resources.resources
-c:\users\alum01\documents\visual studio 2015\Projects\Sobre\Sobre\obj\Debug\Sobre.csproj.GenerateResource.Cache
-C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\Sobre\Sobre\bin\Debug\Sobre.exe
-C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\Sobre\Sobre\bin\Debug\Sobre.pdb
-C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\Sobre\Sobre\obj\Debug\Sobre.csprojResolveAssemblyReference.cache
-C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\Sobre\Sobre\obj\Debug\Sobre.exe
-C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\Sobre\Sobre\obj\Debug\Sobre.pdb
