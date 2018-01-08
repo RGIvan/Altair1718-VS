@@ -1,0 +1,13 @@
+C:\Users\Alberto\Documents\Altair\csi2 DFSI\xDFSI\1xConsola\xConsola10_Fin (Tienda10)\TiendaBasica\TiendaBasica\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alberto\Documents\Altair\csi2 DFSI\xDFSI\1xConsola\xConsola10_Fin (Tienda10)\TiendaBasica\TiendaBasica\bin\Debug\TiendaBasica.exe
+C:\Users\Alberto\Documents\Altair\csi2 DFSI\xDFSI\1xConsola\xConsola10_Fin (Tienda10)\TiendaBasica\TiendaBasica\bin\Debug\TiendaBasica.pdb
+C:\Users\Alberto\Documents\Altair\csi2 DFSI\xDFSI\1xConsola\xConsola10_Fin (Tienda10)\TiendaBasica\TiendaBasica\obj\Debug\TiendaBasica.exe
+C:\Users\Alberto\Documents\Altair\csi2 DFSI\xDFSI\1xConsola\xConsola10_Fin (Tienda10)\TiendaBasica\TiendaBasica\obj\Debug\TiendaBasica.pdb
+C:\Users\Alberto\Documents\Altair\csi2 DFSI\xDFSI\1xConsola\xConsola10_Fin (Tienda10)\a00_TiendaBasica\TiendaBasica\obj\Debug\TiendaBasica.exe
+C:\Users\Alberto\Documents\Altair\csi2 DFSI\xDFSI\1xConsola\xConsola10_Fin (Tienda10)\a00_TiendaBasica\TiendaBasica\obj\Debug\TiendaBasica.pdb
+C:\Users\Alberto\Documents\Altair\csi2 DFSI\xDFSI\1xConsola\xConsola10_Fin (Tienda10)\a00_TiendaBasica\TiendaBasica\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alberto\Documents\Altair\csi2 DFSI\xDFSI\1xConsola\xConsola11_Fin (Tienda11)\PuntoPartida\a00_TiendaBasica\TiendaBasica\obj\Debug\TiendaBasica.pdb
+C:\Altair\PNet1  CONSOLA\xConsola\xConsola11_Fin (Tienda11)\PuntoPartida\a00_TiendaBasica\TiendaBasica\obj\Debug\TiendaBasica.pdb
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\TiendaBasica\bin\Debug\TiendaBasica.exe.config
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\TiendaBasica\obj\Debug\TiendaBasica.pdb
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\TiendaBasica\obj\Debug\TiendaBasica.csprojResolveAssemblyReference.cache

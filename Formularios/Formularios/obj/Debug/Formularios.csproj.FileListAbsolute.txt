@@ -1,0 +1,9 @@
+c:\users\alum01\documents\visual studio 2015\Projects\Formularios\Formularios\bin\Debug\Formularios.exe.config
+c:\users\alum01\documents\visual studio 2015\Projects\Formularios\Formularios\bin\Debug\Formularios.exe
+c:\users\alum01\documents\visual studio 2015\Projects\Formularios\Formularios\bin\Debug\Formularios.pdb
+c:\users\alum01\documents\visual studio 2015\Projects\Formularios\Formularios\obj\Debug\Formularios.csprojResolveAssemblyReference.cache
+c:\users\alum01\documents\visual studio 2015\Projects\Formularios\Formularios\obj\Debug\Formularios.Form1.resources
+c:\users\alum01\documents\visual studio 2015\Projects\Formularios\Formularios\obj\Debug\Formularios.Properties.Resources.resources
+c:\users\alum01\documents\visual studio 2015\Projects\Formularios\Formularios\obj\Debug\Formularios.csproj.GenerateResource.Cache
+c:\users\alum01\documents\visual studio 2015\Projects\Formularios\Formularios\obj\Debug\Formularios.exe
+c:\users\alum01\documents\visual studio 2015\Projects\Formularios\Formularios\obj\Debug\Formularios.pdb
