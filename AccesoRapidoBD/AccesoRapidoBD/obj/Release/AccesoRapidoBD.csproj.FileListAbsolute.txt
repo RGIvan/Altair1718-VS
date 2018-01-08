@@ -1,0 +1,9 @@
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoBD\AccesoRapidoBD\bin\Release\AccesoRapidoBD.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoBD\AccesoRapidoBD\bin\Release\BD_AlumnosFP.accdb
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoBD\AccesoRapidoBD\bin\Release\AccesoRapidoBD.exe
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoBD\AccesoRapidoBD\bin\Release\AccesoRapidoBD.pdb
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoBD\AccesoRapidoBD\obj\Release\AccesoRapidoBD.Form1.resources
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoBD\AccesoRapidoBD\obj\Release\AccesoRapidoBD.Properties.Resources.resources
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoBD\AccesoRapidoBD\obj\Release\AccesoRapidoBD.csproj.GenerateResource.Cache
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoBD\AccesoRapidoBD\obj\Release\AccesoRapidoBD.exe
+C:\Users\ALUM01\git\Altair1718-VS\AccesoRapidoBD\AccesoRapidoBD\obj\Release\AccesoRapidoBD.pdb
