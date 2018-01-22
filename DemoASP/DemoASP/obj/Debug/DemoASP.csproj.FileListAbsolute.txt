@@ -1,0 +1,17 @@
+C:\Users\Usuario\source\repos\DemoASP\DemoASP\bin\DemoASP.dll.config
+C:\Users\Usuario\source\repos\DemoASP\DemoASP\bin\DemoASP.dll
+C:\Users\Usuario\source\repos\DemoASP\DemoASP\bin\DemoASP.pdb
+C:\Users\Usuario\source\repos\DemoASP\DemoASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Usuario\source\repos\DemoASP\DemoASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Usuario\source\repos\DemoASP\DemoASP\obj\Debug\DemoASP.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\source\repos\DemoASP\DemoASP\obj\Debug\DemoASP.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\DemoASP\DemoASP\obj\Debug\DemoASP.dll
+C:\Users\Usuario\source\repos\DemoASP\DemoASP\obj\Debug\DemoASP.pdb
+C:\Users\Crono\git\Altair1718-VS\DemoASP\DemoASP\bin\DemoASP.dll.config
+C:\Users\Crono\git\Altair1718-VS\DemoASP\DemoASP\bin\DemoASP.dll
+C:\Users\Crono\git\Altair1718-VS\DemoASP\DemoASP\bin\DemoASP.pdb
+C:\Users\Crono\git\Altair1718-VS\DemoASP\DemoASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Crono\git\Altair1718-VS\DemoASP\DemoASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Crono\git\Altair1718-VS\DemoASP\DemoASP\obj\Debug\DemoASP.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\DemoASP\DemoASP\obj\Debug\DemoASP.dll
+C:\Users\Crono\git\Altair1718-VS\DemoASP\DemoASP\obj\Debug\DemoASP.pdb
