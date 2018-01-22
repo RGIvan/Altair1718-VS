@@ -32,6 +32,8 @@
             <asp:DropDownList ID="listaNombres" runat="server" Font-Bold="True" ForeColor="#CC9900"></asp:DropDownList>
             <br />
             <br />
+            <label style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: small; border-style: none; font-weight: bold;">Introduce un nuevo nombre:</label>
+            <br />
             <asp:TextBox ID="txtAdd" runat="server"></asp:TextBox>
             <br />
             <br />
