@@ -1,0 +1,36 @@
+C:\Users\Alberto\Desktop\ASP.NET\DemoButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll.config
+C:\Users\Alberto\Desktop\ASP.NET\DemoButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll
+C:\Users\Alberto\Desktop\ASP.NET\DemoButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.pdb
+C:\Users\Alberto\Desktop\ASP.NET\DemoButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\ASP.NET\DemoButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.dll
+C:\Users\Alberto\Desktop\ASP.NET\DemoButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.pdb
+C:\Users\Alberto\Desktop\ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll.config
+C:\Users\Alberto\Desktop\ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll
+C:\Users\Alberto\Desktop\ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.pdb
+C:\Users\Alberto\Desktop\ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.dll
+C:\Users\Alberto\Desktop\ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1b ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.pdb
+C:\Users\Alberto\Downloads\Demo 1b ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll.config
+C:\Users\Alberto\Downloads\Demo 1b ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll
+C:\Users\Alberto\Downloads\Demo 1b ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.pdb
+C:\Users\Alberto\Downloads\Demo 1b ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Downloads\Demo 1b ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.dll
+C:\Users\Alberto\Downloads\Demo 1b ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.pdb
+C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll.config
+C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll
+C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.pdb
+C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.dll
+C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.pdb
