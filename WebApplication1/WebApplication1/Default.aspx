@@ -17,7 +17,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lbEntrada" runat="server" Font-Bold="True" Font-Names="Arial" ForeColor="#336699" Text="Mi primera página web en ASP.NET" BorderStyle="Inset"></asp:Label>
+            <asp:Label ID="lbEntrada" runat="server" Font-Bold="True" Font-Names="Arial" ForeColor="#336699" BorderStyle="Inset"></asp:Label>
             <br />
             <br />
             <img alt="Android" class="auto-style1" src="Imagenes/indice.jpg" /><asp:TextBox ID="txtNombre" runat="server" BackColor="#CCCCCC" Font-Size="Medium" ForeColor="#666666" Width="301px" Height="21px" BorderStyle="Dotted" Font-Bold="True"> Introduce un nombre al que saludar</asp:TextBox>
