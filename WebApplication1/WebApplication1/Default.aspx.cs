@@ -16,12 +16,12 @@ namespace WebApplication1
 
             if (!IsPostBack)
             {
-                lbEntrada.Text = "Bienvenido/a";
+                lbEntrada.Text = "Mi primera página web en ASP.NET";
                 lbEntrada.Visible = true;
                 listaNombres.Items.Add("Iván");
                 listaNombres.Items.Add("Roberto");
                 listaNombres.Items.Add("Paco");
-                nombre = "newName";
+                nombre = "";
             }
 
             else
@@ -36,6 +36,7 @@ namespace WebApplication1
         protected void btnSaludo_Click(object sender, EventArgs e)
         {
             lbSaludo.Text = "Bienvenido/a " + listaNombres.SelectedItem.ToString();
+            lbSaludo.Text = "" + txtNombre;
 
             lbSaludo.Visible = true;
 
@@ -50,11 +51,6 @@ namespace WebApplication1
             }
         }
 
-        protected void rdMin_CheckedChanged(object sender, EventArgs e)
-        {
-            rdMayu.Checked = false;
-        }
-
         protected void btnAdd_Click(object sender, EventArgs e)
         {
             listaNombres.Items.Add(txtAdd.Text);
@@ -64,6 +60,24 @@ namespace WebApplication1
         protected void btnGoogle_Click(object sender, EventArgs e)
         {
             Response.Redirect("http://www.google.es/");
+        }
+
+        protected void rdMin_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rdMayu.Checked == true)
+            {
+                rdMayu.Checked = false;
+                rdMin.Checked = true;
+            }
+        }
+
+        protected void rdMayu_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rdMin.Checked == true)
+            {
+                rdMin.Checked = false;
+                rdMayu.Checked = true;
+            }
         }
     }
 }

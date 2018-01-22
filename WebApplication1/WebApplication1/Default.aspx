@@ -29,19 +29,19 @@
         </div>
         <br />
         <div style="position: relative">
-            <asp:DropDownList ID="listaNombres" runat="server" Font-Bold="True" ForeColor="#CC9900"></asp:DropDownList>
+            <asp:DropDownList ID="listaNombres" runat="server" Font-Bold="True" ForeColor="#663300"></asp:DropDownList>
             <br />
             <br />
-            <label style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: small; border-style: none; font-weight: bold;">Introduce un nuevo nombre:</label>
+            <label style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: small; border-style: none; font-weight: bold; color: #669900; font-style: normal; text-transform: none;">Introduce un nuevo nombre:</label>
             <br />
-            <asp:TextBox ID="txtAdd" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtAdd" runat="server" BorderColor="#99CC00"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="btnAdd" runat="server" Text="Añadir Nombre" OnClick="btnAdd_Click" Font-Bold="True" ForeColor="#CC3300" BackColor="White" Height="27px" BorderColor="Maroon" BorderStyle="Double" />
+            <asp:Button ID="btnAdd" runat="server" Text="Añadir Nombre" OnClick="btnAdd_Click" Font-Bold="True" ForeColor="#663300" BackColor="White" Height="27px" BorderColor="Maroon" BorderStyle="Double" />
         </div>
         <br />
-        <asp:RadioButton ID="rdMayu" runat="server" Text="Mayúscula" Font-Bold="True" Checked="True" Font-Italic="False" Font-Size="Medium" ForeColor="#663300" />
-        <asp:RadioButton ID="rdMin" runat="server" Text="Minúscula" Font-Bold="True" ForeColor="#663300" OnCheckedChanged="rdMin_CheckedChanged" />
+        <asp:RadioButton ID="rdMayu" runat="server" Text="Mayúscula" Font-Bold="True" Checked="True" Font-Italic="False" Font-Size="Medium" ForeColor="#999966" OnCheckedChanged="rdMayu_CheckedChanged" />
+        <asp:RadioButton ID="rdMin" runat="server" Text="Minúscula" Font-Bold="True" ForeColor="#999966" OnCheckedChanged="rdMin_CheckedChanged" />
         <br />
         <br />
         <table style="width: 32%; height: 103px;">
