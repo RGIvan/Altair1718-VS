@@ -32,7 +32,7 @@
             onclick="btnCross_Click" />
          &nbsp;para ir a <b>PAGINA 3</b><br />
         <br />
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="Pagina3.aspx">HyperLink a la Página 2</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="Pagina2.aspx">HyperLink a la Página 2</asp:HyperLink>
         
         <br />
         

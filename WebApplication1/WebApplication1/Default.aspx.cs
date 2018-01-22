@@ -36,7 +36,7 @@ namespace WebApplication1
         protected void btnSaludo_Click(object sender, EventArgs e)
         {
             lbSaludo.Text = "Bienvenido/a " + listaNombres.SelectedItem.ToString();
-            lbSaludo.Text = "" + txtNombre;
+            lbSaludo.Text = "Bienvenido/a " + txtNombre;
 
             lbSaludo.Visible = true;
 
