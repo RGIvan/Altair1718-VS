@@ -5,19 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ValidacionesSeguimiento
+namespace ValidationGroup
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class PaginaCliente : System.Web.UI.Page
     {
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-        }
 
-        protected void btnEnviar_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Bienvenido.aspx");
         }
     }
 }

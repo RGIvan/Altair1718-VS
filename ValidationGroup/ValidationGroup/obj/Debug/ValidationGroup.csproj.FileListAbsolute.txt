@@ -1,0 +1,42 @@
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup\ValidationGroup\bin\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup\ValidationGroup\bin\ValidationGroup.pdb
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.pdb
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup00\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup00\ValidationGroup\bin\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup00\ValidationGroup\bin\ValidationGroup.pdb
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup00\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup00\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\ValidationGroup00\ValidationGroup\obj\Debug\ValidationGroup.pdb
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\asp_1  Ejemplo ValidationGroup\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\asp_1  Ejemplo ValidationGroup\ValidationGroup\bin\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\asp_1  Ejemplo ValidationGroup\ValidationGroup\bin\ValidationGroup.pdb
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\asp_1  Ejemplo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\asp_1  Ejemplo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\asp_1  Ejemplo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.pdb
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\Ejemplo ValidationGroup\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\Ejemplo ValidationGroup\ValidationGroup\bin\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\Ejemplo ValidationGroup\ValidationGroup\bin\ValidationGroup.pdb
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\Ejemplo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\Ejemplo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\_Trabajos ASP.NET 2015\asp_1 Validation Group\Ejemplo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\bin\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\bin\ValidationGroup.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.pdb
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\bin\ValidationGroup.dll
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\bin\ValidationGroup.pdb
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.pdb
+C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\bin\ValidationGroup.dll
+C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\bin\ValidationGroup.pdb
+C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\obj\Debug\ValidationGroup.pdb

@@ -22,6 +22,15 @@ namespace ValidacionesSeguimiento {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// Control txtNombre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtNombre;
+        
+        /// <summary>
         /// Control valNombre.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,15 @@ namespace ValidacionesSeguimiento {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator valNombre;
+        
+        /// <summary>
+        /// Control TxtApellidos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtApellidos;
         
         /// <summary>
         /// Control valApellidos.
@@ -40,12 +58,12 @@ namespace ValidacionesSeguimiento {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator valApellidos;
         
         /// <summary>
-        /// Control btnEnviar.
+        /// Control btn.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEnviar;
+        protected global::System.Web.UI.WebControls.ImageButton btn;
     }
 }

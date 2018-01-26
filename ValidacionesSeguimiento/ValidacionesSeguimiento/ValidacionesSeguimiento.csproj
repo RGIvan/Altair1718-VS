@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\button.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -106,26 +107,34 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Bienvenido.aspx" />
-    <Content Include="Default.aspx" />
+    <Content Include="CompareValidator.aspx" />
+    <Content Include="RangeValidator.aspx" />
+    <Content Include="RequiredValidator.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bienvenido.aspx.cs">
-      <DependentUpon>Bienvenido.aspx</DependentUpon>
+    <Compile Include="CompareValidator.aspx.cs">
+      <DependentUpon>CompareValidator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Bienvenido.aspx.designer.cs">
-      <DependentUpon>Bienvenido.aspx</DependentUpon>
+    <Compile Include="CompareValidator.aspx.designer.cs">
+      <DependentUpon>CompareValidator.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="RangeValidator.aspx.cs">
+      <DependentUpon>RangeValidator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="RangeValidator.aspx.designer.cs">
+      <DependentUpon>RangeValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RequiredValidator.aspx.cs">
+      <DependentUpon>RequiredValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RequiredValidator.aspx.designer.cs">
+      <DependentUpon>RequiredValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
