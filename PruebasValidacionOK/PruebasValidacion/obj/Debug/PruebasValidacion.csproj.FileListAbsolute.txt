@@ -46,3 +46,9 @@ C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2 Validacion\P
 C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2 Validacion\Pruebas validación (OK 1)\PruebasValidacion\obj\Debug\PruebasValidacion.csprojResolveAssemblyReference.cache
 C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2 Validacion\Pruebas validación (OK 1)\PruebasValidacion\obj\Debug\PruebasValidacion.dll
 C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2 Validacion\Pruebas validación (OK 1)\PruebasValidacion\obj\Debug\PruebasValidacion.pdb
+C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\bin\PruebasValidacion.dll.config
+C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\bin\PruebasValidacion.dll
+C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\bin\PruebasValidacion.pdb
+C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\obj\Debug\PruebasValidacion.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\obj\Debug\PruebasValidacion.dll
+C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\obj\Debug\PruebasValidacion.pdb

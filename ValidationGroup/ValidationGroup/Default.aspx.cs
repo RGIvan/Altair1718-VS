@@ -15,10 +15,5 @@ namespace ValidationGroup
             // Validará en el cliente antes de entrar aquí
 
         }
-
-        protected void btnValidarTodo_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

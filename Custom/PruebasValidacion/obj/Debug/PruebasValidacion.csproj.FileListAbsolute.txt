@@ -1,0 +1,29 @@
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion\PruebasValidacion\bin\PruebasValidacion.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion\PruebasValidacion\bin\PruebasValidacion.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion\PruebasValidacion\bin\PruebasValidacion.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion\PruebasValidacion\obj\Debug\PruebasValidacion.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion\PruebasValidacion\obj\Debug\PruebasValidacion.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\bin\PruebasValidacion.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\bin\PruebasValidacion.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\bin\PruebasValidacion.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\obj\Debug\PruebasValidacion.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\obj\Debug\PruebasValidacion.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web 02 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\obj\Debug\PruebasValidacion.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\bin\PruebasValidacion.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\bin\PruebasValidacion.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\bin\PruebasValidacion.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\obj\Debug\PruebasValidacion.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\obj\Debug\PruebasValidacion.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web2 Validacion de Web Form\PruebasValidacion (Ok 1)\PruebasValidacion\obj\Debug\PruebasValidacion.pdb
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Pruebas Custom y Proceso\PruebasValidacion\bin\PruebasValidacion.dll.config
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Pruebas Custom y Proceso\PruebasValidacion\bin\PruebasValidacion.dll
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Pruebas Custom y Proceso\PruebasValidacion\bin\PruebasValidacion.pdb
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Pruebas Custom y Proceso\PruebasValidacion\obj\Debug\PruebasValidacion.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Pruebas Custom y Proceso\PruebasValidacion\obj\Debug\PruebasValidacion.dll
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Pruebas Custom y Proceso\PruebasValidacion\obj\Debug\PruebasValidacion.pdb
+C:\Users\ALUM01\git\Altair1718-VS\Custom\PruebasValidacion\bin\PruebasValidacion.dll.config
+C:\Users\ALUM01\git\Altair1718-VS\Custom\PruebasValidacion\bin\PruebasValidacion.dll
+C:\Users\ALUM01\git\Altair1718-VS\Custom\PruebasValidacion\bin\PruebasValidacion.pdb
+C:\Users\ALUM01\git\Altair1718-VS\Custom\PruebasValidacion\obj\Debug\PruebasValidacion.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\git\Altair1718-VS\Custom\PruebasValidacion\obj\Debug\PruebasValidacion.dll
+C:\Users\ALUM01\git\Altair1718-VS\Custom\PruebasValidacion\obj\Debug\PruebasValidacion.pdb

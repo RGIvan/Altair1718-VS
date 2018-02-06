@@ -1,0 +1,12 @@
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web3 Mantenimiento de Estados\Demo Estado de Vista\Demo Estado Vista\bin\Demo Estado Vista.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web3 Mantenimiento de Estados\Demo Estado de Vista\Demo Estado Vista\bin\Demo Estado Vista.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web3 Mantenimiento de Estados\Demo Estado de Vista\Demo Estado Vista\bin\Demo Estado Vista.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web3 Mantenimiento de Estados\Demo Estado de Vista\Demo Estado Vista\obj\Debug\Demo Estado Vista.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web3 Mantenimiento de Estados\Demo Estado de Vista\Demo Estado Vista\obj\Debug\Demo Estado Vista.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web3 Mantenimiento de Estados\Demo Estado de Vista\Demo Estado Vista\obj\Debug\Demo Estado Vista.pdb
+C:\Users\ALUM01\git\Altair1718-VS\EstadoVista\Demo Estado Vista\bin\Demo Estado Vista.dll.config
+C:\Users\ALUM01\git\Altair1718-VS\EstadoVista\Demo Estado Vista\bin\Demo Estado Vista.dll
+C:\Users\ALUM01\git\Altair1718-VS\EstadoVista\Demo Estado Vista\bin\Demo Estado Vista.pdb
+C:\Users\ALUM01\git\Altair1718-VS\EstadoVista\Demo Estado Vista\obj\Debug\Demo Estado Vista.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\git\Altair1718-VS\EstadoVista\Demo Estado Vista\obj\Debug\Demo Estado Vista.dll
+C:\Users\ALUM01\git\Altair1718-VS\EstadoVista\Demo Estado Vista\obj\Debug\Demo Estado Vista.pdb

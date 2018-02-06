@@ -42,7 +42,6 @@
             <br class="auto-style1" />
             <br class="auto-style1" />
             <asp:ImageButton ID="ibtnEnviar" runat="server" Height="129px" ImageUrl="~/Imagenes/domicilio.png" PostBackUrl="~/Web5CustomDomicilio.aspx" Width="168px" />
-    
     </div>
     </form>
 </body>

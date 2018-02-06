@@ -38,7 +38,6 @@
             <br/>
             <br/>
             <asp:ImageButton ID="ibtnEnviar" runat="server" Height="129px" Width="168px" ImageUrl="~/Imagenes/phone.png" PostBackUrl="~/Web3RangeTelefono.aspx" />
-    
     </div>
     </form>
 </body>

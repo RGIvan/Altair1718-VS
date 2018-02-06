@@ -40,3 +40,9 @@ C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\bin\Valid
 C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
 C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\obj\Debug\ValidationGroup.dll
 C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\obj\Debug\ValidationGroup.pdb
+C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\bin\ValidationGroup.dll
+C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\bin\ValidationGroup.pdb
+C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.pdb
