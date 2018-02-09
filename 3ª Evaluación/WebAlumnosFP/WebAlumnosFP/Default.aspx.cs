@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LogicaNegocioyADatos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,12 +12,15 @@ namespace WebAlumnosFP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!Page.IsPostBack)
+            {
+                CargaCombo();
+            }
         }
 
         private void CargaCombo()
         {
-         
+            List<Grupo> listaTodosMasGrupos = LNyAD.ListaGrupos();
         }
 
 
