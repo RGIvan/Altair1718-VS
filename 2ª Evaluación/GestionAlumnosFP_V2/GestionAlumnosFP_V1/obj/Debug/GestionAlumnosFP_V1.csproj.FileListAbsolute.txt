@@ -1,0 +1,74 @@
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Form1.resources
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.FormDetalleAlumno.resources
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Properties.Resources.resources
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb
+C:\Altair\PNet2 Windows Form\wd AccesoDatos 1718\wd2_GestionAlumnosFP_V1\_wd2_GestionAlumnosFP_V1 (inicio)\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Altair\PNet2 Windows Form\wd AccesoDatos 1718\wd2_GestionAlumnosFP_V1\_wd2_GestionAlumnosFP_V1 (inicio)\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Altair\PNet2 Windows Form\wd AccesoDatos 1718\wd2_GestionAlumnosFP_V1\_wd2_GestionAlumnosFP_V1 (inicio)\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\bin\Debug\BD_AlumnosFP.accdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Form1.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.FormDetalleAlumno.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Properties.Resources.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\bin\Debug\BD_AlumnosFP.accdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Form1.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.FormDetalleAlumno.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Properties.Resources.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171121\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\bin\Debug\BD_AlumnosFP.accdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Form1.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.FormDetalleAlumno.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Properties.Resources.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\bin\Debug\BD_AlumnosFP.accdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Form1.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.FormDetalleAlumno.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Properties.Resources.resources
+C:\Users\Alberto\Desktop\wd2_GestionAlumnosFP_V1\wd2_GestionAlumnosFP_V1 - 171124\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csproj.GenerateResource.Cache
+C:\Users\ALUM01\Downloads\Gestion\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Users\ALUM01\Downloads\Gestion\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Users\ALUM01\Downloads\Gestion\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\bin\Debug\BD_AlumnosFP.accdb
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.pdb
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Form1.resources
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.FormDetalleAlumno.resources
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.Properties.Resources.resources
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.csproj.GenerateResource.Cache
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V2\GestionAlumnosFP_V1\bin\Debug\GestionAlumnosFP_V1.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V2\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.exe
+C:\Users\ALUM01\git\Altair1718-VS\GestionAlumnosFP_V2\GestionAlumnosFP_V1\obj\Debug\GestionAlumnosFP_V1.pdb

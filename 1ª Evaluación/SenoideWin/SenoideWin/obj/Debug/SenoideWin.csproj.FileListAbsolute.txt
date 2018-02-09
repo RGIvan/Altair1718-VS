@@ -1,0 +1,18 @@
+c:\users\alum01\documents\visual studio 2015\Projects\SenoideWin\SenoideWin\bin\Debug\SenoideWin.exe.config
+c:\users\alum01\documents\visual studio 2015\Projects\SenoideWin\SenoideWin\bin\Debug\SenoideWin.exe
+c:\users\alum01\documents\visual studio 2015\Projects\SenoideWin\SenoideWin\bin\Debug\SenoideWin.pdb
+c:\users\alum01\documents\visual studio 2015\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.csprojResolveAssemblyReference.cache
+c:\users\alum01\documents\visual studio 2015\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.Form1.resources
+c:\users\alum01\documents\visual studio 2015\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.Properties.Resources.resources
+c:\users\alum01\documents\visual studio 2015\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.csproj.GenerateResource.Cache
+c:\users\alum01\documents\visual studio 2015\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.exe
+c:\users\alum01\documents\visual studio 2015\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.pdb
+F:\DWS\Projects\SenoideWin\SenoideWin\bin\Debug\SenoideWin.exe.config
+F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.exe
+F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.pdb
+F:\DWS\Projects\SenoideWin\SenoideWin\bin\Debug\SenoideWin.exe
+F:\DWS\Projects\SenoideWin\SenoideWin\bin\Debug\SenoideWin.pdb
+F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.csprojResolveAssemblyReference.cache
+F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.Form1.resources
+F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.Properties.Resources.resources
+F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.csproj.GenerateResource.Cache

@@ -1,9 +1,0 @@
-c:\users\alum01\documents\visual studio 2015\Projects\Senoide\Senoide\bin\Debug\Senoide.exe.config
-c:\users\alum01\documents\visual studio 2015\Projects\Senoide\Senoide\bin\Debug\Senoide.exe
-c:\users\alum01\documents\visual studio 2015\Projects\Senoide\Senoide\bin\Debug\Senoide.pdb
-c:\users\alum01\documents\visual studio 2015\Projects\Senoide\Senoide\obj\Debug\Senoide.csprojResolveAssemblyReference.cache
-c:\users\alum01\documents\visual studio 2015\Projects\Senoide\Senoide\obj\Debug\Senoide.Form1.resources
-c:\users\alum01\documents\visual studio 2015\Projects\Senoide\Senoide\obj\Debug\Senoide.Properties.Resources.resources
-c:\users\alum01\documents\visual studio 2015\Projects\Senoide\Senoide\obj\Debug\Senoide.csproj.GenerateResource.Cache
-c:\users\alum01\documents\visual studio 2015\Projects\Senoide\Senoide\obj\Debug\Senoide.exe
-c:\users\alum01\documents\visual studio 2015\Projects\Senoide\Senoide\obj\Debug\Senoide.pdb

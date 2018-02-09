@@ -1,0 +1,21 @@
+C:\Users\Alberto\Desktop\GraficaDeTablaDatos\GraficaDeTablaDatos\bin\Debug\GraficaDeTablaDatos.exe.config
+C:\Users\Alberto\Desktop\GraficaDeTablaDatos\GraficaDeTablaDatos\bin\Debug\GraficaDeTablaDatos.exe
+C:\Users\Alberto\Desktop\GraficaDeTablaDatos\GraficaDeTablaDatos\bin\Debug\GraficaDeTablaDatos.pdb
+C:\Users\Alberto\Desktop\GraficaDeTablaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\GraficaDeTablaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.Form1.resources
+C:\Users\Alberto\Desktop\GraficaDeTablaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.Properties.Resources.resources
+C:\Users\Alberto\Desktop\GraficaDeTablaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\GraficaDeTablaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.exe
+C:\Users\Alberto\Desktop\GraficaDeTablaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.pdb
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GráficaDatos\GraficaDeTablaDatos\bin\Debug\GraficaDeTablaDatos.exe.config
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GráficaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.exe
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GráficaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.pdb
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GráficaDatos\GraficaDeTablaDatos\bin\Debug\GraficaDeTablaDatos.exe
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GráficaDatos\GraficaDeTablaDatos\bin\Debug\GraficaDeTablaDatos.pdb
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GráficaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GráficaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.Form1.resources
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GráficaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.Properties.Resources.resources
+C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\GráficaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.csproj.GenerateResource.Cache
+C:\Users\Crono\git\Altair1718-VS\GráficaDatos\GraficaDeTablaDatos\bin\Debug\GraficaDeTablaDatos.exe.config
+C:\Users\Crono\git\Altair1718-VS\GráficaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.exe
+C:\Users\Crono\git\Altair1718-VS\GráficaDatos\GraficaDeTablaDatos\obj\Debug\GraficaDeTablaDatos.pdb

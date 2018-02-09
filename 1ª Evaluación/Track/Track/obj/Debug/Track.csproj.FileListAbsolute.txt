@@ -1,0 +1,9 @@
+c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\bin\Debug\Track.exe.config
+c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\bin\Debug\Track.exe
+c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\bin\Debug\Track.pdb
+c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Track.csprojResolveAssemblyReference.cache
+c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Track.Form1.resources
+c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Track.Properties.Resources.resources
+c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Track.csproj.GenerateResource.Cache
+c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Track.exe
+c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Track.pdb

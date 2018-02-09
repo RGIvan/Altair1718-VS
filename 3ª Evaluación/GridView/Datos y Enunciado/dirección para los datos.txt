@@ -1,0 +1,5 @@
+Para obtener la tabla de datos que copiar al Excel se ha usado la siguiente página de Marca:
+
+http://www.marca.com/movil/tabla_marcadores.html?c=futbol_1adivision
+
+Debajo de los marcadores de la última jornada está la clasificación

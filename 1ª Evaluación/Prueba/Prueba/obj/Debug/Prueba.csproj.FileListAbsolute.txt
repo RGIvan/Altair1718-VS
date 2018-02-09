@@ -1,0 +1,24 @@
+c:\users\alum01\documents\visual studio 2015\Projects\Prueba\Prueba\bin\Debug\Prueba.exe.config
+c:\users\alum01\documents\visual studio 2015\Projects\Prueba\Prueba\bin\Debug\Prueba.exe
+c:\users\alum01\documents\visual studio 2015\Projects\Prueba\Prueba\bin\Debug\Prueba.pdb
+c:\users\alum01\documents\visual studio 2015\Projects\Prueba\Prueba\obj\Debug\Prueba.csprojResolveAssemblyReference.cache
+c:\users\alum01\documents\visual studio 2015\Projects\Prueba\Prueba\obj\Debug\Prueba.Form1.resources
+c:\users\alum01\documents\visual studio 2015\Projects\Prueba\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+c:\users\alum01\documents\visual studio 2015\Projects\Prueba\Prueba\obj\Debug\Prueba.csproj.GenerateResource.Cache
+c:\users\alum01\documents\visual studio 2015\Projects\Prueba\Prueba\obj\Debug\Prueba.exe
+c:\users\alum01\documents\visual studio 2015\Projects\Prueba\Prueba\obj\Debug\Prueba.pdb
+E:\Prueba\Prueba\bin\Debug\Prueba.exe.config
+E:\Prueba\Prueba\obj\Debug\Prueba.exe
+E:\Prueba\Prueba\obj\Debug\Prueba.pdb
+E:\Prueba\Prueba\bin\Debug\Prueba.exe
+E:\Prueba\Prueba\bin\Debug\Prueba.pdb
+E:\Prueba\Prueba\obj\Debug\Prueba.csprojResolveAssemblyReference.cache
+E:\Prueba\Prueba\obj\Debug\Prueba.Form1.resources
+E:\Prueba\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+E:\Prueba\Prueba\obj\Debug\Prueba.csproj.GenerateResource.Cache
+C:\Users\Crono\git\Altair1718-VS\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\Crono\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\Crono\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.pdb
+C:\Users\ALUM01\git\Altair1718-VS\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\ALUM01\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.pdb

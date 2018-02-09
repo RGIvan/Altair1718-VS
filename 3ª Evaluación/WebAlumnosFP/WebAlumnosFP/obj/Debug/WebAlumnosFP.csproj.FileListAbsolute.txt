@@ -1,0 +1,42 @@
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web5 Convertir en web proyecto win\wd6.3 y LNyAD static (de aquí partimos)\WebAlumnosFP\bin\WebAlumnosFP.dll.config
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web5 Convertir en web proyecto win\wd6.3 y LNyAD static (de aquí partimos)\WebAlumnosFP\bin\WebAlumnosFP.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web5 Convertir en web proyecto win\wd6.3 y LNyAD static (de aquí partimos)\WebAlumnosFP\bin\WebAlumnosFP.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web5 Convertir en web proyecto win\wd6.3 y LNyAD static (de aquí partimos)\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web5 Convertir en web proyecto win\wd6.3 y LNyAD static (de aquí partimos)\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web5 Convertir en web proyecto win\wd6.3 y LNyAD static (de aquí partimos)\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web5 Convertir en web proyecto win\wd6.3 y LNyAD static (de aquí partimos)\WebAlumnosFP\bin\LogicaNegocioyADatos.dll
+C:\Altair\PNet3 Cursos ASP.Net\3 ASP.NET\Web5 Convertir en web proyecto win\wd6.3 y LNyAD static (de aquí partimos)\WebAlumnosFP\bin\LogicaNegocioyADatos.pdb
+C:\Users\Alberto\Downloads\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\WebAlumnosFP.dll.config
+C:\Users\Alberto\Downloads\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\WebAlumnosFP.dll
+C:\Users\Alberto\Downloads\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\WebAlumnosFP.pdb
+C:\Users\Alberto\Downloads\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\LogicaNegocioyADatos.dll
+C:\Users\Alberto\Downloads\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\LogicaNegocioyADatos.pdb
+C:\Users\Alberto\Downloads\WebAlumnosDeFP (casi OK)\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Downloads\WebAlumnosDeFP (casi OK)\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
+C:\Users\Alberto\Downloads\WebAlumnosDeFP (casi OK)\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
+C:\Users\Alberto\Desktop\Pruebas\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\WebAlumnosFP.dll.config
+C:\Users\Alberto\Desktop\Pruebas\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\WebAlumnosFP.dll
+C:\Users\Alberto\Desktop\Pruebas\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\WebAlumnosFP.pdb
+C:\Users\Alberto\Desktop\Pruebas\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\LogicaNegocioyADatos.dll
+C:\Users\Alberto\Desktop\Pruebas\WebAlumnosDeFP (casi OK)\WebAlumnosFP\bin\LogicaNegocioyADatos.pdb
+C:\Users\Alberto\Desktop\Pruebas\WebAlumnosDeFP (casi OK)\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\Pruebas\WebAlumnosDeFP (casi OK)\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
+C:\Users\Alberto\Desktop\Pruebas\WebAlumnosDeFP (casi OK)\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
+C:\Users\Alberto\Desktop\Pruebas\ProyectoWebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.dll.config
+C:\Users\Alberto\Desktop\Pruebas\ProyectoWebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.dll
+C:\Users\Alberto\Desktop\Pruebas\ProyectoWebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.pdb
+C:\Users\Alberto\Desktop\Pruebas\ProyectoWebAlumnosFP\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\Pruebas\ProyectoWebAlumnosFP\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
+C:\Users\Alberto\Desktop\Pruebas\ProyectoWebAlumnosFP\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
+C:\Users\Alberto\Downloads\ProyectoWebAlumnosFP (inicio)\WebAlumnosFP\bin\WebAlumnosFP.dll.config
+C:\Users\Alberto\Downloads\ProyectoWebAlumnosFP (inicio)\WebAlumnosFP\bin\WebAlumnosFP.dll
+C:\Users\Alberto\Downloads\ProyectoWebAlumnosFP (inicio)\WebAlumnosFP\bin\WebAlumnosFP.pdb
+C:\Users\Alberto\Downloads\ProyectoWebAlumnosFP (inicio)\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Downloads\ProyectoWebAlumnosFP (inicio)\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
+C:\Users\Alberto\Downloads\ProyectoWebAlumnosFP (inicio)\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
+C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partida)\WebAlumnosFP\bin\WebAlumnosFP.dll.config
+C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partida)\WebAlumnosFP\bin\WebAlumnosFP.dll
+C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partida)\WebAlumnosFP\bin\WebAlumnosFP.pdb
+C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partida)\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partida)\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
+C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partida)\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
