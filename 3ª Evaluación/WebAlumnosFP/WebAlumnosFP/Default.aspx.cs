@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using LogicaNegocioyADatos;
+using LogicaNegocioyADatos.Entidades;
 
 namespace WebAlumnosFP
 {
@@ -11,12 +13,25 @@ namespace WebAlumnosFP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                CargaCombo();
+            }
 
+            CargaAlumnosGrupo();
         }
 
         private void CargaCombo()
         {
-         
+            List<Grupo> listaTodosMasGrupos = LNyAD.ListaGrupos();
+
+            listaTodosMasGrupos.Insert(0, new Grupo(0, "Todos los grupos", "todos"));
+
+            ddlGrupos.DataSource = listaTodosMasGrupos;
+            ddlGrupos.DataTextField = "Nombre";
+            ddlGrupos.DataValueField = "IDGrupo";
+
+            ddlGrupos.DataBind();
         }
 
 

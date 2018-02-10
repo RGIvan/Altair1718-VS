@@ -40,3 +40,11 @@ C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partid
 C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partida)\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
 C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partida)\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
 C:\Users\Alberto\Desktop\ASP.NET y ADO.NET\ProyectoWebAlumnosFP (Punto de partida)\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.dll.config
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.dll
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.pdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\LogicaNegocioyADatos.dll
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\LogicaNegocioyADatos.pdb
