@@ -39,6 +39,8 @@ namespace WebAlumnosFP
         {
             int idGrupo = Convert.ToInt32(ddlGrupos.SelectedValue);
             bool sonTodos = (idGrupo == 0);
+
+            dgv.DataSource = LNyAD.TablaAlumnos(idGrupo);
         }
 
 

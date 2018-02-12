@@ -28,7 +28,12 @@ namespace LogicaNegocioyADatos
                 listaGrupos.Add(grupo);
             }
 
-                return listaGrupos;
-            }
+            return listaGrupos;
+        }
+
+        public static object TablaAlumnos(int idGrupo)
+        {
+            
         }
     }
+}
