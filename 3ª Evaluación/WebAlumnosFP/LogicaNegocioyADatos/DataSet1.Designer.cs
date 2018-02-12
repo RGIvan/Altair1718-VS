@@ -1656,13 +1656,22 @@ namespace LogicaNegocioyADatos.DataSet1TableAdapters {
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.OleDb.OleDbCommand();
             this._commandCollection[1].Connection = this.Connection;
+<<<<<<< HEAD
             this._commandCollection[1].CommandText = "SELECT idAlumno, Alumno.IdGrupo, Grupos.alias as Grupo, apellidosNombre, telefono" +
                 ", movil, dni, email FROM Alumnos, Grupos\r\nWHERE Alumnos.idGrupo=Grupos.idGrupo";
+=======
+            this._commandCollection[1].CommandText = "SELECT idAlumno, Alumnos.idGrupo, Grupos.alias as Grupo, apellidosNombre, telefon" +
+                "o, movil, dni, email FROM Alumnos, Grupos\r\nWHERE Alumnos.idGrupo=Grupos.idGrupo";
+>>>>>>> a15c4e1838895338c99de307af6206cc774984f7
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[2] = new global::System.Data.OleDb.OleDbCommand();
             this._commandCollection[2].Connection = this.Connection;
             this._commandCollection[2].CommandText = "SELECT idAlumno, idGrupo, apellidosNombre, telefono, movil, dni, email FROM Alumn" +
+<<<<<<< HEAD
                 "os WHERE idGrupo =?";
+=======
+                "os\r\nWHERE idGrupo =?";
+>>>>>>> a15c4e1838895338c99de307af6206cc774984f7
             this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("idGrupo", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "idGrupo", global::System.Data.DataRowVersion.Current, false, null));
         }
