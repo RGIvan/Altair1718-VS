@@ -48,3 +48,11 @@ C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\W
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.pdb
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\LogicaNegocioyADatos.dll
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\LogicaNegocioyADatos.pdb
+C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.dll.config
+C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.dll
+C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\WebAlumnosFP.pdb
+C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\LogicaNegocioyADatos.dll
+C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\bin\LogicaNegocioyADatos.pdb
+C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
+C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
