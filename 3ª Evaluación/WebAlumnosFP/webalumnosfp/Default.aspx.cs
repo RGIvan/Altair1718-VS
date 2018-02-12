@@ -37,7 +37,8 @@ namespace WebAlumnosFP
 
         private void CargaAlumnosGrupo()
         {
-
+            int idGrupo = Convert.ToInt32(ddlGrupos.SelectedValue);
+            bool sonTodos = (idGrupo == 0);
         }
 
 
@@ -46,6 +47,16 @@ namespace WebAlumnosFP
         {
 
             Response.Redirect("PaginaDetalleAlumno.aspx");
+
+        }
+
+        protected void dgv_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+
+        }
+
+        protected void dgv_RowEditing(object sender, GridViewEditEventArgs e)
+        {
 
         }
     }

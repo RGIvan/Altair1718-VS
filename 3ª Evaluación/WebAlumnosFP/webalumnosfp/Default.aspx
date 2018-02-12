@@ -26,6 +26,20 @@
         <div>
             <asp:Label ID="lbCabecera" runat="server" Text=""></asp:Label>
             <asp:Panel ID="panelAlumnos" runat="server" Width="100%" Height="350" ScrollBars="Auto">
+                <asp:GridView ID="dgv" runat="server" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" Height="126px" OnRowDeleting="GridView1_RowDeleting" Width="298px">
+                    <Columns>
+                        <asp:CommandField ButtonType="Button" DeleteText="Del" EditText="Edit" ShowCancelButton="False" ShowDeleteButton="True" ShowEditButton="True" />
+                    </Columns>
+                    <FooterStyle BackColor="#FFFFCC" ForeColor="#330099" />
+                    <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="#FFFFCC" />
+                    <PagerStyle BackColor="#FFFFCC" ForeColor="#330099" HorizontalAlign="Center" />
+                    <RowStyle BackColor="White" ForeColor="#330099" />
+                    <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#663399" />
+                    <SortedAscendingCellStyle BackColor="#FEFCEB" />
+                    <SortedAscendingHeaderStyle BackColor="#AF0101" />
+                    <SortedDescendingCellStyle BackColor="#F6F0C0" />
+                    <SortedDescendingHeaderStyle BackColor="#7E0000" />
+                </asp:GridView>
             </asp:Panel>
             <br />
             <asp:Panel ID="panelControles" runat="server" Width="100%" Height="75" BackColor="#FF8000">
