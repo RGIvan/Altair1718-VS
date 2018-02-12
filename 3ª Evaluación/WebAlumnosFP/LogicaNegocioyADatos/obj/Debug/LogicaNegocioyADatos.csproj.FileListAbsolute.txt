@@ -1,6 +1,0 @@
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.csprojResolveAssemblyReference.cache
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\LogicaNegocioyADatos\bin\Debug\LogicaNegocioyADatos.dll.config
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\LogicaNegocioyADatos\bin\Debug\LogicaNegocioyADatos.dll
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\LogicaNegocioyADatos\bin\Debug\LogicaNegocioyADatos.pdb
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.dll
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\WebAlumnosFP\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.pdb
