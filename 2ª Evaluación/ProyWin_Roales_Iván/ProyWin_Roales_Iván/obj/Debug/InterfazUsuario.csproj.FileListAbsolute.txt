@@ -1,0 +1,9 @@
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\ProyWin_Roales_Iván.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\ProyWin_Roales_Iván.exe
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\ProyWin_Roales_Iván.pdb
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.csprojResolveAssemblyReference.cache
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\ProyWin_Roales_Iván.Login.resources
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\ProyWin_Roales_Iván.Properties.Resources.resources
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.csproj.GenerateResource.Cache
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\ProyWin_Roales_Iván.exe
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\ProyWin_Roales_Iván.pdb

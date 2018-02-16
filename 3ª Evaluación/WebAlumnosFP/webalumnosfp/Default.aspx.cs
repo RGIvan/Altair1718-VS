@@ -41,6 +41,17 @@ namespace WebAlumnosFP
             bool sonTodos = (idGrupo == 0);
 
             dgv.DataSource = LNyAD.TablaAlumnos(idGrupo);
+
+            dgv.DataBind();
+
+            foreach (GridViewRow fila in dgv.Rows)
+            {
+                dgv.HeaderRow.Cells[1].Visible = false;
+                dgv.HeaderRow.Cells[2].Visible = false;
+                dgv.HeaderRow.Cells[3].Visible = sonTodos;
+            }
+
+            lbCabecera.Text = String.Format("Alumnos de {0}. ({1} alumnos)", ddlGrupos.SelectedIndex, dgv.Rows.Count);
         }
 
 

@@ -31,9 +31,14 @@ namespace LogicaNegocioyADatos
             return listaGrupos;
         }
 
-        public static object TablaAlumnos(int idGrupo)
+        public static DataSet1.AlumnosDataTable TablaAlumnos(int idGrupo)
         {
-            
+            if (idGrupo == 0)
+                alumnosTabla = alumnosAdapt.GetAlumnosConAliasGrupo();
+            else
+                alumnosTabla = alumnosAdapt.GetDataByIdGrupo(idGrupo);
+
+            return alumnosTabla;
         }
     }
 }

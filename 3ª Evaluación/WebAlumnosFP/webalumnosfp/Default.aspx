@@ -26,7 +26,7 @@
         <div>
             <asp:Label ID="lbCabecera" runat="server" Text=""></asp:Label>
             <asp:Panel ID="panelAlumnos" runat="server" Width="100%" Height="350" ScrollBars="Auto">
-                <asp:GridView ID="dgv" runat="server" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" Height="126px" OnRowDeleting="GridView1_RowDeleting" Width="298px">
+                <asp:GridView ID="dgv" runat="server" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" Height="124px" OnRowDeleting="dgv_RowDeleting" Width="338px" OnRowEditing="dgv_RowEditing">
                     <Columns>
                         <asp:CommandField ButtonType="Button" DeleteText="Del" EditText="Edit" ShowCancelButton="False" ShowDeleteButton="True" ShowEditButton="True" />
                     </Columns>
@@ -49,14 +49,13 @@
                         <td class="columna_izquierda">&nbsp;
                         <asp:Button ID="btnAnyadir" runat="server" Text="Añadir Alumno" Font-Bold="True" OnClick="btnAnyadir_Click" /></td>
                         <td class="columna_central">
-                            <asp:DropDownList ID="ddlGrupos" runat="server">
+                            <asp:DropDownList ID="ddlGrupos" runat="server" AutoPostBack="True">
                             </asp:DropDownList>
                         </td>
                         <td class="columna_derecha">&nbsp;&nbsp;
                         <asp:Button ID="btnGestionGrupos" runat="server" Font-Bold="True" Text="Gestionar Grupos" />
                         </td>
                     </tr>
-
                 </table>
             </asp:Panel>
         </div>
