@@ -1,0 +1,22 @@
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\bin\Debug\ProyWin_Fernandez_JoseAntonio.exe.config
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.csprojResolveAssemblyReference.cache
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.IUDatos.resources
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.Login.resources
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.csproj.GenerateResource.Cache
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\bin\Debug\ProyWin_Fernandez_JoseAntonio.exe
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\bin\Debug\ProyWin_Fernandez_JoseAntonio.pdb
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\bin\Debug\LNegocioyADatos.dll
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\bin\Debug\MySql.Data.dll
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\bin\Debug\LNegocioyADatos.pdb
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\ProyWin_Fernandez_JoseAntonio.exe
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\ProyWin_Fernandez_JoseAntonio.pdb
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.RegistroUsuario.resources
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.Admin.resources
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.Properties.Resources.resources
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.EditCarreras.resources
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.EditCliente.resources
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.EditConductor.resources
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.EditTarifa.resources
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\bin\Debug\ProyWin_Fernandez_JoseAntonio.exe.config
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\obj\Debug\ProyWin_Fernandez_JoseAntonio.exe
+C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\obj\Debug\ProyWin_Fernandez_JoseAntonio.pdb

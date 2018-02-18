@@ -1,0 +1,7 @@
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll.config
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\bin\Debug\LNegocioyADatos.pdb
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\bin\Debug\MySql.Data.dll
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\obj\Debug\LNegocioyADatos.dll
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\obj\Debug\LNegocioyADatos.pdb
+C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\obj\Debug\LNegocioyADatos.csprojResolveAssemblyReference.cache
