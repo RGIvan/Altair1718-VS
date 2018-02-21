@@ -1,2 +1,6 @@
 C:\Users\ALUM01\git\Altair1718-VS\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\ProyWin_Roales_Iván.exe.config
+<<<<<<< HEAD
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\ProyWin_Roales_Iván.exe.config
+=======
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\ProyWin_Roales_Iván.exe.config
+>>>>>>> 173f38b8726313df1f7305be5cb47854bb4d92c2
