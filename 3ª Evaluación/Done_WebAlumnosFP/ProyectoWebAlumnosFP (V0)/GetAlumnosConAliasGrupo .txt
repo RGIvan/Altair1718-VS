@@ -1,0 +1,5 @@
+GetAlumnosConAliasGrupo: Para mostrar todos los alumnos con el alias de su grupo
+
+SELECT idAlumno, Alumnos.idGrupo, Grupos.alias as Grupo, apellidosNombre, telefono, movil, dni, email 
+FROM Alumnos, Grupos
+WHERE Alumnos.idGrupo=Grupos.idGrupo

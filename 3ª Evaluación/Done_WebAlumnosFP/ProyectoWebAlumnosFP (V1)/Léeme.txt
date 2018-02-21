@@ -1,0 +1,3 @@
+Es la misma V0 pero con confirmación del borrado
+
+Se pone en otro proyecto porque hay algunos cambios significativos respecto al original y puedes comparar un modo con el otro.

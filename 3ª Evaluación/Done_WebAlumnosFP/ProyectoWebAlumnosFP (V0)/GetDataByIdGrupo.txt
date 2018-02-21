@@ -1,0 +1,6 @@
+
+GetDataByIdGrupo (idGrup) : Para mostrar los alumnos de un grupo
+
+SELECT idAlumno, idGrupo, apellidosNombre, telefono, movil, dni, email FROM Alumnos
+WHERE idGrupo =?
+
