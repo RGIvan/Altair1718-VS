@@ -33,6 +33,7 @@ namespace LogicaNegocioyADatos.Entidades
             this.nif = regRestaurante.nif;
             this.descripcion = regRestaurante.descripcion;
             this.ciudad = regRestaurante.ciudad;
+            this.telefono = regRestaurante.telefono;
         }
 
         public int IdRestaurante
