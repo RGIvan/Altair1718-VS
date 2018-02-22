@@ -78,7 +78,7 @@
             this.Del});
             this.dgv.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dgv.EnableHeadersVisualStyles = false;
-            this.dgv.Location = new System.Drawing.Point(12, 399);
+            this.dgv.Location = new System.Drawing.Point(12, 333);
             this.dgv.MultiSelect = false;
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
@@ -91,7 +91,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv.Size = new System.Drawing.Size(1112, 188);
+            this.dgv.Size = new System.Drawing.Size(1112, 254);
             this.dgv.TabIndex = 0;
             this.dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellClick);
             this.dgv.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellDoubleClick);
