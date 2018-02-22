@@ -34,6 +34,7 @@ namespace LNegocioyADatos
             this.claveUsuario = regUsuarios.claveUsuario;
             this.accesoUsuario = regUsuarios.accesoUsuario;
         }
+
         public int IdUsuario
         {
             get

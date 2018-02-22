@@ -8,13 +8,16 @@ namespace LogicaNegocioyADatos.Entidades
 {
     public class Usuario
     {
+        #region Campos
         int idUsuario;
         String login;
         String nombre;
         String apellidos;
         String password;
-        int acceso;
+        int acceso; 
+        #endregion
 
+        #region Constructores
         public Usuario(int idUsuario, string login, string nombre, string apellidos, string password, int acceso)
         {
             this.idUsuario = idUsuario;
@@ -25,6 +28,7 @@ namespace LogicaNegocioyADatos.Entidades
             this.acceso = acceso;
         }
 
+
         public Usuario(DataSet1.usuarioRow regUsuarios)
         {
             this.idUsuario = regUsuarios.idusuario;
@@ -33,8 +37,10 @@ namespace LogicaNegocioyADatos.Entidades
             this.apellidos = regUsuarios.apellidos;
             this.password = regUsuarios.password;
             this.acceso = regUsuarios.acceso;
-        }
+        }  
+        #endregion
 
+        #region Propiedades
         public int IdUsuario
         {
             get
@@ -111,6 +117,7 @@ namespace LogicaNegocioyADatos.Entidades
             {
                 acceso = value;
             }
-        }
+        } 
+        #endregion
     }
 }

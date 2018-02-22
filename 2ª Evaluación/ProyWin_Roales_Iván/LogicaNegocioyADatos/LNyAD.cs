@@ -46,5 +46,6 @@ namespace LogicaNegocioyADatos
                 listaProductos.Add(new Producto(regProducto));
             return listaProductos;
         }
+
     }
 }
