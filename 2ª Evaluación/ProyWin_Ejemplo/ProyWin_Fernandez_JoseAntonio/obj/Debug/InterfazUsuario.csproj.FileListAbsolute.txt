@@ -20,3 +20,6 @@ C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\ProyWin_Fernandez
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\bin\Debug\ProyWin_Fernandez_JoseAntonio.exe.config
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\obj\Debug\ProyWin_Fernandez_JoseAntonio.exe
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\obj\Debug\ProyWin_Fernandez_JoseAntonio.pdb
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\bin\Debug\ProyWin_Fernandez_JoseAntonio.exe.config
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\obj\Debug\ProyWin_Fernandez_JoseAntonio.exe
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\obj\Debug\ProyWin_Fernandez_JoseAntonio.pdb

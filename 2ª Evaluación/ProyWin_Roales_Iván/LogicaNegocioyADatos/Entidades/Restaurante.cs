@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicaNegocioyADatos.Entidades
 {
-    class Restaurante
+    public class Restaurante
     {
         int idRestaurante;
         String nif;
@@ -23,6 +23,11 @@ namespace LogicaNegocioyADatos.Entidades
             this.ciudad = ciudad;
             this.telefono = telefono;
             this.idProducto = idProducto;
+        }
+
+        public Restaurante(DataSet1.restauranteRow regRestaurante)
+        {
+            this.idRestaurante = regRestaurante.idrestaurante;
         }
 
         public int IdRestaurante

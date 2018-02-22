@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicaNegocioyADatos.Entidades
 {
-    class Producto
+    public class Producto
     {
         int idProducto;
         String nombre;
