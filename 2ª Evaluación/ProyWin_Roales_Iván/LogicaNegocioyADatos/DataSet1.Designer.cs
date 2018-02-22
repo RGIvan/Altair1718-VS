@@ -787,7 +787,7 @@ namespace LogicaNegocioyADatos {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public restauranteRow AddrestauranteRow(int idrestaurante, string nif, string descripcion, string ciudad, string telefono, productoRow parentproductoRowByidproducto) {
+            public restauranteRow AddrestauranteRow(int idrestaurante, string nif, string descripcion, string ciudad, int telefono, productoRow parentproductoRowByidproducto) {
                 restauranteRow rowrestauranteRow = ((restauranteRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         idrestaurante,
@@ -847,7 +847,7 @@ namespace LogicaNegocioyADatos {
                 base.Columns.Add(this.columndescripcion);
                 this.columnciudad = new global::System.Data.DataColumn("ciudad", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnciudad);
-                this.columntelefono = new global::System.Data.DataColumn("telefono", typeof(string), null, global::System.Data.MappingType.Element);
+                this.columntelefono = new global::System.Data.DataColumn("telefono", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columntelefono);
                 this.columnidproducto = new global::System.Data.DataColumn("idproducto", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnidproducto);
@@ -858,7 +858,6 @@ namespace LogicaNegocioyADatos {
                 this.columnnif.MaxLength = 45;
                 this.columndescripcion.MaxLength = 45;
                 this.columnciudad.MaxLength = 45;
-                this.columntelefono.MaxLength = 45;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1513,10 +1512,10 @@ namespace LogicaNegocioyADatos {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string telefono {
+            public int telefono {
                 get {
                     try {
-                        return ((string)(this[this.tablerestaurante.telefonoColumn]));
+                        return ((int)(this[this.tablerestaurante.telefonoColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
                         throw new global::System.Data.StrongTypingException("El valor de la columna \'telefono\' de la tabla \'restaurante\' es DBNull.", e);

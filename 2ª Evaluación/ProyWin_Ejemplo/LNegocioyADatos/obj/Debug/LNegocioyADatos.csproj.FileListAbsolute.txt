@@ -5,3 +5,10 @@ C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\b
 C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\obj\Debug\LNegocioyADatos.dll
 C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\obj\Debug\LNegocioyADatos.pdb
 C:\Users\ALUM02\Source\Repos\DWS\ProyWin_Fernandez_JoseAntonio\LNegocioyADatos\obj\Debug\LNegocioyADatos.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll.config
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\bin\Debug\LNegocioyADatos.pdb
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\bin\Debug\MySql.Data.dll
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\obj\Debug\LNegocioyADatos.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\obj\Debug\LNegocioyADatos.dll
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\obj\Debug\LNegocioyADatos.pdb
