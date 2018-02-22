@@ -1,4 +1,4 @@
-﻿namespace ProyWin_Roales_Iván
+﻿namespace InterfazUsuario
 {
     partial class Admin
     {
@@ -62,6 +62,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Registro";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtPass
             // 
@@ -129,6 +130,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Admin";
+            this.Load += new System.EventHandler(this.Admin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
