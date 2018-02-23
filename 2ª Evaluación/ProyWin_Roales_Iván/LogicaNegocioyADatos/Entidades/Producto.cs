@@ -8,19 +8,32 @@ namespace LogicaNegocioyADatos.Entidades
 {
     public class Producto
     {
+        #region Campos
         int idProducto;
-        String nombre;
+        string nombre;
         double precio;
         int cantidad;
+        #endregion
 
+        #region Constructores
         public Producto(int idProducto, string nombre, double precio, int cantidad)
         {
-            this.IdProducto = idProducto;
-            this.Nombre = nombre;
-            this.Precio = precio;
-            this.Cantidad = cantidad;
+            this.idProducto = idProducto;
+            this.nombre = nombre;
+            this.precio = precio;
+            this.cantidad = cantidad;
         }
 
+        public Producto(DataSet1.productoRow regProducto)
+        {
+            this.idProducto = regProducto.idproducto;
+            this.nombre = regProducto.nombre;
+            this.precio = regProducto.precio;
+            this.cantidad = regProducto.cantidad;
+        }
+        #endregion
+
+        #region Propiedades
         public int IdProducto
         {
             get
@@ -72,5 +85,6 @@ namespace LogicaNegocioyADatos.Entidades
                 cantidad = value;
             }
         }
+        #endregion
     }
 }

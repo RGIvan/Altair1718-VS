@@ -40,7 +40,6 @@ namespace LNegocioyAdatos
                 alumnosTabla = alumnosAdapter.GetDataByIdGrupo(idGrupo);
             }
             return alumnosTabla;
-
         }
 
         public static void BorrarRegistroAlumno(int idAlumno)

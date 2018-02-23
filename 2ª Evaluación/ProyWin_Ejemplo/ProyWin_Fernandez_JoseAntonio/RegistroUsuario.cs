@@ -13,7 +13,6 @@ namespace InterfazUsuario
 {
     public partial class RegistroUsuario : Form
     {
-        Usuarios usu;
         public RegistroUsuario()
         {
             InitializeComponent();

@@ -126,5 +126,10 @@ namespace InterfazUsuario
             // Lo siguiente no es necesario pero sí conveniente
             fDetalle.Dispose();
         }
+
+        private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

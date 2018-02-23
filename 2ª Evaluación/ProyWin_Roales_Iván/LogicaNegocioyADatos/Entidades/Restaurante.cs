@@ -10,13 +10,15 @@ namespace LogicaNegocioyADatos.Entidades
     {
         #region Campos
         int idRestaurante;
-        String nif;
-        String descripcion;
-        String ciudad;
+        string nif;
+        string descripcion;
+        string ciudad;
         int telefono;
         int idProducto;
 
         #endregion
+
+        #region Constructores
         public Restaurante(int idRestaurante, string nif, string descripcion, string ciudad, int telefono, int idProducto)
         {
             this.idRestaurante = idRestaurante;
@@ -33,8 +35,12 @@ namespace LogicaNegocioyADatos.Entidades
             this.nif = regRestaurante.nif;
             this.descripcion = regRestaurante.descripcion;
             this.ciudad = regRestaurante.ciudad;
+            this.telefono = regRestaurante.telefono;
+            this.idProducto = regRestaurante.idproducto;
         }
+        #endregion
 
+        #region Propiedades
         public int IdRestaurante
         {
             get
@@ -112,5 +118,6 @@ namespace LogicaNegocioyADatos.Entidades
                 idProducto = value;
             }
         }
+    #endregion
     }
 }

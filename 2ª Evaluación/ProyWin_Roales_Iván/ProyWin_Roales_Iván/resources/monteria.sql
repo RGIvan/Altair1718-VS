@@ -54,7 +54,7 @@ CREATE TABLE `restaurante` (
   `nif` varchar(45) DEFAULT NULL,
   `descripcion` varchar(45) DEFAULT NULL,
   `ciudad` varchar(45) DEFAULT NULL,
-  `telefono` varchar(45) DEFAULT NULL,
+  `telefono` int(11) DEFAULT NULL,
   `idproducto` int(11) DEFAULT NULL,
   PRIMARY KEY (`idrestaurante`),
   KEY `idproducto_idx` (`idproducto`),
