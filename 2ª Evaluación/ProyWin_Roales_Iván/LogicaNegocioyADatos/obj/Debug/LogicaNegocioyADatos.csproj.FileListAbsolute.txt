@@ -5,3 +5,4 @@ C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\LogicaNego
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.csprojResolveAssemblyReference.cache
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.dll
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.pdb
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\LogicaNegocioyADatos\bin\Debug\BD_monteria.accdb

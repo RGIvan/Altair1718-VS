@@ -43,12 +43,17 @@ namespace InterfazUsuario
         {
             dgv.DataSource = LNyAD.TablaUsuarios();
             dgv.Columns["idUsuario"].Visible = false;
-            dgv.Columns[2].HeaderText = "Nombre";
-            dgv.Columns[3].HeaderText = "Apellidos";
-            dgv.Columns[4].HeaderText = "Usuario";
-            dgv.Columns[5].HeaderText = "Password";
-            dgv.Columns[6].HeaderText = "Acceso";
-            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
+            dgv.Columns[3].HeaderText = "Usuario";
+            dgv.Columns[4].HeaderText = "Nombre";
+            dgv.Columns[5].HeaderText = "Apellidos";
+            dgv.Columns[6].HeaderText = "Password";
+            dgv.Columns[7].HeaderText = "Acceso";
+            dgv.Columns[0].DisplayIndex = dgv.Columns.Count -1;
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
