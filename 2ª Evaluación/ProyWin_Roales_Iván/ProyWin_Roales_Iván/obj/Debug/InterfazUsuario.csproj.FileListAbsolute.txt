@@ -8,10 +8,8 @@ C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Ro
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\InterfazUsuario.exe
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\InterfazUsuario.pdb
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.Properties.Resources.resources
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.UIPrincipal.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.exe
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.pdb
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.Admin.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.Login.resources
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\InterfazUsuario.exe.config
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.exe
@@ -26,3 +24,6 @@ C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_R
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.Properties.Resources.resources
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.UIPrincipal.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\bin\Debug\BD_monteria.accdb
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.UIAdmin.resources
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.UIUsuario.resources
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.Registro.resources

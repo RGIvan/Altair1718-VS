@@ -13,15 +13,17 @@ namespace LogicaNegocioyADatos.Entidades
         string nombre;
         double precio;
         int cantidad;
+        int idRestaurante;
         #endregion
 
         #region Constructores
-        public Producto(int idProducto, string nombre, double precio, int cantidad)
+        public Producto(int idProducto, string nombre, double precio, int cantidad, int idRestaurante)
         {
             this.idProducto = idProducto;
             this.nombre = nombre;
             this.precio = precio;
             this.cantidad = cantidad;
+            this.idRestaurante = idRestaurante;
         }
 
         public Producto(DataSet1.productoRow regProducto)
@@ -30,6 +32,7 @@ namespace LogicaNegocioyADatos.Entidades
             this.nombre = regProducto.nombre;
             this.precio = regProducto.precio;
             this.cantidad = regProducto.cantidad;
+            this.idRestaurante = regProducto.idrestaurante;
         }
         #endregion
 
@@ -83,6 +86,19 @@ namespace LogicaNegocioyADatos.Entidades
             set
             {
                 cantidad = value;
+            }
+        }
+
+        public int IdRestaurante
+        {
+            get
+            {
+                return idRestaurante;
+            }
+
+            set
+            {
+                idRestaurante = value;
             }
         }
         #endregion

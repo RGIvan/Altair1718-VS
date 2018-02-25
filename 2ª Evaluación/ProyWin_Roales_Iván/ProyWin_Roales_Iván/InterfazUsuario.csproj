@@ -55,11 +55,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.cs">
+    <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin.Designer.cs">
-      <DependentUpon>Admin.cs</DependentUpon>
+    <Compile Include="Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -74,14 +74,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="UIPrincipal.cs">
+    <Compile Include="UIUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UIPrincipal.Designer.cs">
-      <DependentUpon>UIPrincipal.cs</DependentUpon>
+    <Compile Include="UIUsuario.Designer.cs">
+      <DependentUpon>UIUsuario.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Admin.resx">
-      <DependentUpon>Admin.cs</DependentUpon>
+    <Compile Include="UIAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIAdmin.Designer.cs">
+      <DependentUpon>UIAdmin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -91,8 +97,11 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="UIPrincipal.resx">
-      <DependentUpon>UIPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="UIUsuario.resx">
+      <DependentUpon>UIUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIAdmin.resx">
+      <DependentUpon>UIAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -13,9 +13,6 @@ namespace InterfazUsuario
 {
     public partial class Login : Form
     {
-
-        Usuario usu;
-
         public Login()
         {
             InitializeComponent();
