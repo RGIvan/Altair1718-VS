@@ -37,8 +37,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tsbUsuarios = new System.Windows.Forms.ToolStripButton();
-            this.tsbComida = new System.Windows.Forms.ToolStripButton();
-            this.tsbRestaurante = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.dgv = new System.Windows.Forms.DataGridView();
             this.Del = new System.Windows.Forms.DataGridViewButtonColumn();
@@ -54,8 +52,6 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(110, 110);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsbUsuarios,
-            this.tsbComida,
-            this.tsbRestaurante,
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
@@ -75,44 +71,16 @@
             this.tsbUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsbUsuarios.Click += new System.EventHandler(this.tsbUsuarios_Click);
             // 
-            // tsbComida
-            // 
-            this.tsbComida.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.tsbComida.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbComida.ForeColor = System.Drawing.Color.DarkRed;
-            this.tsbComida.Image = ((System.Drawing.Image)(resources.GetObject("tsbComida.Image")));
-            this.tsbComida.ImageTransparentColor = System.Drawing.Color.Transparent;
-            this.tsbComida.Name = "tsbComida";
-            this.tsbComida.Size = new System.Drawing.Size(114, 136);
-            this.tsbComida.Tag = "";
-            this.tsbComida.Text = "Productos";
-            this.tsbComida.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbComida.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbComida.Click += new System.EventHandler(this.tsbComida_Click);
-            // 
-            // tsbRestaurante
-            // 
-            this.tsbRestaurante.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.tsbRestaurante.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbRestaurante.ForeColor = System.Drawing.Color.DarkRed;
-            this.tsbRestaurante.Image = ((System.Drawing.Image)(resources.GetObject("tsbRestaurante.Image")));
-            this.tsbRestaurante.ImageTransparentColor = System.Drawing.Color.Transparent;
-            this.tsbRestaurante.Name = "tsbRestaurante";
-            this.tsbRestaurante.Size = new System.Drawing.Size(134, 136);
-            this.tsbRestaurante.Text = "Restaurantes";
-            this.tsbRestaurante.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbRestaurante.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbRestaurante.Click += new System.EventHandler(this.tsbRestaurante_Click);
-            // 
             // toolStripButton1
             // 
+            this.toolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripButton1.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripButton1.ForeColor = System.Drawing.Color.DarkRed;
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(164, 136);
-            this.toolStripButton1.Text = "Añadir usuarios";
+            this.toolStripButton1.Size = new System.Drawing.Size(154, 136);
+            this.toolStripButton1.Text = "Añadir usuario";
             this.toolStripButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.toolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -182,6 +150,7 @@
             // Del
             // 
             this.Del.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Del.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Del.HeaderText = "Del";
             this.Del.Name = "Del";
             this.Del.ReadOnly = true;
@@ -201,6 +170,7 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.Edit.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Edit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Edit.HeaderText = "Edit";
             this.Edit.Name = "Edit";
             this.Edit.ReadOnly = true;
@@ -235,8 +205,6 @@
 
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton tsbUsuarios;
-        private System.Windows.Forms.ToolStripButton tsbComida;
-        private System.Windows.Forms.ToolStripButton tsbRestaurante;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.DataGridViewButtonColumn Del;

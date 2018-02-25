@@ -50,28 +50,5 @@ namespace InterfazUsuario
             dgv.Columns[7].HeaderText = "Acceso";
             dgv.Columns[0].DisplayIndex = dgv.Columns.Count -1;
         }
-
-        private void tsbRestaurante_Click(object sender, EventArgs e)
-        {
-            dgv.DataSource = LNyAD.TablaRestaurante();
-            dgv.Columns["idRestaurante"].Visible = false;
-            dgv.Columns[3].HeaderText = "NIF";
-            dgv.Columns[4].HeaderText = "Descripción";
-            dgv.Columns[5].HeaderText = "Ciudad";
-            dgv.Columns[6].HeaderText = "Teléfono";
-            dgv.Columns[7].HeaderText = "Nombre del restaurante";
-            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
-        }
-
-        private void tsbComida_Click(object sender, EventArgs e)
-        {
-            dgv.DataSource = LNyAD.TablaProducto();
-            dgv.Columns["idProducto"].Visible = false;
-            dgv.Columns[3].HeaderText = "Nombre del producto";
-            dgv.Columns[4].HeaderText = "Precio";
-            dgv.Columns[5].HeaderText = "Cantidad";
-            dgv.Columns[6].HeaderText = "idRestaurante";
-            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
-        }
     }
 }

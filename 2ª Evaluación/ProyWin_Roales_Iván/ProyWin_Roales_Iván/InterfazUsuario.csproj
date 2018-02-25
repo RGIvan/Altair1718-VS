@@ -55,6 +55,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProducto.Designer.cs">
+      <DependentUpon>EditProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnadirProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnadirProducto.Designer.cs">
+      <DependentUpon>AnadirProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditRestaurante.Designer.cs">
+      <DependentUpon>EditRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnadirRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnadirRestaurante.Designer.cs">
+      <DependentUpon>AnadirRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUsuario.Designer.cs">
+      <DependentUpon>EditUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnadirUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnadirUsuario.Designer.cs">
+      <DependentUpon>AnadirUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +122,24 @@
     <Compile Include="UIAdmin.Designer.cs">
       <DependentUpon>UIAdmin.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="EditProducto.resx">
+      <DependentUpon>EditProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnadirProducto.resx">
+      <DependentUpon>AnadirProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditRestaurante.resx">
+      <DependentUpon>EditRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnadirRestaurante.resx">
+      <DependentUpon>AnadirRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUsuario.resx">
+      <DependentUpon>EditUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnadirUsuario.resx">
+      <DependentUpon>AnadirUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,16 +168,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="resources\user.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="resources\comida.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\LogicaNegocioyADatos\LogicaNegocioyADatos.csproj">
       <Project>{65089ca9-7a56-497a-9628-e1514e328e27}</Project>
       <Name>LogicaNegocioyADatos</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\bg.jpg" />
+    <Content Include="resources\logo-without-background.png" />
+    <Content Include="resources\meal.ico" />
+    <Content Include="resources\restaurante.png" />
+    <Content Include="resources\shodo-back.jpg" />
+    <Content Include="resources\user_plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -39,19 +39,35 @@ namespace InterfazUsuario
 
         }
 
-        private void tsbUsuarios_Click(object sender, EventArgs e)
+        private void tsbRestaurante_Click(object sender, EventArgs e)
         {
-            dgv.DataSource = LNyAD.TablaUsuarios();
-            dgv.Columns["idUsuario"].Visible = false;
-            dgv.Columns[3].HeaderText = "Usuario";
-            dgv.Columns[4].HeaderText = "Nombre";
-            dgv.Columns[5].HeaderText = "Apellidos";
-            dgv.Columns[6].HeaderText = "Password";
-            dgv.Columns[7].HeaderText = "Acceso";
-            dgv.Columns[0].DisplayIndex = dgv.Columns.Count -1;
+            dgv.DataSource = LNyAD.TablaRestaurante();
+            dgv.Columns["idRestaurante"].Visible = false;
+            dgv.Columns[3].HeaderText = "NIF";
+            dgv.Columns[4].HeaderText = "Descripción";
+            dgv.Columns[5].HeaderText = "Ciudad";
+            dgv.Columns[6].HeaderText = "Teléfono";
+            dgv.Columns[7].HeaderText = "Nombre del restaurante";
+            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
         }
 
-        private void toolStripButton1_Click(object sender, EventArgs e)
+        private void tsbProductos_Click(object sender, EventArgs e)
+        {
+            dgv.DataSource = LNyAD.TablaProducto();
+            dgv.Columns["idProducto"].Visible = false;
+            dgv.Columns[3].HeaderText = "Nombre del producto";
+            dgv.Columns[4].HeaderText = "Precio";
+            dgv.Columns[5].HeaderText = "Cantidad";
+            dgv.Columns[6].HeaderText = "idRestaurante";
+            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
+        }
+
+        private void tsbUsuario_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void UIUsuario_Load(object sender, EventArgs e)
         {
 
         }
