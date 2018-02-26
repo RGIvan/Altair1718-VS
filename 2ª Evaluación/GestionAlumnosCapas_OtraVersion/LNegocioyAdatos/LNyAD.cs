@@ -65,7 +65,7 @@ namespace LNegocioyAdatos
 
         public static void ActualizarAlumno(Alumno alum)
         {
-            DataSet1.AlumnosRow regAlumno = alumnosTabla.FindByidAlumno(alum.IdAlumno); ;
+            DataSet1.AlumnosRow regAlumno = alumnosTabla.FindByidAlumno(alum.IdAlumno);
             regAlumno.apellidosNombre = alum.ApellidosNombre;
             regAlumno.dni = alum.Dni;
             regAlumno.movil = alum.Movil;
