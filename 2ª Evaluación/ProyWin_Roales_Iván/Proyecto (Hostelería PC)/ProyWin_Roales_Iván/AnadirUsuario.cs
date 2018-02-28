@@ -8,11 +8,27 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LogicaNegocioyADatos.Entidades;
+using LogicaNegocioyADatos;
 
 namespace InterfazUsuario
 {
     public partial class AnadirUsuario : Form
     {
+        Usuario usu;
+
+        public Usuario Usu
+        {
+            get
+            {
+                return usu;
+            }
+
+            set
+            {
+                usu = value;
+            }
+        }
+
         public AnadirUsuario()
         {
             InitializeComponent();
@@ -25,7 +41,65 @@ namespace InterfazUsuario
 
         private void btnRegistro_Click(object sender, EventArgs e)
         {
+            if (!HayErrorEnFormulario())
+            {
+                usu.Login = txbUsuario.Text;
+                usu.Password = txbPass.Text;
+                usu.Nombre = txbNombre.Text;
+                usu.Apellidos = txbApellidos.Text;
 
+                LNyAD.EditarUsuario(usu);
+                MessageBox.Show("El usuario se ha insertado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+        }
+
+        private bool HayErrorEnFormulario()
+        {
+            errorProvider1.Clear();
+
+            string texto = "";
+            bool error = false;
+
+            if (txbUsuario.ForeColor == Color.DarkRed || txbUsuario.Text == String.Empty)
+            {
+                texto = "El nombre de usuario está vacío\n";
+                errorProvider1.SetError(txbUsuario, "El campo está vacío");
+                btnRegistro.Focus();
+                error = true;
+            }
+
+            if (txbPass.ForeColor == Color.DarkRed || txbPass.Text == String.Empty)
+            {
+                texto = "La contraseña está vacía\n";
+                errorProvider1.SetError(txbPass, "El campo está vacío");
+                btnRegistro.Focus();
+                error = true;
+            }
+
+            if (txbNombre.ForeColor == Color.DarkRed || txbNombre.Text == String.Empty)
+            {
+                texto = "El nombre está vacío\n";
+                errorProvider1.SetError(txbNombre, "El campo está vacío");
+                btnRegistro.Focus();
+                error = true;
+            }
+
+            if (txbApellidos.ForeColor == Color.DarkRed || txbApellidos.Text == String.Empty)
+            {
+                texto = "El nombre está vacío\n";
+                errorProvider1.SetError(txbApellidos, "El campo está vacío");
+                btnRegistro.Focus();
+                error = true;
+            }
+
+            if (texto != String.Empty)
+            {
+                MessageBox.Show(texto, "Los campos están vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                error = true;
+            }
+
+            return error;
         }
     }
 }

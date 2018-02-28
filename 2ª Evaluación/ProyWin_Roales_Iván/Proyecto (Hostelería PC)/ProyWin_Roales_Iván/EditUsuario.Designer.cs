@@ -42,6 +42,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.txbID = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -167,6 +169,27 @@
             this.label5.TabIndex = 18;
             this.label5.Text = "Apellidos:";
             // 
+            // txbID
+            // 
+            this.txbID.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbID.ForeColor = System.Drawing.Color.Maroon;
+            this.txbID.Location = new System.Drawing.Point(41, 234);
+            this.txbID.Name = "txbID";
+            this.txbID.Size = new System.Drawing.Size(43, 22);
+            this.txbID.TabIndex = 23;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Maroon;
+            this.label6.Location = new System.Drawing.Point(13, 237);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(22, 14);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "ID:";
+            // 
             // EditUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -174,6 +197,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(447, 268);
+            this.Controls.Add(this.txbID);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -208,6 +233,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txbID;
+        private System.Windows.Forms.Label label6;
     }
 }
 

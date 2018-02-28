@@ -14,6 +14,7 @@ namespace InterfazUsuario
 {
     public partial class Registro : Form
     {
+        Usuario usu;
 
         public Registro()
         {
@@ -74,7 +75,7 @@ namespace InterfazUsuario
 
             else
             {
-                Usuario usu = new Usuario();
+                this.usu = new Usuario();
 
                 usu.Login = txbUsuario.Text;
                 usu.Password = txbPass.Text;

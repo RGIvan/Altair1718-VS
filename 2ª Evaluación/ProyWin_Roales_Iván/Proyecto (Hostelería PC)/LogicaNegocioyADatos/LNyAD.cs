@@ -70,12 +70,6 @@ namespace LogicaNegocioyADatos
             return productosTabla;
         }
 
-        static public DataSet1.usuarioDataTable TablaUsuarios(int idUsuario)
-        {
-            usuariosTabla = usuariosAdapter.BuscarPorId(idUsuario);
-            return usuariosTabla;
-        }
-
         #endregion
 
         #region Consultas Usuario
@@ -87,7 +81,7 @@ namespace LogicaNegocioyADatos
 
             if (usuariosTabla.Count != 0)
             {
-                DataSet1.usuarioRow regUsuario = usuariosTabla[1];
+                DataSet1.usuarioRow regUsuario = usuariosTabla[0];
                 usuario = new Usuario(regUsuario);
             }
 
@@ -96,25 +90,28 @@ namespace LogicaNegocioyADatos
 
         public static void BorrarUsuario(int idUsuario)
         {
-            usuariosTabla = usuariosAdapter.BuscarPorId(idUsuario);
-
-            DataSet1.usuarioRow regUsuario = usuariosTabla[0];
+            DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(idUsuario);
 
             regUsuario.Delete();
 
-            LNyAD.usuariosAdapter.Update(regUsuario);
+            usuariosAdapter.Update(regUsuario);
+        }
+
+        public static Usuario ObtenerUsuarioPorId(int idUsuario)
+        {
+            DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(idUsuario);
+            
+            Usuario usu = new Usuario(regUsuario);
+            return usu;
         }
 
         static public void EditarUsuario(Usuario usu)
         {
-            usuariosTabla = usuariosAdapter.BuscarPorId(usu.IdUsuario);
-            DataSet1.usuarioRow regUsuario = usuariosTabla[0];
-
-            regUsuario.nombre = usu.Nombre;
-            regUsuario.apellidos = usu.Apellidos;
+            DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(usu.IdUsuario);
             regUsuario.usuario = usu.Login;
+            regUsuario.nombre = usu.Nombre;
             regUsuario.password = usu.Password;
-            regUsuario.acceso = usu.Acceso;
+            regUsuario.apellidos = usu.Apellidos;
 
             usuariosAdapter.Update(regUsuario);
         }
@@ -147,21 +144,6 @@ namespace LogicaNegocioyADatos
             
             usuariosAdapter.Update(regUsuario);
         }
-
-        static public Usuario ObtenerUsuarioPorId(int idUsuario)
-        {
-            Usuario usuario = null;
-            usuariosTabla = usuariosAdapter.BuscarPorId(idUsuario);
-
-            if (usuariosTabla.Count != 0)
-            {
-                DataSet1.usuarioRow regUsuario = usuariosTabla[0];
-                usuario = new Usuario(regUsuario);
-            }
-
-            return usuario;
-
-            #endregion
-        }
+        #endregion
     }
 }

@@ -36,10 +36,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txbNombre = new System.Windows.Forms.TextBox();
+            this.txbCantidad = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txbPass = new System.Windows.Forms.TextBox();
+            this.txbPrecio = new System.Windows.Forms.TextBox();
             this.txbUsuario = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txbID = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,14 +111,14 @@
             this.label3.TabIndex = 17;
             this.label3.Text = "Usuario:";
             // 
-            // txbNombre
+            // txbCantidad
             // 
-            this.txbNombre.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbNombre.ForeColor = System.Drawing.Color.Maroon;
-            this.txbNombre.Location = new System.Drawing.Point(170, 166);
-            this.txbNombre.Name = "txbNombre";
-            this.txbNombre.Size = new System.Drawing.Size(150, 22);
-            this.txbNombre.TabIndex = 16;
+            this.txbCantidad.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbCantidad.ForeColor = System.Drawing.Color.Maroon;
+            this.txbCantidad.Location = new System.Drawing.Point(170, 166);
+            this.txbCantidad.Name = "txbCantidad";
+            this.txbCantidad.Size = new System.Drawing.Size(150, 22);
+            this.txbCantidad.TabIndex = 16;
             // 
             // label1
             // 
@@ -126,14 +128,14 @@
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 15;
             // 
-            // txbPass
+            // txbPrecio
             // 
-            this.txbPass.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbPass.ForeColor = System.Drawing.Color.Maroon;
-            this.txbPass.Location = new System.Drawing.Point(170, 125);
-            this.txbPass.Name = "txbPass";
-            this.txbPass.Size = new System.Drawing.Size(150, 22);
-            this.txbPass.TabIndex = 14;
+            this.txbPrecio.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbPrecio.ForeColor = System.Drawing.Color.Maroon;
+            this.txbPrecio.Location = new System.Drawing.Point(170, 125);
+            this.txbPrecio.Name = "txbPrecio";
+            this.txbPrecio.Size = new System.Drawing.Size(150, 22);
+            this.txbPrecio.TabIndex = 14;
             // 
             // txbUsuario
             // 
@@ -144,6 +146,27 @@
             this.txbUsuario.Size = new System.Drawing.Size(150, 22);
             this.txbUsuario.TabIndex = 13;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Maroon;
+            this.label6.Location = new System.Drawing.Point(8, 237);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(22, 14);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "ID:";
+            // 
+            // txbID
+            // 
+            this.txbID.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbID.ForeColor = System.Drawing.Color.Maroon;
+            this.txbID.Location = new System.Drawing.Point(36, 234);
+            this.txbID.Name = "txbID";
+            this.txbID.Size = new System.Drawing.Size(43, 22);
+            this.txbID.TabIndex = 21;
+            // 
             // EditProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -151,12 +174,14 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(447, 268);
+            this.Controls.Add(this.txbID);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txbNombre);
+            this.Controls.Add(this.txbCantidad);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txbPass);
+            this.Controls.Add(this.txbPrecio);
             this.Controls.Add(this.txbUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnRegistro);
@@ -177,10 +202,12 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txbNombre;
+        private System.Windows.Forms.TextBox txbCantidad;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txbPass;
+        private System.Windows.Forms.TextBox txbPrecio;
         private System.Windows.Forms.TextBox txbUsuario;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txbID;
     }
 }
 

@@ -91,6 +91,7 @@ namespace InterfazUsuario
                 text += "No se ha realizado ningun cambio\n";
                 error = true;
             }
+
             if (txbNombre.Text == String.Empty) //Campo Nombre vacio ERROR
             {
                 text += "Campo Nombre vacio\n";

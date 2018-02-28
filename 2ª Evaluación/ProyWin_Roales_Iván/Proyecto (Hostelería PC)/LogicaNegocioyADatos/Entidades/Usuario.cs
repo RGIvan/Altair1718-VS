@@ -35,7 +35,7 @@ namespace LogicaNegocioyADatos.Entidades
             this.password = String.Empty;
             this.Nombre = String.Empty;
             this.apellidos = String.Empty;
-            this.acceso = 0;
+            this.acceso = 2;
         }
 
 

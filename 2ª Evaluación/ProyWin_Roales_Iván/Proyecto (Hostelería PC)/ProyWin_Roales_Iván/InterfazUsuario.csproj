@@ -116,12 +116,6 @@
     <Compile Include="UIUsuario.Designer.cs">
       <DependentUpon>UIUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="UIAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UIAdmin.Designer.cs">
-      <DependentUpon>UIAdmin.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="EditProducto.resx">
       <DependentUpon>EditProducto.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,9 +148,6 @@
     <EmbeddedResource Include="UIUsuario.resx">
       <DependentUpon>UIUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UIAdmin.resx">
-      <DependentUpon>UIAdmin.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -174,12 +165,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="resources\bg.jpg" />
-    <Content Include="resources\logo-without-background.png" />
-    <Content Include="resources\meal.ico" />
-    <Content Include="resources\restaurante.png" />
-    <Content Include="resources\shodo-back.jpg" />
-    <Content Include="resources\user_plus.png" />
+    <Folder Include="resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
