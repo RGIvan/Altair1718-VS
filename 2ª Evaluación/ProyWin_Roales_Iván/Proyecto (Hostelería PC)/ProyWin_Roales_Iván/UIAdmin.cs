@@ -47,6 +47,7 @@ namespace InterfazUsuario
             dgv.Columns[4].HeaderText = "Contraseña";
             dgv.Columns[5].HeaderText = "Nombre";
             dgv.Columns[6].HeaderText = "Apellidos";
+            dgv.Columns[7].HeaderText = "Acceso";
             dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
         }
 

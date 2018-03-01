@@ -45,7 +45,7 @@ namespace InterfazUsuario
                 return;
             }
 
-            if (LNyAD.BuscarUsuario(txbUsuario.Text) != null)
+            if (LNyAD.BuscarUsuario(txbUsuario.Text) == null)
             {
                 errorProvider1.SetError(txbUsuario, "Usuario incorrecto");
                 MessageBox.Show("El usuario no existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -58,9 +58,10 @@ namespace InterfazUsuario
             if (usu != null)
             {
                 errorProvider1.Clear();
-                if (usu.Acceso == 2)
+                if (usu.Acceso == 0)
                     MessageBox.Show("Debes de darte de alta en la aplicación", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                else
+                else if
+                    (usu.Acceso == 2)
                 {
                     txbPass.Text = String.Empty;
                     txbUsuario.Text = String.Empty;
@@ -80,6 +81,11 @@ namespace InterfazUsuario
                     interfaz.Usu = usu;
                     interfaz.ShowDialog();
                     interfaz.Dispose();
+                }
+
+                if (usu.Acceso == 3)
+                {
+                   
                 }
             }
 

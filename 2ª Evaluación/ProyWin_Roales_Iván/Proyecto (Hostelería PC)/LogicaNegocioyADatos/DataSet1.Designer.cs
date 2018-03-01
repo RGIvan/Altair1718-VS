@@ -2132,14 +2132,14 @@ namespace LogicaNegocioyADatos.DataSet1TableAdapters {
             this._commandCollection[0].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("usuario", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "usuario", global::System.Data.DataRowVersion.Current, false, null));
             this._commandCollection[1] = new global::System.Data.OleDb.OleDbCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT idusuario, usuario, nombre, apellidos, password, acceso FROM usuario WHERE" +
-                " (usuario=?) AND (password=?)";
+            this._commandCollection[1].CommandText = "SELECT acceso, apellidos, idusuario, nombre, [password], usuario FROM usuario WHE" +
+                "RE (usuario = ?) AND ([password] = ?)";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("usuario", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "usuario", global::System.Data.DataRowVersion.Current, false, null));
             this._commandCollection[1].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("password", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "password", global::System.Data.DataRowVersion.Current, false, null));
             this._commandCollection[2] = new global::System.Data.OleDb.OleDbCommand();
             this._commandCollection[2].Connection = this.Connection;
-            this._commandCollection[2].CommandText = "SELECT usuario, nombre, apellidos, password, acceso FROM usuario";
+            this._commandCollection[2].CommandText = "SELECT acceso, apellidos, idusuario, nombre, [password], usuario FROM usuario";
             this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
         }
         
