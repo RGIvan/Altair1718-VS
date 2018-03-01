@@ -85,7 +85,13 @@ namespace InterfazUsuario
 
                 if (usu.Acceso == 3)
                 {
-                   
+                    txbPass.Text = String.Empty;
+                    txbUsuario.Text = String.Empty;
+                    btnEntrar.Focus();
+                    UIDes interfaz = new UIDes();
+                    interfaz.Usu = usu;
+                    interfaz.ShowDialog();
+                    interfaz.Dispose();
                 }
             }
 

@@ -36,7 +36,37 @@ namespace InterfazUsuario
 
         private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            int colum = e.ColumnIndex;
+            int fila = e.RowIndex;
 
+            if (colum == 1) 
+                EditarRegistro(fila);
+            else if (dgv.Columns[colum].HeaderText == "Del")
+                BorrarRegistro(fila);
+            else
+                return; 
+        }
+
+        private void BorrarRegistro(int fila)
+        {
+            if (DialogResult.No == MessageBox.Show("¿Está seguro de eliminar a:\n" + dgv.Rows[fila].Cells["usuario"].Value.ToString() + "?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
+                return;
+
+            int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
+
+            LNyAD.BorrarUsuario(idUsuario);
+        }
+
+        private void EditarRegistro(int fila)
+        {
+            int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
+            Usuario usu = LNyAD.ObtenerUsuarioPorId(idUsuario);
+
+            EditUsuarioAdmin fEditUsuario = new EditUsuarioAdmin();
+
+            fEditUsuario.ShowDialog();
+
+            fEditUsuario.Dispose();
         }
 
         private void tsbUsuario_Click(object sender, EventArgs e)
@@ -54,6 +84,17 @@ namespace InterfazUsuario
         private void UIUsuario_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void tsbAnadirUsuario_Click(object sender, EventArgs e)
+        {
+            Usuario usu = new Usuario();
+
+            AnadirUsuario fAnadirUsuario = new AnadirUsuario();
+
+            fAnadirUsuario.ShowDialog();
+
+            fAnadirUsuario.Dispose();
         }
     }
 }

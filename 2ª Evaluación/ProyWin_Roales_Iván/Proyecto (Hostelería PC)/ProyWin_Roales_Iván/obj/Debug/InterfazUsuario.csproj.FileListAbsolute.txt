@@ -54,3 +54,5 @@ C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.UIUsuario.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.UIAdmin.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.csproj.GenerateResource.Cache
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.UIDes.resources
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.EditUsuarioAdmin.resources

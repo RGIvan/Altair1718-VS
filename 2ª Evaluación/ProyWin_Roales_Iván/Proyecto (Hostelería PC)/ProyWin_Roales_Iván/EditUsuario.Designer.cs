@@ -78,7 +78,7 @@
             this.btnRegistro.Name = "btnRegistro";
             this.btnRegistro.Size = new System.Drawing.Size(97, 31);
             this.btnRegistro.TabIndex = 4;
-            this.btnRegistro.Text = "Gaurdar cambios";
+            this.btnRegistro.Text = "Guardar cambios";
             this.btnRegistro.UseVisualStyleBackColor = false;
             this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
             // 

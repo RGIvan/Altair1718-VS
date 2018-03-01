@@ -36,19 +36,24 @@ namespace InterfazUsuario
 
         private void AnadirUsuario_Load(object sender, EventArgs e)
         {
-
+            cbAcceso.Items.Insert(0, "0. Deshabilitado");
+            cbAcceso.Items.Insert(1, "1. Admin");
+            cbAcceso.Items.Insert(2, "2. Usuario");
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)
         {
             if (!HayErrorEnFormulario())
             {
+                this.usu = new Usuario();
+
                 usu.Login = txbUsuario.Text;
                 usu.Password = txbPass.Text;
                 usu.Nombre = txbNombre.Text;
                 usu.Apellidos = txbApellidos.Text;
+                cbAcceso.SelectedIndex = Convert.ToInt32(usu.Acceso);
 
-                LNyAD.EditarUsuario(usu);
+                LNyAD.AgregarUsuario(usu);
                 MessageBox.Show("El usuario se ha insertado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }

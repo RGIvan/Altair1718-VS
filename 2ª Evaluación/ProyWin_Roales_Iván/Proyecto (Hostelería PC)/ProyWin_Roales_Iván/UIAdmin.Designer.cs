@@ -37,10 +37,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tsbUsuarios = new System.Windows.Forms.ToolStripButton();
+            this.tsbAnadirUsuario = new System.Windows.Forms.ToolStripButton();
             this.dgv = new System.Windows.Forms.DataGridView();
             this.Del = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Edit = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.tsbAnadirUsuario = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
@@ -71,6 +71,20 @@
             this.tsbUsuarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.tsbUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsbUsuarios.Click += new System.EventHandler(this.tsbUsuario_Click);
+            // 
+            // tsbAnadirUsuario
+            // 
+            this.tsbAnadirUsuario.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.tsbAnadirUsuario.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbAnadirUsuario.ForeColor = System.Drawing.Color.DarkRed;
+            this.tsbAnadirUsuario.Image = ((System.Drawing.Image)(resources.GetObject("tsbAnadirUsuario.Image")));
+            this.tsbAnadirUsuario.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbAnadirUsuario.Name = "tsbAnadirUsuario";
+            this.tsbAnadirUsuario.Size = new System.Drawing.Size(164, 136);
+            this.tsbAnadirUsuario.Text = "Añadir usuarios";
+            this.tsbAnadirUsuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbAnadirUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbAnadirUsuario.Click += new System.EventHandler(this.tsbAnadirUsuario_Click);
             // 
             // dgv
             // 
@@ -168,19 +182,6 @@
             this.Edit.UseColumnTextForButtonValue = true;
             this.Edit.Width = 40;
             // 
-            // tsbAnadirUsuario
-            // 
-            this.tsbAnadirUsuario.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.tsbAnadirUsuario.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbAnadirUsuario.ForeColor = System.Drawing.Color.DarkRed;
-            this.tsbAnadirUsuario.Image = ((System.Drawing.Image)(resources.GetObject("tsbAnadirUsuario.Image")));
-            this.tsbAnadirUsuario.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbAnadirUsuario.Name = "tsbAnadirUsuario";
-            this.tsbAnadirUsuario.Size = new System.Drawing.Size(164, 136);
-            this.tsbAnadirUsuario.Text = "Añadir usuarios";
-            this.tsbAnadirUsuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbAnadirUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
             // UIAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -193,7 +194,7 @@
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UIAdmin";
-            this.Text = "UIUsuario";
+            this.Text = "UIAdmin";
             this.Load += new System.EventHandler(this.UIUsuario_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

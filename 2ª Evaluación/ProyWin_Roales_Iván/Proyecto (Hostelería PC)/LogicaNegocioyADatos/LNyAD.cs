@@ -145,5 +145,98 @@ namespace LogicaNegocioyADatos
             usuariosAdapter.Update(regUsuario);
         }
         #endregion
+
+        #region Consultas Producto
+
+        public static void BorrarProducto(int idProducto)
+        {
+            DataSet1.productoRow regProducto = productosTabla.FindByidproducto(idProducto);
+
+            regProducto.Delete();
+
+            productosAdapter.Update(regProducto);
+        }
+
+        public static Producto ObtenerProductoPorId(int idProducto)
+        {
+            DataSet1.productoRow regProducto = productosTabla.FindByidproducto(idProducto);
+
+            Producto pro = new Producto(regProducto);
+            return pro;
+        }
+
+        static public void EditarProducto(Producto pro)
+        {
+            DataSet1.productoRow regProducto = productosTabla.FindByidproducto(pro.IdProducto);
+            regProducto.nombre = pro.Nombre;
+            regProducto.cantidad = pro.Cantidad;
+            regProducto.precio = pro.Precio;
+
+            productosAdapter.Update(regProducto);
+        }
+
+        static public void AgregarProducto(Producto pro)
+        {
+            DataSet1.productoRow regProducto = productosTabla.NewproductoRow();
+
+            regProducto.nombre = pro.Nombre;
+            regProducto.precio = pro.Precio;
+            regProducto.cantidad = pro.Cantidad;
+
+            productosTabla.AddproductoRow(regProducto);
+
+            productosAdapter.Update(regProducto);
+        }
+
+        #endregion
+
+        #region Consultas Restaurante
+
+        public static void BorrarRestaurante(int idRestaurante)
+        {
+            DataSet1.restauranteRow regRestaurante = restauranteTabla.FindByidrestaurante(idRestaurante);
+
+            regRestaurante.Delete();
+
+            restauranteAdapter.Update(regRestaurante);
+        }
+
+        public static Restaurante ObtenerRestaurantePorId(int idRestaurante)
+        {
+            DataSet1.restauranteRow regRestaurante = restauranteTabla.FindByidrestaurante(idRestaurante);
+
+            Restaurante res = new Restaurante(regRestaurante);
+            return res;
+        }
+
+        static public void EditarRestaurante(Restaurante res)
+        {
+            DataSet1.restauranteRow regRestaurante = restauranteTabla.FindByidrestaurante(res.IdRestaurante);
+
+            regRestaurante.nombre = res.Nombre;
+            regRestaurante.nif = res.Nif;
+            regRestaurante.ciudad = res.Ciudad;
+            regRestaurante.descripcion = res.Descripcion;
+            regRestaurante.telefono = res.Telefono;
+
+            restauranteAdapter.Update(regRestaurante);
+        }
+
+        static public void AgregarRestaurante(Restaurante res)
+        {
+            DataSet1.restauranteRow regRestaurante = restauranteTabla.NewrestauranteRow();
+
+            regRestaurante.nombre = res.Nombre;
+            regRestaurante.nif = res.Nif;
+            regRestaurante.ciudad = res.Ciudad;
+            regRestaurante.descripcion = res.Descripcion;
+            regRestaurante.telefono = res.Telefono;
+
+            restauranteTabla.AddrestauranteRow(regRestaurante);
+
+            restauranteAdapter.Update(regRestaurante);
+        }
+
+        #endregion
     }
 }

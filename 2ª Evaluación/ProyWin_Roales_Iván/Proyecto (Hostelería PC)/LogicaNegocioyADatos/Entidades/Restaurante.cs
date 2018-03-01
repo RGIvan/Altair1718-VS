@@ -10,6 +10,7 @@ namespace LogicaNegocioyADatos.Entidades
     {
         #region Campos
         int idRestaurante;
+        string nombre;
         string nif;
         string descripcion;
         string ciudad;
@@ -18,13 +19,14 @@ namespace LogicaNegocioyADatos.Entidades
         #endregion
 
         #region Constructores
-        public Restaurante(int idRestaurante, string nif, string descripcion, string ciudad, int telefono)
+        public Restaurante(int idRestaurante, string nif, string descripcion, string ciudad, int telefono, string nombre)
         {
             this.idRestaurante = idRestaurante;
             this.nif = nif;
             this.descripcion = descripcion;
             this.ciudad = ciudad;
             this.telefono = telefono;
+            this.nombre = nombre;
         }
 
         public Restaurante(DataSet1.restauranteRow regRestaurante)
@@ -34,6 +36,7 @@ namespace LogicaNegocioyADatos.Entidades
             this.descripcion = regRestaurante.descripcion;
             this.ciudad = regRestaurante.ciudad;
             this.telefono = regRestaurante.telefono;
+            this.nombre = regRestaurante.nombre;
         }
         #endregion
 
@@ -102,6 +105,19 @@ namespace LogicaNegocioyADatos.Entidades
                 telefono = value;
             }
         }
-    #endregion
+
+        public string Nombre
+        {
+            get
+            {
+                return nombre;
+            }
+
+            set
+            {
+                nombre = value;
+            }
+        }
+        #endregion
     }
 }

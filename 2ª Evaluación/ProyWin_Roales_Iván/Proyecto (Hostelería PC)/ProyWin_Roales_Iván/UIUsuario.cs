@@ -36,7 +36,25 @@ namespace InterfazUsuario
 
         private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            int colum = e.ColumnIndex;
+            int fila = e.RowIndex;
 
+            if (colum == 1)
+                EditarRegistro(fila);
+            else if (dgv.Columns[colum].HeaderText == "Del")
+                BorrarRegistro(fila);
+            else
+                return;
+        }
+
+        private void BorrarRegistro(int fila)
+        {
+            
+        }
+
+        private void EditarRegistro(int fila)
+        {
+            
         }
 
         private void tsbRestaurante_Click(object sender, EventArgs e)
