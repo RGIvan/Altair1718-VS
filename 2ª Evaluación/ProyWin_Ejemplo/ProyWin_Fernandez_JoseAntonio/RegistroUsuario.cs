@@ -145,6 +145,7 @@ namespace InterfazUsuario
                 txbNewPass_Leave(null, null);
                 txbConfirmNewPass_Leave(null, null);
             }
+
             if (txbAlias.ForeColor == Color.Gray || txbAlias.Text == String.Empty)
             {
                 texto += "El campo alias no puede estar vacio\n";
