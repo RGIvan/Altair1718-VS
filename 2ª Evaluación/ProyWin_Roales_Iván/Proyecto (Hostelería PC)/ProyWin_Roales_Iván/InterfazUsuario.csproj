@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{77C66130-0580-4018-A458-3D50E5495A35}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InterfazUsuario</RootNamespace>
+    <AssemblyName>InterfazUsuario</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EditProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProducto.Designer.cs">
+      <DependentUpon>EditProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnadirProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnadirProducto.Designer.cs">
+      <DependentUpon>AnadirProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditRestaurante.Designer.cs">
+      <DependentUpon>EditRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnadirRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnadirRestaurante.Designer.cs">
+      <DependentUpon>AnadirRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditUsuarioAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUsuarioAdmin.Designer.cs">
+      <DependentUpon>EditUsuarioAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUsuario.Designer.cs">
+      <DependentUpon>EditUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnadirUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnadirUsuario.Designer.cs">
+      <DependentUpon>AnadirUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIAdmin.Designer.cs">
+      <DependentUpon>UIAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDes.Designer.cs">
+      <DependentUpon>UIDes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIUsuario.Designer.cs">
+      <DependentUpon>UIUsuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EditProducto.resx">
+      <DependentUpon>EditProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnadirProducto.resx">
+      <DependentUpon>AnadirProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditRestaurante.resx">
+      <DependentUpon>EditRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnadirRestaurante.resx">
+      <DependentUpon>AnadirRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUsuarioAdmin.resx">
+      <DependentUpon>EditUsuarioAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUsuario.resx">
+      <DependentUpon>EditUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnadirUsuario.resx">
+      <DependentUpon>AnadirUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIAdmin.resx">
+      <DependentUpon>UIAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDes.resx">
+      <DependentUpon>UIDes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIUsuario.resx">
+      <DependentUpon>UIUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogicaNegocioyADatos\LogicaNegocioyADatos.csproj">
+      <Project>{65089ca9-7a56-497a-9628-e1514e328e27}</Project>
+      <Name>LogicaNegocioyADatos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="resources\bg.jpg" />
+    <Content Include="resources\logo-without-background.png" />
+    <Content Include="resources\meal.ico" />
+    <Content Include="resources\restaurante.png" />
+    <Content Include="resources\shodo-back.jpg" />
+    <Content Include="resources\user_plus.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
