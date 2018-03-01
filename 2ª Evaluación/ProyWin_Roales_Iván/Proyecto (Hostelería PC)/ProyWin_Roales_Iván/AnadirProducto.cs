@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LogicaNegocioyADatos.Entidades;
+using LogicaNegocioyADatos;
 
 namespace InterfazUsuario
 {
@@ -20,7 +21,8 @@ namespace InterfazUsuario
 
         private void AnadirProducto_Load(object sender, EventArgs e)
         {
-
+            cbRestaurante.DataSource = LNyAD.ListaRestaurantes();
+            cbRestaurante.DisplayMember = "idrestaurante";
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)

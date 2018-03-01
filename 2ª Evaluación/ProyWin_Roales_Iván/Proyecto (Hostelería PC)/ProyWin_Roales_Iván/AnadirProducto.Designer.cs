@@ -40,6 +40,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cbRestaurante = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,7 +120,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 14);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Usuario:";
+            this.label3.Text = "Nombre:";
             // 
             // label4
             // 
@@ -144,6 +146,27 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Cantidad:";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Maroon;
+            this.label7.Location = new System.Drawing.Point(24, 233);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(89, 14);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Nº restaurante:";
+            // 
+            // cbRestaurante
+            // 
+            this.cbRestaurante.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbRestaurante.FormattingEnabled = true;
+            this.cbRestaurante.Location = new System.Drawing.Point(116, 230);
+            this.cbRestaurante.Name = "cbRestaurante";
+            this.cbRestaurante.Size = new System.Drawing.Size(48, 21);
+            this.cbRestaurante.TabIndex = 16;
+            // 
             // AnadirProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -151,6 +174,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(447, 268);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.cbRestaurante);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -181,6 +206,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cbRestaurante;
     }
 }
 

@@ -97,6 +97,17 @@ namespace LogicaNegocioyADatos
             usuariosAdapter.Update(regUsuario);
         }
 
+        static public List<Usuario> BuscarAdministrador()
+        {
+            List<Usuario> listaUsuarios = new List<Usuario>();
+            usuariosTabla = usuariosAdapter.BuscarAdministrador();
+
+            foreach (DataSet1.usuarioRow regUsuario in usuariosTabla)
+                listaUsuarios.Add(new Usuario(regUsuario));
+
+            return listaUsuarios;
+        }
+
         public static Usuario ObtenerUsuarioPorId(int idUsuario)
         {
             DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(idUsuario);

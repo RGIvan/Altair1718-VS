@@ -53,9 +53,21 @@ namespace InterfazUsuario
                 usu.Apellidos = txbApellidos.Text;
                 cbAcceso.SelectedIndex = Convert.ToInt32(usu.Acceso);
 
-                LNyAD.AgregarUsuario(usu);
-                MessageBox.Show("El usuario se ha insertado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
+                if (LNyAD.BuscarUsuario(txbUsuario.Text) != null)
+                {
+                    errorProvider1.SetError(txbUsuario, "El usuario está repetido\n");
+                    MessageBox.Show("Ya existe un usuario con el mismo nombre registrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txbPass.Text = String.Empty;
+                    btnRegistro.Focus();
+                }
+
+                else
+
+                {
+                    LNyAD.AgregarUsuario(usu);
+                    MessageBox.Show("El usuario se ha insertado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
+                }
             }
         }
 

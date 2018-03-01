@@ -39,12 +39,12 @@ namespace InterfazUsuario
             int colum = e.ColumnIndex;
             int fila = e.RowIndex;
 
-            if (colum == 1) 
+            if (colum == 1)
                 EditarRegistro(fila);
             else if (dgv.Columns[colum].HeaderText == "Del")
                 BorrarRegistro(fila);
             else
-                return; 
+                return;
         }
 
         private void BorrarRegistro(int fila)
@@ -53,7 +53,6 @@ namespace InterfazUsuario
                 return;
 
             int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
-
             LNyAD.BorrarUsuario(idUsuario);
         }
 

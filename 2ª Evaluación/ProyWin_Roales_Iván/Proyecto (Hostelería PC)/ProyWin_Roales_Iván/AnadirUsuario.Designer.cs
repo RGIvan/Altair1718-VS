@@ -171,6 +171,7 @@
             // 
             // cbAcceso
             // 
+            this.cbAcceso.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAcceso.FormattingEnabled = true;
             this.cbAcceso.Location = new System.Drawing.Point(69, 230);
             this.cbAcceso.Name = "cbAcceso";
