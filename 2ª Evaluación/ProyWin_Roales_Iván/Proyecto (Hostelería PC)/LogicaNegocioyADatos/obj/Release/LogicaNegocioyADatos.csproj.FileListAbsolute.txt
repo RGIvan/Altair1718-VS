@@ -1,7 +1,0 @@
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Release\BD_monteria.accdb
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Release\LogicaNegocioyADatos.dll.config
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Release\LogicaNegocioyADatos.dll
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Release\LogicaNegocioyADatos.pdb
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Release\MySql.Data.dll
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Release\LogicaNegocioyADatos.dll
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Release\LogicaNegocioyADatos.pdb
