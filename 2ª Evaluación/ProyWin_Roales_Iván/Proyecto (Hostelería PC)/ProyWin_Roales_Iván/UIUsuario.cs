@@ -129,11 +129,6 @@ namespace InterfazUsuario
             int idRestaurante = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
             LNyAD.BorrarRestaurante(idRestaurante);
         }
-
-        private void BorrarRegistroUsuario(int fila)
-        {
-
-        }
         #endregion
 
         #region tsb
