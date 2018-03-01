@@ -14,6 +14,7 @@ namespace InterfazUsuario
 {
     public partial class UIAdmin : Form
     {
+        #region Propiedades
         Usuario usu;
 
         public Usuario Usu
@@ -27,13 +28,15 @@ namespace InterfazUsuario
             {
                 usu = value;
             }
-        }
+        } 
+        #endregion
 
         public UIAdmin()
         {
             InitializeComponent();
         }
 
+        #region Cells
         private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int colum = e.ColumnIndex;
@@ -46,7 +49,9 @@ namespace InterfazUsuario
             else
                 return;
         }
+        #endregion
 
+        #region Registros
         private void BorrarRegistro(int fila)
         {
             if (DialogResult.No == MessageBox.Show("¿Está seguro de eliminar a:\n" + dgv.Rows[fila].Cells["usuario"].Value.ToString() + "?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
@@ -66,8 +71,10 @@ namespace InterfazUsuario
             fEditUsuario.ShowDialog();
 
             fEditUsuario.Dispose();
-        }
+        } 
+        #endregion
 
+        #region tsb
         private void tsbUsuario_Click(object sender, EventArgs e)
         {
             dgv.DataSource = LNyAD.TablaUsuarios();
@@ -80,11 +87,6 @@ namespace InterfazUsuario
             dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
         }
 
-        private void UIUsuario_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void tsbAnadirUsuario_Click(object sender, EventArgs e)
         {
             Usuario usu = new Usuario();
@@ -94,6 +96,12 @@ namespace InterfazUsuario
             fAnadirUsuario.ShowDialog();
 
             fAnadirUsuario.Dispose();
+        } 
+        #endregion
+
+        private void UIUsuario_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

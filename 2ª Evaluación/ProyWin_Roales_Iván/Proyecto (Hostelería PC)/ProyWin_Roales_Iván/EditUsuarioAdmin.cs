@@ -14,6 +14,7 @@ namespace InterfazUsuario
 {
     public partial class EditUsuarioAdmin : Form
     {
+        #region Propiedades
         Usuario usu;
 
         public Usuario Usu
@@ -27,7 +28,8 @@ namespace InterfazUsuario
             {
                 usu = value;
             }
-        }
+        } 
+        #endregion
 
         public EditUsuarioAdmin()
         {
@@ -35,6 +37,7 @@ namespace InterfazUsuario
             
         }
 
+        #region Load
         private void EditUsuarioAdmin_Load(object sender, EventArgs e)
         {
             this.usu = new Usuario();
@@ -50,13 +53,15 @@ namespace InterfazUsuario
             cbAcceso.Items.Insert(0, "0. Deshabilitado");
             cbAcceso.Items.Insert(1, "1. Admin");
             cbAcceso.Items.Insert(2, "2. Usuario");
-        }
+        } 
+        #endregion
 
+        #region Registro
         private void btnRegistro_Click(object sender, EventArgs e)
         {
             if (!HayErrorEnFormulario())
             {
-                this.usu = new Usuario();   
+                this.usu = new Usuario();
 
                 usu.Login = txbUsuario.Text;
                 usu.Password = txbPass.Text;
@@ -68,8 +73,10 @@ namespace InterfazUsuario
                 MessageBox.Show("El usuario se ha editado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
-        }
+        } 
+        #endregion
 
+        #region Error
         private bool HayErrorEnFormulario()
         {
             errorProvider1.Clear();
@@ -116,6 +123,7 @@ namespace InterfazUsuario
             }
 
             return error;
-        }
+        } 
+        #endregion
     }
 }

@@ -14,6 +14,7 @@ namespace InterfazUsuario
 {
     public partial class EditUsuario : Form
     {
+        #region Propiedades
         Usuario usu;
 
         public Usuario Usu
@@ -27,7 +28,8 @@ namespace InterfazUsuario
             {
                 usu = value;
             }
-        }
+        } 
+        #endregion
 
         public EditUsuario()
         {
@@ -39,11 +41,12 @@ namespace InterfazUsuario
             
         }
 
+        #region Registro
         private void btnRegistro_Click(object sender, EventArgs e)
         {
             if (!HayErrorEnFormulario())
             {
-                this.usu = new Usuario();   
+                this.usu = new Usuario();
 
                 usu.Login = txbUsuario.Text;
                 usu.Password = txbPass.Text;
@@ -54,8 +57,10 @@ namespace InterfazUsuario
                 MessageBox.Show("El usuario se ha editado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
-        }
+        } 
+        #endregion
 
+        #region Error
         private bool HayErrorEnFormulario()
         {
             errorProvider1.Clear();
@@ -102,6 +107,7 @@ namespace InterfazUsuario
             }
 
             return error;
-        }
+        } 
+        #endregion
     }
 }

@@ -26,6 +26,7 @@ namespace InterfazUsuario
             btnRegistro.Select();
         }
 
+        #region Registro
         private void btnRegistro_Click(object sender, EventArgs e)
         {
             errorProvider1.Clear();
@@ -87,6 +88,7 @@ namespace InterfazUsuario
                 MessageBox.Show("El usuario ha sido registrado con éxito", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
-        }
+        } 
+        #endregion
     }
 }

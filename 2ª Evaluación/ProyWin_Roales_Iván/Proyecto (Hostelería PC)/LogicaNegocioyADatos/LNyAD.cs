@@ -19,7 +19,7 @@ namespace LogicaNegocioyADatos
         static productoTableAdapter productosAdapter = new productoTableAdapter();
         static DataSet1.productoDataTable productosTabla = new DataSet1.productoDataTable();
 
-        #region Listas Combo
+        #region Listas
         static public List<Usuario> ListaUsuarios()
         {
             List<Usuario> listaUsuarios = new List<Usuario>();

@@ -20,6 +20,7 @@ namespace InterfazUsuario
             InitializeComponent();
         }
 
+        #region Entrar
         private void btnEntrar_Click(object sender, EventArgs e)
         {
             errorProvider1.Clear();
@@ -103,13 +104,15 @@ namespace InterfazUsuario
                 txbPass.Text = String.Empty;
                 btnEntrar.Focus();
             }
-        }
+        } 
+        #endregion
 
         private void Login_Load(object sender, EventArgs e)
         {
             btnEntrar.Select();
         }
 
+        #region Registro
         private void btnRegistro_Click(object sender, EventArgs e)
         {
             errorProvider1.Clear();
@@ -118,6 +121,7 @@ namespace InterfazUsuario
             Registro regUser = new Registro();
             regUser.ShowDialog();
             regUser.Dispose();
-        }
+        } 
+        #endregion
     }
 }
