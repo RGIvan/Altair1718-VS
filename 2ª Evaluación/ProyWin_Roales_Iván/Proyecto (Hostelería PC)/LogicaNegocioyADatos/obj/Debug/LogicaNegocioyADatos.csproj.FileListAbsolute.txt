@@ -10,7 +10,6 @@ C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Debug\LogicaNegocioyADatos.dll.config
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Debug\LogicaNegocioyADatos.dll
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Debug\LogicaNegocioyADatos.pdb
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Debug\MySql.Data.dll
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.csprojResolveAssemblyReference.cache
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.dll
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.pdb

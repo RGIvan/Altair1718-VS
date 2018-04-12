@@ -39,7 +39,6 @@ C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\bin\Debug\InterfazUsuario.exe
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\bin\Debug\InterfazUsuario.pdb
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\bin\Debug\LogicaNegocioyADatos.dll
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\bin\Debug\MySql.Data.dll
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\bin\Debug\LogicaNegocioyADatos.pdb
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.csprojResolveAssemblyReference.cache
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.EditProducto.resources
