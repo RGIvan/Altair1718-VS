@@ -95,7 +95,8 @@ namespace GestionPoligonosReg
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            grap.Clear(Color.White);
+            if (DialogResult.Yes == MessageBox.Show("¿Estás seguro de borrar el dibujo?", "Copnfirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2))
+                grap.Clear(panelDibujo.BackColor);
         }
 
         private void trackY_Scroll(object sender, EventArgs e)
