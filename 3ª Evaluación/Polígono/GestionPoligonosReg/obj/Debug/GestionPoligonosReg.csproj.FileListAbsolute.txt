@@ -37,3 +37,12 @@ C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\
 C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.FormDibujo.resources
 C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Properties.Resources.resources
 C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csproj.GenerateResource.Cache
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.pdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.FormDibujo.resources
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Properties.Resources.resources
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csproj.GenerateResource.Cache
