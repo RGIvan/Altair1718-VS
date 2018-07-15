@@ -1,0 +1,7 @@
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\LNegocioyADatos\bin\Debug\BD_AlumnosFP.accdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll.config
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\LNegocioyADatos\bin\Debug\LNegocioyADatos.pdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\LNegocioyADatos\obj\Debug\LNegocioyADatos.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\LNegocioyADatos\obj\Debug\LNegocioyADatos.dll
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\LNegocioyADatos\obj\Debug\LNegocioyADatos.pdb

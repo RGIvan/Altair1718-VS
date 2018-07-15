@@ -1,1 +1,13 @@
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\bin\Debug\GestionAlumnos2Capas.exe.config
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\bin\Debug\BD_AlumnosFP.accdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\bin\Debug\GestionAlumnos2Capas.exe
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\bin\Debug\GestionAlumnos2Capas.pdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\bin\Debug\LNegocioyADatos.dll
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\bin\Debug\LNegocioyADatos.pdb
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\InterfazUsuario.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\InterfazUsuario.IUAlumno.resources
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\InterfazUsuario.IUDetalleAlumno.resources
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.Properties.Resources.resources
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\InterfazUsuario.csproj.GenerateResource.Cache
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.exe
+C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.pdb
