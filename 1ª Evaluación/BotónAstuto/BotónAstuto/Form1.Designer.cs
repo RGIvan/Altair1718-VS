@@ -62,7 +62,7 @@
             this.btnSi.Name = "btnSi";
             this.btnSi.Size = new System.Drawing.Size(96, 64);
             this.btnSi.TabIndex = 3;
-            this.btnSi.Text = "SI";
+            this.btnSi.Text = "SÍ";
             this.btnSi.MouseEnter += new System.EventHandler(this.btnSi_MouseEnter);
             // 
             // Form1

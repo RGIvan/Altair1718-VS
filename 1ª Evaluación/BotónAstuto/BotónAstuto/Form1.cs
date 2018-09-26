@@ -13,6 +13,7 @@ namespace BotónAstuto
     {
         Point[] puntos = { new Point(266, 250), new Point(77, 280), new Point(200, 200), new Point(408, 250), new Point(466, 105), new Point(200, 200), new Point(77, 280), new Point(40, 111) };
         int posicion = 0;
+        Random r = new Random();
 
         public Form1()
         {
@@ -24,16 +25,17 @@ namespace BotónAstuto
             btnSi.Visible = false;
             label1.BackColor = System.Drawing.Color.Red;
             label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            label1.Text = "¡Pues Sigue a tu bola!";
+            label1.Text = "¡Fuera!";
         }
 
         private void btnSi_MouseEnter(object sender, EventArgs e)
         {
-            btnSi.Location = new System.Drawing.Point(160, 135);
+            btnSi.Location = puntos[posicion]; //new System.Drawing.Point(160, 135);
+
             posicion++;
             if (posicion == 8)
                 posicion = 0;
-            
+
             //posicion = (posicion + 1) % 8;
         }
 

@@ -21,3 +21,10 @@ C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto 
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.csprojResolveAssemblyReference.cache
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.dll
 C:\Users\ALUM01\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Debug\BD_monteria.accdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Debug\LogicaNegocioyADatos.dll.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Debug\LogicaNegocioyADatos.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\bin\Debug\LogicaNegocioyADatos.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\LogicaNegocioyADatos\obj\Debug\LogicaNegocioyADatos.pdb

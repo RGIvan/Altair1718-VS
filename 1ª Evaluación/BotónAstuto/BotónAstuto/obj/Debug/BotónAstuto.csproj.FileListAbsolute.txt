@@ -35,3 +35,12 @@ C:\Altair\PNet2 Windows Form\_PracticasEjemplos_Windows\02 Botón Astuto\BotónA
 C:\Users\ALUM01\git\Altair1718-VS\BotónAstuto\BotónAstuto\bin\Debug\BotónAstuto.exe.config
 C:\Users\ALUM01\git\Altair1718-VS\BotónAstuto\BotónAstuto\obj\Debug\BotónAstuto.exe
 C:\Users\ALUM01\git\Altair1718-VS\BotónAstuto\BotónAstuto\obj\Debug\BotónAstuto.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\BotónAstuto\BotónAstuto\bin\Debug\BotónAstuto.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\BotónAstuto\BotónAstuto\obj\Debug\BotónAstuto.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\BotónAstuto\BotónAstuto\obj\Debug\BotónAstuto.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\BotónAstuto\BotónAstuto\bin\Debug\BotónAstuto.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\BotónAstuto\BotónAstuto\bin\Debug\BotónAstuto.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\BotónAstuto\BotónAstuto\obj\Debug\BotónAstuto.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\BotónAstuto\BotónAstuto\obj\Debug\BotónAstuto.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\BotónAstuto\BotónAstuto\obj\Debug\BotónAstuto.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\BotónAstuto\BotónAstuto\obj\Debug\BotónAstuto.csproj.GenerateResource.Cache
