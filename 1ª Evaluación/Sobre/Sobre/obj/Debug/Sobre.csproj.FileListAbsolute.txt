@@ -7,3 +7,12 @@ C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\Sobre\Sobre\bin\Debug\Sobr
 C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\Sobre\Sobre\obj\Debug\Sobre.csprojResolveAssemblyReference.cache
 C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\Sobre\Sobre\obj\Debug\Sobre.exe
 C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\Sobre\Sobre\obj\Debug\Sobre.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Sobre\Sobre\bin\Debug\Sobre.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Sobre\Sobre\obj\Debug\Sobre.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Sobre\Sobre\obj\Debug\Sobre.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Sobre\Sobre\bin\Debug\Sobre.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Sobre\Sobre\bin\Debug\Sobre.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Sobre\Sobre\obj\Debug\Sobre.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Sobre\Sobre\obj\Debug\Sobre.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Sobre\Sobre\obj\Debug\Sobre.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Sobre\Sobre\obj\Debug\Sobre.csproj.GenerateResource.Cache
