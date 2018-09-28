@@ -38,6 +38,11 @@ namespace FormFrase
             formato.Alignment = StringAlignment.Far;
             formato.LineAlignment = StringAlignment.Far;
             grafico.DrawString("Hola", this.Font, new SolidBrush(Color.Red), ClientSize.Width, ClientSize.Height, formato);
+
+            formato.Alignment = StringAlignment.Near;
+            formato.LineAlignment = StringAlignment.Far;
+            grafico.DrawString("Hola", this.Font, new SolidBrush(Color.Red), 0, ClientSize.Height, formato);
+
         }
     }
 }
