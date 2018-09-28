@@ -1,0 +1,9 @@
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Rectangulo\Rectangulo\bin\Debug\Rectangulo.exe.config
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\Rectangulo\Rectangulo\bin\Debug\Rectangulo.exe
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\Rectangulo\Rectangulo\bin\Debug\Rectangulo.pdb
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\Rectangulo\Rectangulo\obj\Debug\Rectangulo.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\Rectangulo\Rectangulo\obj\Debug\Rectangulo.Form1.resources
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\Rectangulo\Rectangulo\obj\Debug\Rectangulo.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\Rectangulo\Rectangulo\obj\Debug\Rectangulo.csproj.GenerateResource.Cache
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\Rectangulo\Rectangulo\obj\Debug\Rectangulo.exe
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\Rectangulo\Rectangulo\obj\Debug\Rectangulo.pdb
