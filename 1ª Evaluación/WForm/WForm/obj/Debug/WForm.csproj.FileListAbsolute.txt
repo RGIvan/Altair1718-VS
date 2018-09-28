@@ -1,0 +1,9 @@
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\WForm\WForm\bin\Debug\WForm.exe.config
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\WForm\WForm\bin\Debug\WForm.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\WForm\WForm\bin\Debug\WForm.pdb
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\WForm\WForm\obj\Debug\WForm.csprojResolveAssemblyReference.cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\WForm\WForm\obj\Debug\WForm.FormPrueba1.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\WForm\WForm\obj\Debug\WForm.Properties.Resources.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\WForm\WForm\obj\Debug\WForm.csproj.GenerateResource.Cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\WForm\WForm\obj\Debug\WForm.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\WForm\WForm\obj\Debug\WForm.pdb

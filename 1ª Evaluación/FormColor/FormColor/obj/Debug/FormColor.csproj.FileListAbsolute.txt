@@ -1,0 +1,8 @@
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormColor\FormColor\bin\Debug\FormColor.exe.config
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\FormColor\FormColor\bin\Debug\FormColor.exe
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\FormColor\FormColor\bin\Debug\FormColor.pdb
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\FormColor\FormColor\obj\Debug\FormColor.Form1.resources
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\FormColor\FormColor\obj\Debug\FormColor.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\FormColor\FormColor\obj\Debug\FormColor.csproj.GenerateResource.Cache
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\FormColor\FormColor\obj\Debug\FormColor.exe
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\FormColor\FormColor\obj\Debug\FormColor.pdb

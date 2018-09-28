@@ -7,3 +7,6 @@ c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Trac
 c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Track.csproj.GenerateResource.Cache
 c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Track.exe
 c:\users\alum01\documents\visual studio 2015\Projects\Track\Track\obj\Debug\Track.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Track\Track\bin\Debug\Track.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Track\Track\obj\Debug\Track.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Track\Track\obj\Debug\Track.pdb

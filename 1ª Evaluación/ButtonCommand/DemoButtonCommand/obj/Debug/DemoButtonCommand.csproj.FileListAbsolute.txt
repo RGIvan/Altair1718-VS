@@ -34,3 +34,9 @@ C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoB
 C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.csprojResolveAssemblyReference.cache
 C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.dll
 C:\Altair\PNet3 ASP.Net\Web1 Introducción a ASP.NET\Demo 1c ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ButtonCommand\DemoButtonCommand\bin\DemoButtonCommand.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ButtonCommand\DemoButtonCommand\obj\Debug\DemoButtonCommand.pdb

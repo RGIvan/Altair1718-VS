@@ -22,3 +22,6 @@ C:\Users\Crono\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.pdb
 C:\Users\ALUM01\git\Altair1718-VS\Prueba\Prueba\bin\Debug\Prueba.exe.config
 C:\Users\ALUM01\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.exe
 C:\Users\ALUM01\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\obj\Debug\Prueba.pdb

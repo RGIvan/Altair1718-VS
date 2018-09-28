@@ -1,0 +1,9 @@
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormFrase\FormFrase\bin\Debug\FormFrase.exe.config
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormFrase\FormFrase\bin\Debug\FormFrase.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormFrase\FormFrase\bin\Debug\FormFrase.pdb
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormFrase\FormFrase\obj\Debug\FormFrase.csprojResolveAssemblyReference.cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormFrase\FormFrase\obj\Debug\FormFrase.Form1.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormFrase\FormFrase\obj\Debug\FormFrase.Properties.Resources.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormFrase\FormFrase\obj\Debug\FormFrase.csproj.GenerateResource.Cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormFrase\FormFrase\obj\Debug\FormFrase.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\FormFrase\FormFrase\obj\Debug\FormFrase.pdb
