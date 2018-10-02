@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6B229672-142A-47D8-B5D7-0AC6AFAFCA17}</ProjectGuid>
+    <ProjectGuid>{906FF0F6-B53D-459E-B4B1-CBD973327A61}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Senoide</RootNamespace>

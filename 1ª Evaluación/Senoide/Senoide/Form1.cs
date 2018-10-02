@@ -12,33 +12,40 @@ namespace Senoide
 {
     public partial class Form1 : Form
     {
-        int numCiclos = 5;
+        Graphics grafico;
         public Form1()
         {
             InitializeComponent();
+            ResizeRedraw = true;
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            Graphics grfx = panel1.CreateGraphics();
 
-            Point[] tabPuntos = new Point[panel1.Width];
+        }
 
-            int x, y;
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            grafico = this.CreateGraphics();
+            Pen lapiz = new Pen(Color.Black);
+            Point[] puntos = new Point[ClientSize.Width];
 
-            int amlitud = panel1.Height / 2;
+            int x = 0, y = 0;
 
-            for (x = 0; x < tabPuntos.Length; x++)
-
+            for (x = 0; x < ClientSize.Width; x++)
             {
+                y =ClientSize.Height/2 - (int)(200 *Math.Sin(x*4*Math.PI/ ClientSize.Width));
+                puntos[x] = new Point(x, y); // con el +50 estoy desplazando la figura a la derecha 50 pixeles 
 
-                y = amlitud - (int)(amlitud * Math.Sin(x * numCiclos * 2 * Math.PI / 900));
-
-                tabPuntos[x] = new Point(x, y);
-
+                //puntos[x] = new Point(x+50, y); // con el +50 estoy desplazando la figura a la derecha 50 pixeles 
             }
 
-            grfx.DrawLines(new Pen(Color.Black, 2), tabPuntos);
+            // eje horizontal
+            grafico.DrawLine(new Pen(Color.Red), 0, ClientSize.Height / 2, ClientSize.Width, ClientSize.Height / 2);
+            // eje vertical
+            grafico.DrawLine(new Pen(Color.Red), 0, 0, 0, ClientSize.Height);
+
+            grafico.DrawLines(lapiz, puntos);
         }
     }
 }
