@@ -71,6 +71,11 @@ namespace Estrella
         {
             bRellenar = !bRellenar;
 
+            if (bRellenar)
+                btnRellenar.Text = "Vaciar";
+            else
+                btnRellenar.Text = "Rellenar";
+
             Invalidate();
         }
 

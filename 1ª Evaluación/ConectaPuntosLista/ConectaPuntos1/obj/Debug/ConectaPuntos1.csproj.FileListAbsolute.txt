@@ -46,3 +46,12 @@ C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1
 C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\ConectaPuntosLista\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe.config
 C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.exe
 C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\bin\Debug\ConectaPuntos1.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.csproj.GenerateResource.Cache

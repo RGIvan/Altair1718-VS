@@ -18,17 +18,10 @@ namespace ElipsesRectangulos
 
         int cX = 100, cY = 100, ejeX = 100, ejeY = 100;
 
-
         float grosor = 2;
+
         Color color = Color.FromArgb(0, 0, 0);
 
-
-
         bool okX = true, okY = true, okejeX = true;
-
-
-
-
-
     }
 }
