@@ -25,3 +25,9 @@ C:\Users\ALUM01\git\Altair1718-VS\Prueba\Prueba\obj\Debug\Prueba.pdb
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\bin\Debug\Prueba.exe.config
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\obj\Debug\Prueba.exe
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\obj\Debug\Prueba.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\obj\Debug\Prueba.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\obj\Debug\Prueba.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Prueba\Prueba\obj\Debug\Prueba.csproj.GenerateResource.Cache

@@ -16,3 +16,12 @@ F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.csprojResolveAssembly
 F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.Form1.resources
 F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.Properties.Resources.resources
 F:\DWS\Projects\SenoideWin\SenoideWin\obj\Debug\SenoideWin.csproj.GenerateResource.Cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\SenoideWin\SenoideWin\bin\Debug\SenoideWin.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\SenoideWin\SenoideWin\obj\Debug\SenoideWin.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\SenoideWin\SenoideWin\obj\Debug\SenoideWin.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\SenoideWin\SenoideWin\bin\Debug\SenoideWin.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\SenoideWin\SenoideWin\bin\Debug\SenoideWin.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\SenoideWin\SenoideWin\obj\Debug\SenoideWin.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\SenoideWin\SenoideWin\obj\Debug\SenoideWin.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\SenoideWin\SenoideWin\obj\Debug\SenoideWin.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\SenoideWin\SenoideWin\obj\Debug\SenoideWin.csproj.GenerateResource.Cache

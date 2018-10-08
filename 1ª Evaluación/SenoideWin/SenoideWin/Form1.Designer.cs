@@ -38,6 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.nudOffset = new System.Windows.Forms.NumericUpDown();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbColorTrazo = new System.Windows.Forms.Label();
             this.cbGrosor = new System.Windows.Forms.ComboBox();
             this.lbColorTrazo2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnDibujar = new System.Windows.Forms.Button();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.lbColorTrazo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trkbAmplitud)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCiclos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDesfase)).BeginInit();
@@ -172,6 +172,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Trazo";
             // 
+            // lbColorTrazo
+            // 
+            this.lbColorTrazo.BackColor = System.Drawing.Color.Black;
+            this.lbColorTrazo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbColorTrazo.Location = new System.Drawing.Point(22, 140);
+            this.lbColorTrazo.Name = "lbColorTrazo";
+            this.lbColorTrazo.Size = new System.Drawing.Size(55, 22);
+            this.lbColorTrazo.TabIndex = 13;
+            this.lbColorTrazo.Click += new System.EventHandler(this.lbColorTrazo_Click);
+            // 
             // cbGrosor
             // 
             this.cbGrosor.BackColor = System.Drawing.SystemColors.Control;
@@ -291,16 +301,6 @@
             this.btnDibujar.Text = "Dibujar";
             this.btnDibujar.UseVisualStyleBackColor = true;
             this.btnDibujar.Click += new System.EventHandler(this.btnDibujar_Click);
-            // 
-            // lbColorTrazo
-            // 
-            this.lbColorTrazo.BackColor = System.Drawing.Color.Black;
-            this.lbColorTrazo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbColorTrazo.Location = new System.Drawing.Point(22, 140);
-            this.lbColorTrazo.Name = "lbColorTrazo";
-            this.lbColorTrazo.Size = new System.Drawing.Size(55, 22);
-            this.lbColorTrazo.TabIndex = 13;
-            this.lbColorTrazo.Click += new System.EventHandler(this.lbColorTrazo_Click);
             // 
             // Form1
             // 

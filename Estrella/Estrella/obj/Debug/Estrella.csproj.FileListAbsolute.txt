@@ -1,0 +1,9 @@
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\bin\Debug\Estrella.exe.config
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\bin\Debug\Estrella.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\bin\Debug\Estrella.pdb
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.csprojResolveAssemblyReference.cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.Form1.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.Properties.Resources.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.csproj.GenerateResource.Cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.pdb
