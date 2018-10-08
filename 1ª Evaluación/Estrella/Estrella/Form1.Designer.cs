@@ -35,7 +35,7 @@
             // 
             // btnRellenar
             // 
-            this.btnRellenar.Location = new System.Drawing.Point(12, 12);
+            this.btnRellenar.Location = new System.Drawing.Point(12, 10);
             this.btnRellenar.Name = "btnRellenar";
             this.btnRellenar.Size = new System.Drawing.Size(75, 23);
             this.btnRellenar.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // btnGirar
             // 
-            this.btnGirar.Location = new System.Drawing.Point(93, 12);
+            this.btnGirar.Location = new System.Drawing.Point(93, 10);
             this.btnGirar.Name = "btnGirar";
             this.btnGirar.Size = new System.Drawing.Size(75, 23);
             this.btnGirar.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // txtGiro
             // 
-            this.txtGiro.Location = new System.Drawing.Point(174, 13);
+            this.txtGiro.Location = new System.Drawing.Point(174, 10);
             this.txtGiro.Name = "txtGiro";
             this.txtGiro.Size = new System.Drawing.Size(78, 20);
             this.txtGiro.TabIndex = 2;

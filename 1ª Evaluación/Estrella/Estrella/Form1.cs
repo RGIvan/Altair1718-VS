@@ -37,11 +37,11 @@ namespace Estrella
             tablaPuntos = new Point[numVertices];
             centro = new Point(ClientSize.Width / 2, ClientSize.Height / 2);
 
-            int margenX = ClientSize.Width / 20;
-            int margenY = ClientSize.Height / 20;
+            int margenX = ClientSize.Width / 5;
+            int margenY = ClientSize.Height / 5;
             int ancho = ClientSize.Width - 2 * margenX;
             int alto = ClientSize.Height - 2 * margenY;
-            double anguloBase = 2 * Math.PI / numVertices;
+            double anguloBase = 2 * Math.PI / numVertices; //Fórmula para convertir el ángulo en radianes
             int radio;
 
             if (ancho < alto)
