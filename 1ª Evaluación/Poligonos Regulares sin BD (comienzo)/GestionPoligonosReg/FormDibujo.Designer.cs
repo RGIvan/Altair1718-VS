@@ -81,12 +81,12 @@
             this.trackY.Maximum = 500;
             this.trackY.Name = "trackY";
             this.trackY.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackY.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.trackY.Size = new System.Drawing.Size(45, 520);
             this.trackY.SmallChange = 10;
-            this.trackY.TabIndex = 1;
+            this.trackY.TabIndex = 2;
             this.trackY.TickFrequency = 10;
             this.trackY.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.trackY.Value = 250;
             this.trackY.Scroll += new System.EventHandler(this.trackY_Scroll);
             // 
             // trackX
@@ -96,12 +96,12 @@
             this.trackX.Location = new System.Drawing.Point(15, 530);
             this.trackX.Maximum = 500;
             this.trackX.Name = "trackX";
-            this.trackX.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.trackX.Size = new System.Drawing.Size(520, 45);
             this.trackX.SmallChange = 10;
-            this.trackX.TabIndex = 1;
+            this.trackX.TabIndex = 3;
             this.trackX.TickFrequency = 10;
             this.trackX.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.trackX.Value = 250;
             this.trackX.Scroll += new System.EventHandler(this.trackX_Scroll);
             // 
             // label2
@@ -140,7 +140,8 @@
             this.trackRadio.Name = "trackRadio";
             this.trackRadio.Size = new System.Drawing.Size(258, 30);
             this.trackRadio.TabIndex = 28;
-            this.trackRadio.ValueChanged += new System.EventHandler(this.trackRadio_ValueChanged);
+            this.trackRadio.Value = 100;
+            this.trackRadio.Scroll += new System.EventHandler(this.trackRadio_Scroll);
             // 
             // txtRadio
             // 
@@ -152,8 +153,8 @@
             this.txtRadio.Name = "txtRadio";
             this.txtRadio.Size = new System.Drawing.Size(48, 29);
             this.txtRadio.TabIndex = 29;
+            this.txtRadio.Text = "100";
             this.txtRadio.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtRadio.TextChanged += new System.EventHandler(this.txtRadio_TextChanged);
             // 
             // nudNumLados
             // 
@@ -175,10 +176,11 @@
             this.nudNumLados.TabIndex = 30;
             this.nudNumLados.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudNumLados.Value = new decimal(new int[] {
-            3,
+            5,
             0,
             0,
             0});
+            this.nudNumLados.ValueChanged += new System.EventHandler(this.nudNumLados_ValueChanged);
             // 
             // cbGrosor
             // 
@@ -189,6 +191,7 @@
             this.cbGrosor.Name = "cbGrosor";
             this.cbGrosor.Size = new System.Drawing.Size(57, 30);
             this.cbGrosor.TabIndex = 31;
+            this.cbGrosor.SelectedIndexChanged += new System.EventHandler(this.cbGrosor_SelectedIndexChanged);
             // 
             // txtGiro
             // 
@@ -206,9 +209,7 @@
             // 
             this.trackGiro.AutoSize = false;
             this.trackGiro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.trackGiro.LargeChange = 1;
             this.trackGiro.Location = new System.Drawing.Point(607, 282);
-            this.trackGiro.Maximum = 90;
             this.trackGiro.Name = "trackGiro";
             this.trackGiro.Size = new System.Drawing.Size(258, 30);
             this.trackGiro.TabIndex = 34;
@@ -302,7 +303,7 @@
             this.rbAzul.TabIndex = 3;
             this.rbAzul.Text = "Azul";
             this.rbAzul.UseVisualStyleBackColor = true;
-            this.rbAzul.CheckedChanged += new System.EventHandler(this.rbNegro_CheckedChanged);
+            this.rbAzul.CheckedChanged += new System.EventHandler(this.rbColor_CheckedChanged);
             // 
             // rbVerde
             // 
@@ -314,7 +315,7 @@
             this.rbVerde.TabIndex = 2;
             this.rbVerde.Text = "Verde";
             this.rbVerde.UseVisualStyleBackColor = true;
-            this.rbVerde.CheckedChanged += new System.EventHandler(this.rbNegro_CheckedChanged);
+            this.rbVerde.CheckedChanged += new System.EventHandler(this.rbColor_CheckedChanged);
             // 
             // rbRojo
             // 
@@ -326,18 +327,20 @@
             this.rbRojo.TabIndex = 1;
             this.rbRojo.Text = "Rojo";
             this.rbRojo.UseVisualStyleBackColor = true;
-            this.rbRojo.CheckedChanged += new System.EventHandler(this.rbNegro_CheckedChanged);
+            this.rbRojo.CheckedChanged += new System.EventHandler(this.rbColor_CheckedChanged);
             // 
             // rbNegro
             // 
             this.rbNegro.AutoSize = true;
+            this.rbNegro.Checked = true;
             this.rbNegro.Location = new System.Drawing.Point(19, 88);
             this.rbNegro.Name = "rbNegro";
             this.rbNegro.Size = new System.Drawing.Size(64, 20);
             this.rbNegro.TabIndex = 0;
+            this.rbNegro.TabStop = true;
             this.rbNegro.Text = "Negro";
             this.rbNegro.UseVisualStyleBackColor = true;
-            this.rbNegro.CheckedChanged += new System.EventHandler(this.rbNegro_CheckedChanged);
+            this.rbNegro.CheckedChanged += new System.EventHandler(this.rbColor_CheckedChanged);
             // 
             // lbCoord
             // 

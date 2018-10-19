@@ -19,8 +19,8 @@ namespace GestionPoligonosReg
         int numlados = 5;
         int cordx = 275;
         int cordy = 275;
-        int giro = 0;
         Graphics grap;
+
         public FormDibujo()
         {
             InitializeComponent();
@@ -47,7 +47,6 @@ namespace GestionPoligonosReg
                 tabVertices[i] = new Point(cordx + (int)(radio * Math.Cos(i * angulo)), cordy + (int)(radio * Math.Sin(i * angulo)));
             }
 
-
             grap.DrawPolygon(lapiz, tabVertices);
 
         }
@@ -73,7 +72,6 @@ namespace GestionPoligonosReg
             RadioButton pulsado = (RadioButton)sender;
             switch (pulsado.Name)
             {
-
                 case "rbNegro":
                     color = rbNegro.ForeColor;
                     break;
@@ -90,12 +88,13 @@ namespace GestionPoligonosReg
                     color = rbRojo.ForeColor;
                     break;
             }
+
             lbColor.BackColor = color;
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            if (DialogResult.Yes == MessageBox.Show("¿Estás seguro de borrar el dibujo?", "Copnfirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2))
+            if (DialogResult.Yes == MessageBox.Show("¿Estás seguro de borrar el dibujo?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2))
                 grap.Clear(panelDibujo.BackColor);
         }
 
@@ -144,7 +143,6 @@ namespace GestionPoligonosReg
                 tabVertices[i] = new Point(cordx + (int)(radio * Math.Cos(i * angulo)), cordy + (int)(radio * Math.Sin(i * angulo)));
             }
 
-
             grap.DrawPolygon(lapiz, tabVertices);
 
             for (int i = 0; i < tabVertices.Length; i++)
@@ -175,7 +173,9 @@ namespace GestionPoligonosReg
             if(valorString == "") {
                 valorString = "0";
             }
+
             int valor = Convert.ToInt32(valorString);
+
             if (valor > 250 || valor < 0)
             {
                 MessageBox.Show("El valor debe ser entre 0 y 250", "Entre 0 y 250", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -187,6 +187,7 @@ namespace GestionPoligonosReg
                 trackRadio.Value = valor;
             }
         }
+
         private void txtRadio_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Char.IsNumber(e.KeyChar))
