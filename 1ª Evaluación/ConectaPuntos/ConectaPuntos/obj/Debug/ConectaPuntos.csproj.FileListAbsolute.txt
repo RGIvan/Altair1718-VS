@@ -1,0 +1,9 @@
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\ConectaPuntos\ConectaPuntos\bin\Debug\ConectaPuntos.exe.config
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\ConectaPuntos\ConectaPuntos\bin\Debug\ConectaPuntos.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\ConectaPuntos\ConectaPuntos\bin\Debug\ConectaPuntos.pdb
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\ConectaPuntos\ConectaPuntos\obj\Debug\ConectaPuntos.csprojResolveAssemblyReference.cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\ConectaPuntos\ConectaPuntos\obj\Debug\ConectaPuntos.Form1.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\ConectaPuntos\ConectaPuntos\obj\Debug\ConectaPuntos.Properties.Resources.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\ConectaPuntos\ConectaPuntos\obj\Debug\ConectaPuntos.csproj.GenerateResource.Cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\ConectaPuntos\ConectaPuntos\obj\Debug\ConectaPuntos.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\ConectaPuntos\ConectaPuntos\obj\Debug\ConectaPuntos.pdb

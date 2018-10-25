@@ -28,3 +28,6 @@ C:\Users\ALUM01\Documents\Visual Studio 2015\Projects\ComboBox\Prueba2\obj\Debug
 C:\Users\ALUM01\git\Altair1718-VS\ComboBox\Prueba2\bin\Debug\Prueba2.exe.config
 C:\Users\ALUM01\git\Altair1718-VS\ComboBox\Prueba2\obj\Debug\Prueba2.exe
 C:\Users\ALUM01\git\Altair1718-VS\ComboBox\Prueba2\obj\Debug\Prueba2.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ComboBox\Prueba2\bin\Debug\Prueba2.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ComboBox\Prueba2\obj\Debug\Prueba2.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ComboBox\Prueba2\obj\Debug\Prueba2.pdb

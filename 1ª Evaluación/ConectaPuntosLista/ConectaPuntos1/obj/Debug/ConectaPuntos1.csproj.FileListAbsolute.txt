@@ -1,0 +1,57 @@
+C:\Users\Alberto\Desktop\ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe.config
+C:\Users\Alberto\Desktop\ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe
+C:\Users\Alberto\Desktop\ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.pdb
+C:\Users\Alberto\Desktop\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Form1.resources
+C:\Users\Alberto\Desktop\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Properties.Resources.resources
+C:\Users\Alberto\Desktop\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.exe
+C:\Users\Alberto\Desktop\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.pdb
+C:\Altair\PNet2 Windows Form\w04_Control del Ratón (Todo en uno)\w04 Por separado\ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe.config
+C:\Altair\PNet2 Windows Form\w04_Control del Ratón (Todo en uno)\w04 Por separado\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.exe
+C:\Altair\PNet2 Windows Form\w04_Control del Ratón (Todo en uno)\w04 Por separado\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.pdb
+C:\Altair\PNet2 Windows Form\w04_Control del Ratón (Todo en uno)\w04 Por separado\ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe
+C:\Altair\PNet2 Windows Form\w04_Control del Ratón (Todo en uno)\w04 Por separado\ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.pdb
+C:\Altair\PNet2 Windows Form\w04_Control del Ratón (Todo en uno)\w04 Por separado\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csprojResolveAssemblyReference.cache
+C:\Altair\PNet2 Windows Form\w04_Control del Ratón (Todo en uno)\w04 Por separado\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Form1.resources
+C:\Altair\PNet2 Windows Form\w04_Control del Ratón (Todo en uno)\w04 Por separado\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Properties.Resources.resources
+C:\Altair\PNet2 Windows Form\w04_Control del Ratón (Todo en uno)\w04 Por separado\ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\PNet2 Windows Form 1617\W5_Control del Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe.config
+C:\Users\Alberto\Desktop\PNet2 Windows Form 1617\W5_Control del Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.exe
+C:\Users\Alberto\Desktop\PNet2 Windows Form 1617\W5_Control del Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.pdb
+C:\Users\Alberto\Desktop\PNet2 Windows Form 1617\W5_Control del Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe
+C:\Users\Alberto\Desktop\PNet2 Windows Form 1617\W5_Control del Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.pdb
+C:\Users\Alberto\Desktop\PNet2 Windows Form 1617\W5_Control del Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\PNet2 Windows Form 1617\W5_Control del Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Form1.resources
+C:\Users\Alberto\Desktop\PNet2 Windows Form 1617\W5_Control del Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Properties.Resources.resources
+C:\Users\Alberto\Desktop\PNet2 Windows Form 1617\W5_Control del Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csproj.GenerateResource.Cache
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1617\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe.config
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1617\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.exe
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1617\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.pdb
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1617\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1617\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.pdb
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1617\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csprojResolveAssemblyReference.cache
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1617\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Form1.resources
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1617\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Properties.Resources.resources
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1617\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csproj.GenerateResource.Cache
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe.config
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.exe
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.pdb
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\bin\Debug\ConectaPuntos1.pdb
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csprojResolveAssemblyReference.cache
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Form1.resources
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.Properties.Resources.resources
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\W5_Manejando el Ratón\W5b1_ConectaPuntos1\ConectaPuntos1\obj\Debug\ConectaPuntos1.csproj.GenerateResource.Cache
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\ConectaPuntosLista\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe.config
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.exe
+C:\Users\AlumnoCSI2\Documents\Visual Studio 2015\Projects\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\bin\Debug\ConectaPuntos1.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\bin\Debug\ConectaPuntos1.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ConectaPuntosLista\ConectaPuntos1\obj\Debug\ConectaPuntos1.csproj.GenerateResource.Cache

@@ -13,3 +13,9 @@ C:\Users\ALUM01\git\Altair1718-VS\CheckedList\CheckedList\obj\Debug\CheckedList.
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CheckedList\CheckedList\bin\Debug\CheckedList.exe.config
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CheckedList\CheckedList\obj\Debug\CheckedList.exe
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CheckedList\CheckedList\obj\Debug\CheckedList.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CheckedList\CheckedList\bin\Debug\CheckedList.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CheckedList\CheckedList\bin\Debug\CheckedList.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CheckedList\CheckedList\obj\Debug\CheckedList.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CheckedList\CheckedList\obj\Debug\CheckedList.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CheckedList\CheckedList\obj\Debug\CheckedList.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CheckedList\CheckedList\obj\Debug\CheckedList.csproj.GenerateResource.Cache

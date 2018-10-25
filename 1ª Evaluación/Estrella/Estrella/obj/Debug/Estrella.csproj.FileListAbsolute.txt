@@ -1,0 +1,18 @@
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\bin\Debug\Estrella.exe.config
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\bin\Debug\Estrella.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\bin\Debug\Estrella.pdb
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.csprojResolveAssemblyReference.cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.Form1.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.Properties.Resources.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.csproj.GenerateResource.Cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\Estrella\Estrella\obj\Debug\Estrella.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Estrella\Estrella\bin\Debug\Estrella.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Estrella\Estrella\obj\Debug\Estrella.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Estrella\Estrella\obj\Debug\Estrella.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Estrella\Estrella\bin\Debug\Estrella.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Estrella\Estrella\bin\Debug\Estrella.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Estrella\Estrella\obj\Debug\Estrella.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Estrella\Estrella\obj\Debug\Estrella.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Estrella\Estrella\obj\Debug\Estrella.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Estrella\Estrella\obj\Debug\Estrella.csproj.GenerateResource.Cache

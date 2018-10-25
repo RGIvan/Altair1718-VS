@@ -12,46 +12,44 @@ namespace ControladorRatón
 {
     public partial class Form1 : Form
     {
-
-        int RatonX = 0;
-        int RatonY = 0;
+        Point[] tabPuntos = new Point[16];
+        Point posRaton;
 
         public Form1()
         {
             InitializeComponent();
-            ResizeRedraw = true;
         }
 
-
-        private void onMouseMove(object sender, MouseEventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            Point pos = new Point(e.X, e.Y);
-
-            RatonX = pos.X;
-            RatonY = pos.Y;
-            this.Invalidate();
-            
+            int i = 0;
+            for (int x = 0; x < 5; x++)
+            {
+                tabPuntos[i++] = new Point(x * ClientSize.Width / 4, 0);
+                tabPuntos[i++] = new Point(x * ClientSize.Width / 4, ClientSize.Height);
+            }
+            for (int y = 1; y < 4; y++)
+            {
+                tabPuntos[i++] = new Point(0, y * ClientSize.Height / 4);
+                tabPuntos[i++] = new Point(ClientSize.Width, y * ClientSize.Height / 4);
+            }
         }
 
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
-            Graphics grafico = e.Graphics;
-            Pen pen = new Pen(Color.Black, 3);
+            if (e.Button == MouseButtons.Left)
+                return;
+            {
+                posRaton = new Point(e.X, e.Y);
+                Graphics graf = CreateGraphics();
+                Pen lapiz = new Pen(Color.Black);
+                graf.Clear(Color.White);
 
-            Point[] array = new Point[2];
-
-
-            array[0].X = RatonX;
-            array[0].Y = RatonY;
-
-            array[1].X = panel1.Width / 2;
-            array[1].Y = 0;
-
-            array[2].X = panel1.Width / 2;
-            array[2].Y = 0;
-
-
-            grafico.DrawLines(pen, array);
+                for (int i = 0; i < tabPuntos.Length; i++)
+                {
+                    graf.DrawLine(lapiz, posRaton, tabPuntos[i]);
+                }
+            }
         }
     }
 }

@@ -1,0 +1,9 @@
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\PanelFiguras\PanelFiguras\bin\Debug\PanelFiguras.exe.config
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\PanelFiguras\PanelFiguras\bin\Debug\PanelFiguras.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\PanelFiguras\PanelFiguras\bin\Debug\PanelFiguras.pdb
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\PanelFiguras\PanelFiguras\obj\Debug\PanelFiguras.csprojResolveAssemblyReference.cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\PanelFiguras\PanelFiguras\obj\Debug\PanelFiguras.Form1.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\PanelFiguras\PanelFiguras\obj\Debug\PanelFiguras.Properties.Resources.resources
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\PanelFiguras\PanelFiguras\obj\Debug\PanelFiguras.csproj.GenerateResource.Cache
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\PanelFiguras\PanelFiguras\obj\Debug\PanelFiguras.exe
+c:\users\alumnocsi2\documents\visual studio 2015\Projects\PanelFiguras\PanelFiguras\obj\Debug\PanelFiguras.pdb

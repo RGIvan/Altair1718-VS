@@ -1,0 +1,60 @@
+C:\Users\Alberto\Desktop\Accesos a Altair\Provisional\Prac_ComboBox\Prac_ComboBox\bin\Debug\Prac_ComboBox.exe
+C:\Users\Alberto\Desktop\Accesos a Altair\Provisional\Prac_ComboBox\Prac_ComboBox\bin\Debug\Prac_ComboBox.pdb
+C:\Users\Alberto\Desktop\Accesos a Altair\Provisional\Prac_ComboBox\Prac_ComboBox\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\Accesos a Altair\Provisional\Prac_ComboBox\Prac_ComboBox\obj\Debug\Prac_ComboBox.Properties.Resources.resources
+C:\Users\Alberto\Desktop\Accesos a Altair\Provisional\Prac_ComboBox\Prac_ComboBox\obj\Debug\Prac_ComboBox.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\Accesos a Altair\Provisional\Prac_ComboBox\Prac_ComboBox\obj\Debug\Prac_ComboBox.exe
+C:\Users\Alberto\Desktop\Accesos a Altair\Provisional\Prac_ComboBox\Prac_ComboBox\obj\Debug\Prac_ComboBox.pdb
+C:\Users\Alberto\Desktop\Accesos a Altair\Provisional\Prac_ComboBox\Prac_ComboBox\obj\Debug\Prac_ComboBox.FormComboBox.resources
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.exe
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.pdb
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.exe
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.pdb
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.FormComboBox.resources
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.Properties.Resources.resources
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.csproj.GenerateResource.Cache
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.exe
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.pdb
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.exe
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.pdb
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.FormComboBox.resources
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.Properties.Resources.resources
+C:\Users\Alberto\Documents\Altair\csi2 SRI\Curso SRI\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.csproj.GenerateResource.Cache
+C:\Altair\csi2 DWS\Curso DWS\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.exe
+C:\Altair\csi2 DWS\Curso DWS\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.pdb
+C:\Altair\csi2 DWS\Curso DWS\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.exe
+C:\Altair\csi2 DWS\Curso DWS\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.pdb
+C:\Altair\csi2 DWS\Curso DWS\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.FormComboBox.resources
+C:\Altair\csi2 DWS\Curso DWS\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.Properties.Resources.resources
+C:\Altair\csi2 DWS\Curso DWS\2 Windows\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.csproj.GenerateResource.Cache
+C:\Altair\PNet2 Windows Form\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.exe
+C:\Altair\PNet2 Windows Form\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.pdb
+C:\Altair\PNet2 Windows Form\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.exe
+C:\Altair\PNet2 Windows Form\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.pdb
+C:\Altair\PNet2 Windows Form\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.FormComboBox.resources
+C:\Altair\PNet2 Windows Form\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.Properties.Resources.resources
+C:\Altair\PNet2 Windows Form\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.csproj.GenerateResource.Cache
+C:\Altair\PNet2 Windows Form\w05_ControlesBasicos\w05_Prácticas de ControlesBasicos\w05p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.csprojResolveAssemblyReference.cache
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.exe
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.pdb
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.exe
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\bin\Debug\Prac_ComboBox.pdb
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.csprojResolveAssemblyReference.cache
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.FormComboBox.resources
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.Properties.Resources.resources
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox (OK)\Prac_ComboBox\obj\Debug\Prac_ComboBox.csproj.GenerateResource.Cache
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox tarea\Prac_ComboBox\obj\Debug\Prac_ComboBox.exe
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox tarea\Prac_ComboBox\obj\Debug\Prac_ComboBox.pdb
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox tarea\Prac_ComboBox\obj\Debug\Prac_ComboBox.csprojResolveAssemblyReference.cache
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox tarea\Prac_ComboBox\obj\Debug\Prac_ComboBox.FormComboBox.resources
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox tarea\Prac_ComboBox\obj\Debug\Prac_ComboBox.Properties.Resources.resources
+C:\Altair\PNet2 Windows Form\PNet2 Windows Form 1819\w7_Controles de Datos\w06p05 ComboBox\Prac_ComboBox tarea\Prac_ComboBox\obj\Debug\Prac_ComboBox.csproj.GenerateResource.Cache
+C:\Users\AlumnoCSI2\Downloads\Prac_ComboBox\obj\Debug\Prac_ComboBox.exe
+C:\Users\AlumnoCSI2\Downloads\Prac_ComboBox\obj\Debug\Prac_ComboBox.pdb
+C:\Users\AlumnoCSI2\Downloads\Prac_ComboBox\bin\Debug\Prac_ComboBox.exe
+C:\Users\AlumnoCSI2\Downloads\Prac_ComboBox\bin\Debug\Prac_ComboBox.pdb
+C:\Users\AlumnoCSI2\Downloads\Prac_ComboBox\obj\Debug\Prac_ComboBox.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Downloads\Prac_ComboBox\obj\Debug\Prac_ComboBox.FormComboBox.resources
+C:\Users\AlumnoCSI2\Downloads\Prac_ComboBox\obj\Debug\Prac_ComboBox.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Downloads\Prac_ComboBox\obj\Debug\Prac_ComboBox.csproj.GenerateResource.Cache

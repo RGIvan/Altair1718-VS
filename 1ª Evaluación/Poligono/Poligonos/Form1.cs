@@ -12,10 +12,10 @@ using System.Drawing.Drawing2D;
 
 namespace Poligonos
 {
-    public partial class Form1 : Form
+    public partial class Estrella : Form
     {
         int numVertices = 5;
-        public Form1()
+        public Estrella()
         {
             InitializeComponent();
             ResizeRedraw = true;
@@ -24,8 +24,8 @@ namespace Poligonos
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
             Graphics grafico = e.Graphics;
-            // Pa las líneas, construyo un pen  negro de grosor 3
-            Pen penNegro = new Pen(Color.Black, 3);
+            // Pa las líneas, construyo un pen  negro de grosor 2
+            Pen penNegro = new Pen(Color.Black, 2);
             // Pa los rellenos, construyo una brocha azul
             Brush brochaAzul = new SolidBrush(Color.Blue);
 
@@ -46,8 +46,8 @@ namespace Poligonos
 
             for (int i = 0; i < tablaPuntos.Length; i++)
             {
-                tablaPuntos[i].X = centro.X + (int)(radio * Math.Cos(i * anguloBase));
-                tablaPuntos[i].Y = centro.Y + (int)(radio * Math.Sin(i * anguloBase));
+                tablaPuntos[i].X = centro.X + (int)(radio * Math.Cos(i * anguloBase * 2));
+                tablaPuntos[i].Y = centro.Y + (int)(radio * Math.Sin(i * anguloBase * 2));
                 //Nota: si el número de vértices es impar, basta con multiplicar el ángulo por 2 para que salga una estrella
             }
 
@@ -59,11 +59,6 @@ namespace Poligonos
                 grafico.FillPolygon(brochaAzul, tablaPuntos);
                 // En caso de dibujar una estrella, sustituye la anterior por esta y comprueba la diferencia
                 // grafico.FillPolygon(brochaAzul, tablaPuntos, FillMode.Alternate);
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

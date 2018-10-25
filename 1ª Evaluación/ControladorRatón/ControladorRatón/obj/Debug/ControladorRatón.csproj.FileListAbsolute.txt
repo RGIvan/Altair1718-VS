@@ -7,3 +7,12 @@ c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\Controla
 c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.csproj.GenerateResource.Cache
 c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.exe
 c:\users\alum01\documents\visual studio 2015\Projects\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ControladorRatón\ControladorRatón\bin\Debug\ControladorRatón.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ControladorRatón\ControladorRatón\bin\Debug\ControladorRatón.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ControladorRatón\ControladorRatón\bin\Debug\ControladorRatón.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\ControladorRatón\ControladorRatón\obj\Debug\ControladorRatón.csproj.GenerateResource.Cache

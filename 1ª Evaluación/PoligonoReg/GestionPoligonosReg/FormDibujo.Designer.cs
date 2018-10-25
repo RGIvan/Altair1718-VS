@@ -87,6 +87,7 @@
             this.trackY.TabIndex = 1;
             this.trackY.TickFrequency = 10;
             this.trackY.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.trackY.Scroll += new System.EventHandler(this.trackY_Scroll);
             // 
             // trackX
             // 
@@ -101,6 +102,7 @@
             this.trackX.TabIndex = 1;
             this.trackX.TickFrequency = 10;
             this.trackX.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.trackX.Scroll += new System.EventHandler(this.trackX_Scroll);
             // 
             // label2
             // 
@@ -199,7 +201,6 @@
             this.txtGiro.Size = new System.Drawing.Size(48, 29);
             this.txtGiro.TabIndex = 35;
             this.txtGiro.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtGiro.TextChanged += new System.EventHandler(this.txtGiro_TextChanged);
             // 
             // trackGiro
             // 
@@ -211,7 +212,6 @@
             this.trackGiro.Name = "trackGiro";
             this.trackGiro.Size = new System.Drawing.Size(258, 30);
             this.trackGiro.TabIndex = 34;
-            this.trackGiro.ValueChanged += new System.EventHandler(this.trackGiro_ValueChanged);
             // 
             // label5
             // 
