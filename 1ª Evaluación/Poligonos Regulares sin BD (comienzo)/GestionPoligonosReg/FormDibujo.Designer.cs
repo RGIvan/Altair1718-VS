@@ -276,6 +276,7 @@
             // 
             // lbColor
             // 
+            this.lbColor.BackColor = System.Drawing.Color.Black;
             this.lbColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbColor.Location = new System.Drawing.Point(11, 29);
             this.lbColor.Name = "lbColor";
@@ -351,7 +352,7 @@
             this.lbCoord.Name = "lbCoord";
             this.lbCoord.Size = new System.Drawing.Size(98, 22);
             this.lbCoord.TabIndex = 40;
-            this.lbCoord.Text = "(550, 550)";
+            this.lbCoord.Text = "(500, 500)";
             // 
             // btnRellenar
             // 

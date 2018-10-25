@@ -26,16 +26,16 @@ namespace GestionPoligonosReg
         public FormDibujo()
         {
             InitializeComponent();
-            grfx = panelDibujo.CreateGraphics();
         }
 
         private void FormDibujo_Load(object sender, EventArgs e)
         {
-            for (double i = 1; i <= 5; i += 1)
+            for (double i = 1; i <= 4; i++)
                 cbGrosor.Items.Add(i);
 
             cbGrosor.SelectedItem = 2;
             cbGrosor.Text = "2";
+            grfx = panelDibujo.CreateGraphics();
         }
 
         private void cbGrosor_SelectedIndexChanged(object sender, EventArgs e)
