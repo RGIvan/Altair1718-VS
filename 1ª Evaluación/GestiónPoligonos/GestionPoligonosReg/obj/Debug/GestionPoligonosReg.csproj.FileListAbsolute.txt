@@ -46,3 +46,6 @@ C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\o
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.FormDibujo.resources
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Properties.Resources.resources
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csproj.GenerateResource.Cache
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb

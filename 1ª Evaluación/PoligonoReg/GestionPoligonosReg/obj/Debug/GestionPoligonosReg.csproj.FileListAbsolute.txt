@@ -43,3 +43,6 @@ E:\CSI 2\DWS (DonAlberto)\1 Eva\VisualStudio\GestionPoligonosReg sin BD\GestionP
 C:\Users\ALUM01\git\Altair1718-VS\PoligonoReg\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
 C:\Users\ALUM01\git\Altair1718-VS\PoligonoReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
 C:\Users\ALUM01\git\Altair1718-VS\PoligonoReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\PoligonoReg\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\PoligonoReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\PoligonoReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
