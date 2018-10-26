@@ -55,8 +55,6 @@
             this.lbY = new System.Windows.Forms.Label();
             this.txbX = new System.Windows.Forms.TextBox();
             this.btnBorrar = new System.Windows.Forms.Button();
-            this.colorDialog = new System.Windows.Forms.ColorDialog();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize)(this.tracX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tracY)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -86,8 +84,6 @@
             this.tracX.TabIndex = 1;
             this.tracX.TickFrequency = 10;
             this.tracX.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
-            this.tracX.Value = 100;
-            this.tracX.Scroll += new System.EventHandler(this.tracX_Scroll);
             // 
             // tracY
             // 
@@ -102,8 +98,6 @@
             this.tracY.TabIndex = 2;
             this.tracY.TabStop = false;
             this.tracY.TickFrequency = 10;
-            this.tracY.Value = 100;
-            this.tracY.Scroll += new System.EventHandler(this.tracY_Scroll);
             // 
             // label3
             // 
@@ -168,7 +162,6 @@
             this.chbEjeYmanual.TabIndex = 40;
             this.chbEjeYmanual.Text = "Manual";
             this.chbEjeYmanual.UseVisualStyleBackColor = false;
-            this.chbEjeYmanual.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbEjeYmanual_Click);
             // 
             // btnIgualaEjes
             // 
@@ -276,7 +269,6 @@
             this.lbColor.TabIndex = 33;
             this.lbColor.Text = "Color";
             this.lbColor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbColor.Click += new System.EventHandler(this.lbColor_Click);
             // 
             // label4
             // 
@@ -320,7 +312,6 @@
             this.btnActualizaEjeX.TabIndex = 28;
             this.btnActualizaEjeX.Text = "Actualiza EjeX";
             this.btnActualizaEjeX.UseVisualStyleBackColor = true;
-            this.btnActualizaEjeX.Click += new System.EventHandler(this.btnActualizaEjeX_Click);
             // 
             // txbLong
             // 
@@ -335,7 +326,6 @@
             this.txbLong.TabIndex = 27;
             this.txbLong.Text = "100";
             this.txbLong.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txbLong.TextChanged += new System.EventHandler(this.txbLong_TextChanged);
             // 
             // lbLong
             // 
@@ -357,6 +347,8 @@
             this.tracEjeX.Name = "tracEjeX";
             this.tracEjeX.Size = new System.Drawing.Size(199, 45);
             this.tracEjeX.TabIndex = 25;
+            this.tracEjeX.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.tracEjeX.Value = 100;
             this.tracEjeX.Scroll += new System.EventHandler(this.tracEjeX_Scroll);
             // 
             // btnActualizaXY
@@ -381,7 +373,6 @@
             this.txbY.TabIndex = 22;
             this.txbY.Text = "100";
             this.txbY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txbY.TextChanged += new System.EventHandler(this.txbY_TextChanged);
             // 
             // lbY
             // 
@@ -407,7 +398,6 @@
             this.txbX.TabIndex = 20;
             this.txbX.Text = "100";
             this.txbX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txbX.TextChanged += new System.EventHandler(this.txbX_TextChanged);
             // 
             // btnBorrar
             // 
@@ -475,8 +465,7 @@
         private System.Windows.Forms.CheckBox chbRellenar;
         private System.Windows.Forms.Button btnIgualaEjes;
         private System.Windows.Forms.CheckBox chbEjeYmanual;
-        private System.Windows.Forms.ColorDialog colorDialog;
-        private System.Windows.Forms.ColorDialog colorDialog1;
+
     }
 }
 

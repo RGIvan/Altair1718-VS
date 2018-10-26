@@ -87,7 +87,7 @@ namespace ElipsesRectangulos
             if (txbLong.Text == tracEjeX.Value.ToString())
             {
                 txbLong.BackColor = Color.Blue;
-            }
+            }       
         }
 
         private void tracEjeX_Scroll(object sender, EventArgs e)
@@ -132,7 +132,6 @@ namespace ElipsesRectangulos
 
         private void tracY_Scroll(object sender, EventArgs e)
         {
-
             txbY.Text = tracY.Value.ToString();
         }
 
