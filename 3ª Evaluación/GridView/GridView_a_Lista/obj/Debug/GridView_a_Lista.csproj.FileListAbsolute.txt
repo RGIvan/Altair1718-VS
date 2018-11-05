@@ -52,3 +52,12 @@ C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_
 C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.Form1.resources
 C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.Properties.Resources.resources
 C:\Users\Crono\git\Altair1718-VS\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.csproj.GenerateResource.Cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GridView\GridView_a_Lista\bin\Debug\GridView_a_Lista.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GridView\GridView_a_Lista\bin\Debug\GridView_a_Lista.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GridView\GridView_a_Lista\bin\Debug\GridView_a_Lista.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.Form1.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.Properties.Resources.resources
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GridView\GridView_a_Lista\obj\Debug\GridView_a_Lista.csproj.GenerateResource.Cache
