@@ -1,0 +1,49 @@
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellidos_Nombre (Elipses)\ElipsesRectangulos\obj\Debug\Elipses.exe
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellidos_Nombre (Elipses)\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellidos_Nombre (Elipses)\ElipsesRectangulos\bin\Debug\Elipses.exe
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellidos_Nombre (Elipses)\ElipsesRectangulos\bin\Debug\Elipses.pdb
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellidos_Nombre (Elipses)\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csprojResolveAssemblyReference.cache
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellidos_Nombre (Elipses)\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.FormDibujo.resources
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellidos_Nombre (Elipses)\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.Properties.Resources.resources
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellidos_Nombre (Elipses)\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csproj.GenerateResource.Cache
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.exe
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.exe
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.pdb
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csprojResolveAssemblyReference.cache
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.FormDibujo.resources
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.Properties.Resources.resources
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (1415)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csproj.GenerateResource.Cache
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (161104)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.exe
+C:\Altair\xProg\x2 Windows\xWin_ElipsesyRectn (161104)\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev1 (161104) Controles Win\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.exe
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev1 (161104) Controles Win\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev1 (161104)y(170206)y(170331) Controles Win\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.exe
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev1 (161104)y(170206)y(170331) Controles Win\_Examen Windows\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Users\examen\Desktop\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.exe.config
+C:\Users\examen\Desktop\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.exe
+C:\Users\examen\Desktop\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Users\examen\Desktop\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.exe
+C:\Users\examen\Desktop\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.pdb
+C:\Users\examen\Desktop\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csprojResolveAssemblyReference.cache
+C:\Users\examen\Desktop\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.FormDibujo.resources
+C:\Users\examen\Desktop\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.Properties.Resources.resources
+C:\Users\examen\Desktop\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csproj.GenerateResource.Cache
+E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.exe.config
+E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.exe
+E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.pdb
+E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.exe
+E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.pdb
+E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csprojResolveAssemblyReference.cache
+E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.FormDibujo.resources
+E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.Properties.Resources.resources
+E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csproj.GenerateResource.Cache
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.exe.config
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.exe
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.exe
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Apellido1_Nombre\ElipsesRectangulos\bin\Debug\Elipses.pdb
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.FormDibujo.resources
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.Properties.Resources.resources
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csproj.GenerateResource.Cache

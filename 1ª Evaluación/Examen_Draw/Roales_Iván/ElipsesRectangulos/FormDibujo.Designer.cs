@@ -55,6 +55,8 @@
             this.lbY = new System.Windows.Forms.Label();
             this.txbX = new System.Windows.Forms.TextBox();
             this.btnBorrar = new System.Windows.Forms.Button();
+            this.colorDialog = new System.Windows.Forms.ColorDialog();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize)(this.tracX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tracY)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -70,27 +72,38 @@
             this.panelDibujo.Name = "panelDibujo";
             this.panelDibujo.Size = new System.Drawing.Size(450, 450);
             this.panelDibujo.TabIndex = 0;
+            this.panelDibujo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelDibujo_MouseClick);
             // 
             // tracX
             // 
             this.tracX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.tracX.LargeChange = 50;
             this.tracX.Location = new System.Drawing.Point(34, 466);
-            this.tracX.Maximum = 900;
+            this.tracX.Maximum = 450;
             this.tracX.Name = "tracX";
             this.tracX.Size = new System.Drawing.Size(468, 45);
+            this.tracX.SmallChange = 10;
             this.tracX.TabIndex = 1;
+            this.tracX.TickFrequency = 10;
+            this.tracX.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.tracX.Value = 100;
+            this.tracX.Scroll += new System.EventHandler(this.tracX_Scroll);
             // 
             // tracY
             // 
             this.tracY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.tracY.LargeChange = 50;
             this.tracY.Location = new System.Drawing.Point(10, 9);
-            this.tracY.Maximum = 900;
+            this.tracY.Maximum = 450;
             this.tracY.Name = "tracY";
             this.tracY.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.tracY.Size = new System.Drawing.Size(45, 468);
+            this.tracY.SmallChange = 10;
             this.tracY.TabIndex = 2;
             this.tracY.TabStop = false;
-            this.tracY.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.tracY.TickFrequency = 10;
+            this.tracY.Value = 100;
+            this.tracY.Scroll += new System.EventHandler(this.tracY_Scroll);
             // 
             // label3
             // 
@@ -104,13 +117,14 @@
             // 
             // btnDibujar
             // 
-            this.btnDibujar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDibujar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDibujar.Location = new System.Drawing.Point(518, 466);
             this.btnDibujar.Name = "btnDibujar";
             this.btnDibujar.Size = new System.Drawing.Size(228, 45);
             this.btnDibujar.TabIndex = 19;
             this.btnDibujar.Text = "Dibujar";
             this.btnDibujar.UseVisualStyleBackColor = true;
+            this.btnDibujar.Click += new System.EventHandler(this.btnDibujar_Click);
             // 
             // groupBox1
             // 
@@ -154,6 +168,7 @@
             this.chbEjeYmanual.TabIndex = 40;
             this.chbEjeYmanual.Text = "Manual";
             this.chbEjeYmanual.UseVisualStyleBackColor = false;
+            this.chbEjeYmanual.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbEjeYmanual_Click);
             // 
             // btnIgualaEjes
             // 
@@ -164,6 +179,7 @@
             this.btnIgualaEjes.TabIndex = 39;
             this.btnIgualaEjes.Text = "ejeY=ejeX";
             this.btnIgualaEjes.UseVisualStyleBackColor = true;
+            this.btnIgualaEjes.Click += new System.EventHandler(this.btnIgualaEjes_Click);
             // 
             // lbX
             // 
@@ -219,7 +235,7 @@
             // 
             this.nudEjeY.BackColor = System.Drawing.Color.Blue;
             this.nudEjeY.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nudEjeY.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F);
+            this.nudEjeY.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.nudEjeY.ForeColor = System.Drawing.Color.White;
             this.nudEjeY.Location = new System.Drawing.Point(239, 181);
             this.nudEjeY.Maximum = new decimal(new int[] {
@@ -231,6 +247,11 @@
             this.nudEjeY.Size = new System.Drawing.Size(75, 25);
             this.nudEjeY.TabIndex = 24;
             this.nudEjeY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudEjeY.Value = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
             // 
             // label1
             // 
@@ -247,7 +268,7 @@
             // lbColor
             // 
             this.lbColor.BackColor = System.Drawing.Color.Black;
-            this.lbColor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F);
+            this.lbColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.lbColor.ForeColor = System.Drawing.Color.White;
             this.lbColor.Location = new System.Drawing.Point(114, 279);
             this.lbColor.Name = "lbColor";
@@ -255,6 +276,7 @@
             this.lbColor.TabIndex = 33;
             this.lbColor.Text = "Color";
             this.lbColor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbColor.Click += new System.EventHandler(this.lbColor_Click);
             // 
             // label4
             // 
@@ -270,11 +292,11 @@
             // 
             // cbGrosor
             // 
-            this.cbGrosor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbGrosor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbGrosor.FormattingEnabled = true;
             this.cbGrosor.Location = new System.Drawing.Point(23, 305);
             this.cbGrosor.Name = "cbGrosor";
-            this.cbGrosor.Size = new System.Drawing.Size(70, 30);
+            this.cbGrosor.Size = new System.Drawing.Size(70, 32);
             this.cbGrosor.TabIndex = 30;
             // 
             // label2
@@ -298,19 +320,22 @@
             this.btnActualizaEjeX.TabIndex = 28;
             this.btnActualizaEjeX.Text = "Actualiza EjeX";
             this.btnActualizaEjeX.UseVisualStyleBackColor = true;
+            this.btnActualizaEjeX.Click += new System.EventHandler(this.btnActualizaEjeX_Click);
             // 
             // txbLong
             // 
             this.txbLong.BackColor = System.Drawing.Color.Blue;
             this.txbLong.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbLong.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbLong.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbLong.ForeColor = System.Drawing.Color.White;
             this.txbLong.Location = new System.Drawing.Point(175, 160);
             this.txbLong.MaxLength = 4;
             this.txbLong.Name = "txbLong";
             this.txbLong.Size = new System.Drawing.Size(49, 22);
             this.txbLong.TabIndex = 27;
+            this.txbLong.Text = "100";
             this.txbLong.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbLong.TextChanged += new System.EventHandler(this.txbLong_TextChanged);
             // 
             // lbLong
             // 
@@ -328,11 +353,11 @@
             // 
             this.tracEjeX.BackColor = System.Drawing.Color.Blue;
             this.tracEjeX.Location = new System.Drawing.Point(25, 183);
-            this.tracEjeX.Maximum = 100;
+            this.tracEjeX.Maximum = 450;
             this.tracEjeX.Name = "tracEjeX";
             this.tracEjeX.Size = new System.Drawing.Size(199, 45);
             this.tracEjeX.TabIndex = 25;
-            this.tracEjeX.Value = 100;
+            this.tracEjeX.Scroll += new System.EventHandler(this.tracEjeX_Scroll);
             // 
             // btnActualizaXY
             // 
@@ -347,14 +372,16 @@
             // txbY
             // 
             this.txbY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txbY.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbY.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbY.ForeColor = System.Drawing.Color.White;
             this.txbY.Location = new System.Drawing.Point(167, 72);
             this.txbY.MaxLength = 4;
             this.txbY.Name = "txbY";
             this.txbY.Size = new System.Drawing.Size(57, 29);
             this.txbY.TabIndex = 22;
+            this.txbY.Text = "100";
             this.txbY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbY.TextChanged += new System.EventHandler(this.txbY_TextChanged);
             // 
             // lbY
             // 
@@ -371,24 +398,27 @@
             // txbX
             // 
             this.txbX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txbX.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbX.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbX.ForeColor = System.Drawing.Color.White;
             this.txbX.Location = new System.Drawing.Point(92, 72);
             this.txbX.MaxLength = 4;
             this.txbX.Name = "txbX";
             this.txbX.Size = new System.Drawing.Size(57, 29);
             this.txbX.TabIndex = 20;
+            this.txbX.Text = "100";
             this.txbX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbX.TextChanged += new System.EventHandler(this.txbX_TextChanged);
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrar.Location = new System.Drawing.Point(761, 466);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(94, 45);
             this.btnBorrar.TabIndex = 21;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // FormDibujo
             // 
@@ -445,7 +475,8 @@
         private System.Windows.Forms.CheckBox chbRellenar;
         private System.Windows.Forms.Button btnIgualaEjes;
         private System.Windows.Forms.CheckBox chbEjeYmanual;
-
+        private System.Windows.Forms.ColorDialog colorDialog;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 

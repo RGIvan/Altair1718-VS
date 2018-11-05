@@ -38,6 +38,12 @@ E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\E
 E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.FormDibujo.resources
 E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.Properties.Resources.resources
 E:\PRGX\1EVA\REPASO PRACT EXAMEN\Apellido1_Nombre\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csproj.GenerateResource.Cache
-C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\bin\Debug\Elipses.exe.config
-C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\obj\Debug\Elipses.exe
-C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\bin\Debug\Elipses.exe.config
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\obj\Debug\Elipses.exe
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\bin\Debug\Elipses.exe
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\bin\Debug\Elipses.pdb
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.FormDibujo.resources
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.Properties.Resources.resources
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_Draw\Roales_Iván\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csproj.GenerateResource.Cache
