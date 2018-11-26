@@ -1,63 +1,9 @@
-C:\Users\Alberto\Desktop\GestionPoligonosReg\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
-C:\Users\Alberto\Desktop\GestionPoligonosReg\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe
-C:\Users\Alberto\Desktop\GestionPoligonosReg\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.pdb
-C:\Users\Alberto\Desktop\GestionPoligonosReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csprojResolveAssemblyReference.cache
-C:\Users\Alberto\Desktop\GestionPoligonosReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Form1.resources
-C:\Users\Alberto\Desktop\GestionPoligonosReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Properties.Resources.resources
-C:\Users\Alberto\Desktop\GestionPoligonosReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csproj.GenerateResource.Cache
-C:\Users\Alberto\Desktop\GestionPoligonosReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
-C:\Users\Alberto\Desktop\GestionPoligonosReg\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
-C:\Users\Alberto\Desktop\PoligRegBD (OK GiroYposCentro)\GestionPoligonosReg sin BD\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
-C:\Users\Alberto\Desktop\PoligRegBD (OK GiroYposCentro)\GestionPoligonosReg sin BD\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
-C:\Users\Alberto\Desktop\PoligRegBD (OK GiroYposCentro)\GestionPoligonosReg sin BD\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
-C:\Users\Alberto\Desktop\PoligRegBD (OK GiroYposCentro)\GestionPoligonosReg sin BD\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe
-C:\Users\Alberto\Desktop\PoligRegBD (OK GiroYposCentro)\GestionPoligonosReg sin BD\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.pdb
-C:\Users\Alberto\Desktop\PoligRegBD (OK GiroYposCentro)\GestionPoligonosReg sin BD\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csprojResolveAssemblyReference.cache
-C:\Users\Alberto\Desktop\PoligRegBD (OK GiroYposCentro)\GestionPoligonosReg sin BD\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.FormDibujo.resources
-C:\Users\Alberto\Desktop\PoligRegBD (OK GiroYposCentro)\GestionPoligonosReg sin BD\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Properties.Resources.resources
-C:\Users\Alberto\Desktop\PoligRegBD (OK GiroYposCentro)\GestionPoligonosReg sin BD\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csproj.GenerateResource.Cache
-C:\Altair\PNet2 Windows Form\Poligonos Regulares (Sin y Con BD)\GestionPoligonosReg sin BD\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
-C:\Altair\PNet2 Windows Form\Poligonos Regulares (Sin y Con BD)\GestionPoligonosReg sin BD\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
-C:\Altair\PNet2 Windows Form\Poligonos Regulares (Sin y Con BD)\GestionPoligonosReg sin BD\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
-C:\Users\ALUM24\Desktop\Nueva carpeta (3)\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
-C:\Users\ALUM24\Desktop\Nueva carpeta (3)\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
-C:\Users\ALUM24\Desktop\Nueva carpeta (3)\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
-C:\Users\ALUM24\Desktop\Nueva carpeta (3)\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe
-C:\Users\ALUM24\Desktop\Nueva carpeta (3)\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.pdb
-C:\Users\ALUM24\Desktop\Nueva carpeta (3)\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csprojResolveAssemblyReference.cache
-C:\Users\ALUM24\Desktop\Nueva carpeta (3)\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.FormDibujo.resources
-C:\Users\ALUM24\Desktop\Nueva carpeta (3)\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Properties.Resources.resources
-C:\Users\ALUM24\Desktop\Nueva carpeta (3)\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csproj.GenerateResource.Cache
-C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
-C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
-C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
-C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe
-C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.pdb
-C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csprojResolveAssemblyReference.cache
-C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.FormDibujo.resources
-C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Properties.Resources.resources
-C:\Users\ALUM01\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csproj.GenerateResource.Cache
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.pdb
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csprojResolveAssemblyReference.cache
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.FormDibujo.resources
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Properties.Resources.resources
-C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\Polígono\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csproj.GenerateResource.Cache
-<<<<<<< HEAD
-C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
-C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
-C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
-=======
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe.config
-C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
-C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.exe
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\bin\Debug\GestionPoligonosReg.pdb
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csprojResolveAssemblyReference.cache
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.FormDibujo.resources
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.Properties.Resources.resources
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.csproj.GenerateResource.Cache
->>>>>>> 0f56be921865573db0057b2cee30fc36bb13d4ee
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\GestiónPoligonos\GestionPoligonosReg\obj\Debug\GestionPoligonosReg.pdb

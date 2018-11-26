@@ -32,5 +32,16 @@ namespace GestionAlumnosFP_V1.Properties {
                 return ((string)(this["BD_AlumnosFPConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\AlumnoCSI2\\Downloads\\bd_Al" +
+            "umnosFP.accdb")]
+        public string bd_AlumnosFPConnectionString1 {
+            get {
+                return ((string)(this["bd_AlumnosFPConnectionString1"]));
+            }
+        }
     }
 }

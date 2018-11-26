@@ -11,3 +11,6 @@ C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumn
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\InterfazUsuario.csproj.GenerateResource.Cache
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.exe
 C:\Users\Crono\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\bin\Debug\GestionAlumnos2Capas.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\GestionAlumnoFinal\GestionAlumnos2Capas\obj\Debug\GestionAlumnos2Capas.pdb
