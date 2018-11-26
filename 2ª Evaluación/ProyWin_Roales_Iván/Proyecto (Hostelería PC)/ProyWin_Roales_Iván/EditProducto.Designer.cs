@@ -118,7 +118,7 @@
             this.txbCantidad.Location = new System.Drawing.Point(170, 166);
             this.txbCantidad.Name = "txbCantidad";
             this.txbCantidad.Size = new System.Drawing.Size(150, 22);
-            this.txbCantidad.TabIndex = 16;
+            this.txbCantidad.TabIndex = 3;
             // 
             // label1
             // 
@@ -135,7 +135,7 @@
             this.txbPrecio.Location = new System.Drawing.Point(170, 125);
             this.txbPrecio.Name = "txbPrecio";
             this.txbPrecio.Size = new System.Drawing.Size(150, 22);
-            this.txbPrecio.TabIndex = 14;
+            this.txbPrecio.TabIndex = 2;
             // 
             // txbUsuario
             // 
@@ -144,7 +144,7 @@
             this.txbUsuario.Location = new System.Drawing.Point(170, 82);
             this.txbUsuario.Name = "txbUsuario";
             this.txbUsuario.Size = new System.Drawing.Size(150, 22);
-            this.txbUsuario.TabIndex = 13;
+            this.txbUsuario.TabIndex = 1;
             // 
             // label6
             // 

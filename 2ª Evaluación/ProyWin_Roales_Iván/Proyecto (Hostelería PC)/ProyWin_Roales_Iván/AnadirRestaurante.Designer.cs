@@ -110,7 +110,7 @@
             this.txbCiudad.Location = new System.Drawing.Point(151, 128);
             this.txbCiudad.Name = "txbCiudad";
             this.txbCiudad.Size = new System.Drawing.Size(150, 22);
-            this.txbCiudad.TabIndex = 7;
+            this.txbCiudad.TabIndex = 3;
             // 
             // txbTel
             // 
@@ -119,7 +119,7 @@
             this.txbTel.Location = new System.Drawing.Point(151, 156);
             this.txbTel.Name = "txbTel";
             this.txbTel.Size = new System.Drawing.Size(150, 22);
-            this.txbTel.TabIndex = 8;
+            this.txbTel.TabIndex = 4;
             // 
             // txbNombre
             // 
@@ -128,7 +128,7 @@
             this.txbNombre.Location = new System.Drawing.Point(151, 185);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(150, 22);
-            this.txbNombre.TabIndex = 9;
+            this.txbNombre.TabIndex = 5;
             // 
             // label3
             // 

@@ -108,7 +108,7 @@
             this.txbCantidad.Location = new System.Drawing.Point(170, 166);
             this.txbCantidad.Name = "txbCantidad";
             this.txbCantidad.Size = new System.Drawing.Size(150, 22);
-            this.txbCantidad.TabIndex = 7;
+            this.txbCantidad.TabIndex = 3;
             // 
             // label3
             // 

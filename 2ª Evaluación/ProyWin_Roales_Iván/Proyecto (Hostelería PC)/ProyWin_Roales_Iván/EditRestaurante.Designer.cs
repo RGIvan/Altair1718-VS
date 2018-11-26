@@ -112,7 +112,7 @@
             this.txbNombre.Location = new System.Drawing.Point(151, 128);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(150, 22);
-            this.txbNombre.TabIndex = 7;
+            this.txbNombre.TabIndex = 3;
             // 
             // txbApellidos
             // 
@@ -121,7 +121,7 @@
             this.txbApellidos.Location = new System.Drawing.Point(151, 156);
             this.txbApellidos.Name = "txbApellidos";
             this.txbApellidos.Size = new System.Drawing.Size(150, 22);
-            this.txbApellidos.TabIndex = 8;
+            this.txbApellidos.TabIndex = 4;
             // 
             // textBox1
             // 
@@ -130,7 +130,7 @@
             this.textBox1.Location = new System.Drawing.Point(151, 185);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(150, 22);
-            this.textBox1.TabIndex = 9;
+            this.textBox1.TabIndex = 5;
             // 
             // label3
             // 

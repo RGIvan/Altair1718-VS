@@ -73,6 +73,7 @@
             this.txbPass.ForeColor = System.Drawing.Color.Maroon;
             this.txbPass.Location = new System.Drawing.Point(281, 257);
             this.txbPass.Name = "txbPass";
+            this.txbPass.PasswordChar = '*';
             this.txbPass.Size = new System.Drawing.Size(150, 22);
             this.txbPass.TabIndex = 2;
             // 

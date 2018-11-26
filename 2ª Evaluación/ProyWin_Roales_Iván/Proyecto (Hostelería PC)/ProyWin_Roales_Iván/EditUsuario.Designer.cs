@@ -66,6 +66,7 @@
             this.txbPass.ForeColor = System.Drawing.Color.Maroon;
             this.txbPass.Location = new System.Drawing.Point(151, 102);
             this.txbPass.Name = "txbPass";
+            this.txbPass.PasswordChar = '*';
             this.txbPass.Size = new System.Drawing.Size(150, 22);
             this.txbPass.TabIndex = 2;
             // 
@@ -110,7 +111,7 @@
             this.txbNombre.Location = new System.Drawing.Point(151, 140);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(150, 22);
-            this.txbNombre.TabIndex = 7;
+            this.txbNombre.TabIndex = 3;
             // 
             // txbApellidos
             // 
@@ -119,7 +120,7 @@
             this.txbApellidos.Location = new System.Drawing.Point(151, 179);
             this.txbApellidos.Name = "txbApellidos";
             this.txbApellidos.Size = new System.Drawing.Size(150, 22);
-            this.txbApellidos.TabIndex = 8;
+            this.txbApellidos.TabIndex = 4;
             // 
             // label7
             // 

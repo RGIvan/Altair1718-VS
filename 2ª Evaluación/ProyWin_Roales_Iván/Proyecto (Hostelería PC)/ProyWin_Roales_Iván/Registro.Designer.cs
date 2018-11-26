@@ -76,8 +76,9 @@
             this.txbPass.ForeColor = System.Drawing.Color.Maroon;
             this.txbPass.Location = new System.Drawing.Point(279, 255);
             this.txbPass.Name = "txbPass";
+            this.txbPass.PasswordChar = '*';
             this.txbPass.Size = new System.Drawing.Size(150, 22);
-            this.txbPass.TabIndex = 5;
+            this.txbPass.TabIndex = 2;
             // 
             // txbUsuario
             // 
@@ -86,7 +87,7 @@
             this.txbUsuario.Location = new System.Drawing.Point(279, 227);
             this.txbUsuario.Name = "txbUsuario";
             this.txbUsuario.Size = new System.Drawing.Size(150, 22);
-            this.txbUsuario.TabIndex = 4;
+            this.txbUsuario.TabIndex = 1;
             // 
             // txbNombre
             // 
@@ -95,7 +96,7 @@
             this.txbNombre.Location = new System.Drawing.Point(279, 283);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(150, 22);
-            this.txbNombre.TabIndex = 7;
+            this.txbNombre.TabIndex = 3;
             // 
             // txbApellidos
             // 
@@ -104,7 +105,7 @@
             this.txbApellidos.Location = new System.Drawing.Point(279, 311);
             this.txbApellidos.Name = "txbApellidos";
             this.txbApellidos.Size = new System.Drawing.Size(150, 22);
-            this.txbApellidos.TabIndex = 8;
+            this.txbApellidos.TabIndex = 4;
             // 
             // errorProvider1
             // 
