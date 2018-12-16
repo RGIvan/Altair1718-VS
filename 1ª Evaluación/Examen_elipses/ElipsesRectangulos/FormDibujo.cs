@@ -22,7 +22,7 @@ namespace ElipsesRectangulos
 
             cbGrosor.SelectedItem = 2.0;
 
-            nudEjeY.ReadOnly = true;
+            nudEjeY.ReadOnly = true;            
         }
 
         private void btnDibujar_Click(object sender, EventArgs e)
@@ -34,7 +34,7 @@ namespace ElipsesRectangulos
             int y0 = panelDibujo.Height - tracY.Value;
 
             int x = x0 - ejeX / 2;
-            int y = y0 - ejeY / 2;
+            int y = y0 - ejeY / 2;  
 
             pizarra = panelDibujo.CreateGraphics();
             color = lbColor.BackColor;
@@ -51,8 +51,9 @@ namespace ElipsesRectangulos
                     pizarra.FillRectangle(brocha, r);
 
             } else if (rbElipse.Checked)
+
             {
-                pizarra.DrawEllipse(boli, r);
+                pizarra.DrawEllipse(boli, r);   
                 if (chbRellenar.Checked)
                     pizarra.FillEllipse(brocha, r);
             }
@@ -83,7 +84,7 @@ namespace ElipsesRectangulos
         private void btnActualizaEjeX_Click(object sender, EventArgs e)
         {
             tracEjeX.Value = Convert.ToInt32(txbLong.Text);
-
+                    
             if (txbLong.Text == tracEjeX.Value.ToString())
             {
                 txbLong.BackColor = Color.Blue;

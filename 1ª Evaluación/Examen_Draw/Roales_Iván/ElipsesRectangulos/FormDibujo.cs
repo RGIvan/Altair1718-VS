@@ -1,4 +1,4 @@
-﻿//Alumno:
+﻿//Plantilla examen
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,16 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-
-
 namespace ElipsesRectangulos
 {
     public partial class FormDibujo : Form
     {
         Color color = Color.FromArgb(0, 0, 0);
-
-        Graphics pizarra;       
-
+        Graphics pizarra;
 
         public FormDibujo()
         {
@@ -29,7 +25,7 @@ namespace ElipsesRectangulos
 
             cbGrosor.SelectedItem = 2.0;
 
-            nudEjeY.ReadOnly = true;    
+            nudEjeY.ReadOnly = true;
         }
 
         private void btnDibujar_Click(object sender, EventArgs e)
@@ -38,7 +34,7 @@ namespace ElipsesRectangulos
             int ejeY = Convert.ToInt32(nudEjeY.Value);
 
             int x0 = tracX.Value;
-            int y0 = panelDibujo.Height - tracY.Value;
+            int y0 = tracY.Value - panelDibujo.Height;
 
             int x = x0 - ejeX / 2;
             int y = y0 - ejeY / 2;
@@ -46,35 +42,36 @@ namespace ElipsesRectangulos
             pizarra = panelDibujo.CreateGraphics();
             color = lbColor.BackColor;
 
-            Pen boli = new Pen(color, Convert.ToInt32(cbGrosor.Text));
+            Pen boli = new Pen(color, Convert.ToSingle(cbGrosor.Text));
             Brush brocha = new SolidBrush(color);
 
             Rectangle r = new Rectangle(x, y, ejeX, ejeY);
 
             if (rbRectang.Checked)
-            {   
+            {
                 pizarra.DrawRectangle(boli, r);
-
                 if (chbRellenar.Checked)
-                
                     pizarra.FillRectangle(brocha, r);
 
             } else if (rbElipse.Checked)
+
             {
                 pizarra.DrawEllipse(boli, r);
                 if (chbRellenar.Checked)
-                   pizarra.FillEllipse(brocha, r);
+                {
+                    pizarra.FillEllipse(brocha, r);
+                }
             }
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            DialogResult d = MessageBox.Show("¿Desea borrar el panel?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (d == DialogResult.Yes)
-            {
-                pizarra.Clear(Color.White);
-            }
+            DialogResult d = MessageBox.Show("Pregunta", "Confirmar", MessageBoxButtons.YesNo);
+                
+                if (d == DialogResult.Yes)
+                {
+                    pizarra.Clear(Color.White);
+                }
         }
 
         private void btnIgualaEjes_Click(object sender, EventArgs e)
@@ -87,7 +84,7 @@ namespace ElipsesRectangulos
         {
             if (chbEjeYmanual.Checked)
                 nudEjeY.ReadOnly = false;
-            else 
+            else
                 nudEjeY.ReadOnly = true;
         }
 
@@ -122,18 +119,12 @@ namespace ElipsesRectangulos
 
         private void txbX_TextChanged(object sender, EventArgs e)
         {
-            if (tracX.Value.ToString() == txbX.Text)
-                txbX.BackColor = Color.FromArgb(192, 0, 0);
-            else
-                txbX.BackColor = Color.Orange;
+            
         }
 
         private void txbY_TextChanged(object sender, EventArgs e)
         {
-            if (tracY.Value.ToString() == txbY.Text)
-                txbX.BackColor = Color.FromArgb(192, 0, 0);
-            else
-                txbX.BackColor = Color.Orange;
+            
         }
 
         private void tracY_Scroll(object sender, EventArgs e)
@@ -149,7 +140,7 @@ namespace ElipsesRectangulos
         private void panelDibujo_MouseClick(object sender, MouseEventArgs e)
         {
             tracX.Value = e.X;
-            tracY.Value = 450 - e.Y;
+            tracY.Value = e.Y;
 
             txbX.Text = tracX.Value.ToString();
             txbY.Text = tracY.Value.ToString();
