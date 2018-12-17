@@ -85,17 +85,11 @@
     <Compile Include="EditUsuarioAdmin.Designer.cs">
       <DependentUpon>EditUsuarioAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditUsuario.cs">
+    <Compile Include="FormUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditUsuario.Designer.cs">
-      <DependentUpon>EditUsuario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AnadirUsuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AnadirUsuario.Designer.cs">
-      <DependentUpon>AnadirUsuario.cs</DependentUpon>
+    <Compile Include="FormUsuario.Designer.cs">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
@@ -149,11 +143,8 @@
     <EmbeddedResource Include="EditUsuarioAdmin.resx">
       <DependentUpon>EditUsuarioAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditUsuario.resx">
-      <DependentUpon>EditUsuario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AnadirUsuario.resx">
-      <DependentUpon>AnadirUsuario.cs</DependentUpon>
+    <EmbeddedResource Include="FormUsuario.resx">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>

@@ -66,11 +66,13 @@ namespace InterfazUsuario
             int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
             Usuario usu = LNyAD.ObtenerUsuarioPorId(idUsuario);
 
-            EditUsuarioAdmin fEditUsuario = new EditUsuarioAdmin();
+            FormUsuario fusuario = new FormUsuario();
 
-            fEditUsuario.ShowDialog();
+            fusuario.btnCrear.Hide();
 
-            fEditUsuario.Dispose();
+            fusuario.ShowDialog();
+
+            fusuario.Dispose();
         } 
         #endregion
 
@@ -91,17 +93,24 @@ namespace InterfazUsuario
         {
             Usuario usu = new Usuario();
 
-            AnadirUsuario fAnadirUsuario = new AnadirUsuario();
+            FormUsuario fusuario = new FormUsuario();
 
-            fAnadirUsuario.ShowDialog();
+            fusuario.btnEditar.Hide();
 
-            fAnadirUsuario.Dispose();
+            fusuario.ShowDialog();
+
+            fusuario.Dispose();
         } 
         #endregion
 
         private void UIUsuario_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -121,7 +121,12 @@ namespace InterfazUsuario
             Registro regUser = new Registro();
             regUser.ShowDialog();
             regUser.Dispose();
-        } 
+        }
         #endregion
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

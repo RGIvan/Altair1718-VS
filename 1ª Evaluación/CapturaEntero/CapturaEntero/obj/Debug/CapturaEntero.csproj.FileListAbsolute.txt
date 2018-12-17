@@ -7,3 +7,9 @@ c:\users\alum01\documents\visual studio 2015\Projects\CapturaEntero\CapturaEnter
 C:\Users\Crono\git\Altair1718-VS\CapturaEntero\CapturaEntero\bin\Debug\CapturaEntero.exe.config
 C:\Users\Crono\git\Altair1718-VS\CapturaEntero\CapturaEntero\obj\Debug\CapturaEntero.exe
 C:\Users\Crono\git\Altair1718-VS\CapturaEntero\CapturaEntero\obj\Debug\CapturaEntero.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CapturaEntero\CapturaEntero\bin\Debug\CapturaEntero.exe.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CapturaEntero\CapturaEntero\obj\Debug\CapturaEntero.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CapturaEntero\CapturaEntero\obj\Debug\CapturaEntero.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CapturaEntero\CapturaEntero\bin\Debug\CapturaEntero.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CapturaEntero\CapturaEntero\bin\Debug\CapturaEntero.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\1ª Evaluación\CapturaEntero\CapturaEntero\obj\Debug\CapturaEntero.csprojResolveAssemblyReference.cache

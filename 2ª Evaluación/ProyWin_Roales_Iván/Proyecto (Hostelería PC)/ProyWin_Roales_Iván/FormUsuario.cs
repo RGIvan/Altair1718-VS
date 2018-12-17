@@ -12,7 +12,7 @@ using LogicaNegocioyADatos;
 
 namespace InterfazUsuario
 {
-    public partial class AnadirUsuario : Form
+    public partial class FormUsuario : Form
     {
         Usuario usu;
 
@@ -29,19 +29,29 @@ namespace InterfazUsuario
             }
         }
 
-        public AnadirUsuario()
+        public FormUsuario()
         {
             InitializeComponent();
         }
 
-        private void AnadirUsuario_Load(object sender, EventArgs e)
+        private void FormUsuario_Load(object sender, EventArgs e)
         {
+            this.usu = new Usuario();
+
+            txbID.Visible = (usu.IdUsuario > 0);
+
+            txbID.Text = usu.IdUsuario.ToString();
+            txbUsuario.Text = usu.Login;
+            txbPass.Text = usu.Password;
+            txbNombre.Text = usu.Nombre;
+            txbApellidos.Text = usu.Apellidos;
+
             cbAcceso.Items.Insert(0, "0. Deshabilitado");
             cbAcceso.Items.Insert(1, "1. Admin");
             cbAcceso.Items.Insert(2, "2. Usuario");
         }
 
-        private void btnRegistro_Click(object sender, EventArgs e)
+        private void btnCrear_Click(object sender, EventArgs e)
         {
             if (!HayErrorEnFormulario())
             {
@@ -58,16 +68,34 @@ namespace InterfazUsuario
                     errorProvider1.SetError(txbUsuario, "El usuario está repetido\n");
                     MessageBox.Show("Ya existe un usuario con el mismo nombre registrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txbPass.Text = String.Empty;
-                    btnRegistro.Focus();
+                    btnCrear.Focus();
                 }
 
                 else
 
                 {
                     LNyAD.AgregarUsuario(usu);
-                    MessageBox.Show("El usuario se ha insertado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("El usuario se ha insertado correctamente", "Ha sido creado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Close();
                 }
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            if (!HayErrorEnFormulario())
+            {
+                this.usu = new Usuario();
+
+                usu.Login = txbUsuario.Text;
+                usu.Password = txbPass.Text;
+                usu.Nombre = txbNombre.Text;
+                usu.Apellidos = txbApellidos.Text;
+                cbAcceso.SelectedIndex = Convert.ToInt32(usu.Acceso);
+
+                LNyAD.EditarUsuario(usu);
+                MessageBox.Show("El usuario se ha editado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
             }
         }
 
@@ -82,7 +110,7 @@ namespace InterfazUsuario
             {
                 texto = "El nombre de usuario está vacío\n";
                 errorProvider1.SetError(txbUsuario, "El campo está vacío");
-                btnRegistro.Focus();
+                btnCrear.Focus();
                 error = true;
             }
 
@@ -90,7 +118,7 @@ namespace InterfazUsuario
             {
                 texto = "La contraseña está vacía\n";
                 errorProvider1.SetError(txbPass, "El campo está vacío");
-                btnRegistro.Focus();
+                btnCrear.Focus();
                 error = true;
             }
 
@@ -98,7 +126,7 @@ namespace InterfazUsuario
             {
                 texto = "El nombre está vacío\n";
                 errorProvider1.SetError(txbNombre, "El campo está vacío");
-                btnRegistro.Focus();
+                btnCrear.Focus();
                 error = true;
             }
 
@@ -106,7 +134,7 @@ namespace InterfazUsuario
             {
                 texto = "El nombre está vacío\n";
                 errorProvider1.SetError(txbApellidos, "El campo está vacío");
-                btnRegistro.Focus();
+                btnCrear.Focus();
                 error = true;
             }
 

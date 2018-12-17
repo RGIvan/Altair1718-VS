@@ -88,7 +88,12 @@ namespace InterfazUsuario
                 MessageBox.Show("El usuario ha sido registrado con éxito", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
-        } 
+        }
         #endregion
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
