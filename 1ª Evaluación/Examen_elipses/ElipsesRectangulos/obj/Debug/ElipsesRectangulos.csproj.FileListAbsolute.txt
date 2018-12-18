@@ -1,9 +1,9 @@
-C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\bin\Debug\Elipses.exe.config
-C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\bin\Debug\Elipses.exe
-C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\bin\Debug\Elipses.pdb
 C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csprojResolveAssemblyReference.cache
 C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.FormDibujo.resources
 C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.Properties.Resources.resources
 C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\obj\Debug\ElipsesRectangulos.csproj.GenerateResource.Cache
-C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\obj\Debug\Elipses.exe
-C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\obj\Debug\Elipses.pdb
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\bin\Debug\z.exe.config
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\bin\Debug\z.exe
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\bin\Debug\z.pdb
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\obj\Debug\z.exe
+C:\Users\Crono\git\Altair1718-VS\1ª Evaluación\Examen_elipses\ElipsesRectangulos\obj\Debug\z.pdb

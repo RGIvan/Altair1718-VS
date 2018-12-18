@@ -56,7 +56,6 @@
             this.txbX = new System.Windows.Forms.TextBox();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.colorDialog = new System.Windows.Forms.ColorDialog();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize)(this.tracX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tracY)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -476,7 +475,6 @@
         private System.Windows.Forms.Button btnIgualaEjes;
         private System.Windows.Forms.CheckBox chbEjeYmanual;
         private System.Windows.Forms.ColorDialog colorDialog;
-        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 

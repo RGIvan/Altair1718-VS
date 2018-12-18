@@ -1,4 +1,4 @@
-﻿//Alumno:
+﻿//Plantilla examen
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,8 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
-
 
 namespace ElipsesRectangulos
 {
@@ -26,6 +24,7 @@ namespace ElipsesRectangulos
             }
 
             cbGrosor.SelectedItem = 2.0;
+
             nudEjeY.ReadOnly = true;
         }
 
@@ -43,29 +42,108 @@ namespace ElipsesRectangulos
             pizarra = panelDibujo.CreateGraphics();
             color = lbColor.BackColor;
 
-            Pen boli = new Pen(color, Convert.ToInt32(cbGrosor.Text));
+            Pen boli = new Pen(color, Convert.ToSingle(cbGrosor.Text));
             Brush brocha = new SolidBrush(color);
 
-            Rectangle r = new Rectangle(x0, y0, ejeX, ejeY);
+            Rectangle r = new Rectangle(x, y, ejeX, ejeY);
 
             if (rbRectang.Checked)
             {
                 pizarra.DrawRectangle(boli, r);
-
                 if (chbRellenar.Checked)
-            
-                pizarra.FillRectangle(brocha, r);
-            }
+                    pizarra.FillRectangle(brocha, r);
 
-            else if (rbElipse.Checked)
+            } else if (rbElipse.Checked)
+
             {
                 pizarra.DrawEllipse(boli, r);
-
                 if (chbRellenar.Checked)
-                {
                     pizarra.FillEllipse(brocha, r);
-                }
             }
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            DialogResult d = MessageBox.Show("¿Desea borrar el panel?", "Confirmar", MessageBoxButtons.YesNo);
+
+            if (d == DialogResult.Yes)
+                pizarra.Clear(Color.White);
+        }
+
+        private void btnIgualaEjes_Click(object sender, EventArgs e)
+        {
+            if (txbLong.BackColor == Color.Blue)
+                nudEjeY.Value = Convert.ToDecimal(txbLong.Text);
+        }
+
+        private void chbEjeYmanual_Click(object sender, MouseEventArgs e)
+        {
+            if (chbEjeYmanual.Checked)
+                nudEjeY.ReadOnly = false;
+            else
+                nudEjeY.ReadOnly = true;
+
+        }
+
+        private void btnActualizaEjeX_Click(object sender, EventArgs e)
+        {
+            tracEjeX.Value = Convert.ToInt32(txbLong.Text);
+
+            if (txbLong.Text == tracEjeX.Value.ToString())
+            {
+                txbLong.BackColor = Color.Blue;
+            }
+        }
+
+        private void tracEjeX_Scroll(object sender, EventArgs e)
+        {
+            txbLong.Text = tracEjeX.Value.ToString();
+        }
+
+        private void txbLong_TextChanged(object sender, EventArgs e)
+        {
+            if (tracEjeX.Value.ToString() == txbLong.Text)
+                txbLong.BackColor = Color.Blue;
+            else
+                txbLong.BackColor = Color.Cyan;
+        }
+
+        private void lbColor_Click(object sender, EventArgs e)
+        {
+            colorDialog.ShowDialog();
+            lbColor.BackColor = colorDialog.Color;
+
+        }
+
+        private void txbX_TextChanged(object sender, EventArgs e)
+        {
+            if (tracX.Value.ToString() == txbX.Text)
+                txbX.BackColor = Color.FromArgb(192, 0, 0);
+            else
+                txbX.BackColor = Color.Orange;
+        }
+
+        private void txbY_TextChanged(object sender, EventArgs e)
+        {
+            if (tracY.Value.ToString() == txbY.Text)
+                txbY.BackColor = Color.FromArgb(192, 0, 0);
+            else
+                txbY.BackColor = Color.Orange;
+        }
+
+        private void tracX_Scroll(object sender, EventArgs e)
+        {
+            txbX.Text = tracX.Value.ToString();
+        }
+
+        private void tracY_Scroll(object sender, EventArgs e)
+        {
+            txbY.Text = tracY.Value.ToString();
+        }
+
+        private void btnActualizaXY_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void panelDibujo_MouseClick(object sender, MouseEventArgs e)
@@ -75,29 +153,6 @@ namespace ElipsesRectangulos
 
             txbX.Text = tracX.Value.ToString();
             txbY.Text = tracY.Value.ToString();
-        }
-
-        private void tracEjeX_Scroll(object sender, EventArgs e)
-        {
-            txbLong.Text = tracEjeX.Value.ToString();
-        }
-
-        private void btnIgualaEjes_Click(object sender, EventArgs e)
-        {
-            if (txbLong.BackColor == Color.Blue)
-            {
-                nudEjeY.Value = Convert.ToDecimal(txbLong.Text);
-            }
-        }
-
-        private void btnBorrar_Click(object sender, EventArgs e)
-        {
-            DialogResult d = MessageBox.Show("¿Quieres borrar el panel?", "Confirmar", MessageBoxButtons.YesNo);
-
-            if (d == DialogResult.Yes)
-            {
-                pizarra.Clear(Color.White);
-            }
         }
     }
 }
