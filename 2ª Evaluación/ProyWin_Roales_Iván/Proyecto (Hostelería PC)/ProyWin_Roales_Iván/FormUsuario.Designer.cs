@@ -1,6 +1,6 @@
 ﻿namespace InterfazUsuario
 {
-    partial class AnadirUsuario
+    partial class FormUsuario
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnadirUsuario));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormUsuario));
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.txbUsuario = new System.Windows.Forms.TextBox();
             this.txbPass = new System.Windows.Forms.TextBox();
-            this.btnRegistro = new System.Windows.Forms.Button();
+            this.btnCrear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txbNombre = new System.Windows.Forms.TextBox();
@@ -44,6 +44,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.cbAcceso = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txbID = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,18 +73,18 @@
             this.txbPass.Size = new System.Drawing.Size(150, 22);
             this.txbPass.TabIndex = 2;
             // 
-            // btnRegistro
+            // btnCrear
             // 
-            this.btnRegistro.BackColor = System.Drawing.Color.Transparent;
-            this.btnRegistro.Font = new System.Drawing.Font("Cambria", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistro.ForeColor = System.Drawing.Color.Maroon;
-            this.btnRegistro.Location = new System.Drawing.Point(338, 225);
-            this.btnRegistro.Name = "btnRegistro";
-            this.btnRegistro.Size = new System.Drawing.Size(97, 31);
-            this.btnRegistro.TabIndex = 4;
-            this.btnRegistro.Text = "Guardar";
-            this.btnRegistro.UseVisualStyleBackColor = false;
-            this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
+            this.btnCrear.BackColor = System.Drawing.Color.Transparent;
+            this.btnCrear.Font = new System.Drawing.Font("Cambria", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrear.ForeColor = System.Drawing.Color.Maroon;
+            this.btnCrear.Location = new System.Drawing.Point(338, 225);
+            this.btnCrear.Name = "btnCrear";
+            this.btnCrear.Size = new System.Drawing.Size(97, 31);
+            this.btnCrear.TabIndex = 4;
+            this.btnCrear.Text = "Crear";
+            this.btnCrear.UseVisualStyleBackColor = false;
+            this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click);
             // 
             // label1
             // 
@@ -174,7 +177,7 @@
             // 
             this.cbAcceso.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAcceso.FormattingEnabled = true;
-            this.cbAcceso.Location = new System.Drawing.Point(69, 230);
+            this.cbAcceso.Location = new System.Drawing.Point(170, 230);
             this.cbAcceso.Name = "cbAcceso";
             this.cbAcceso.Size = new System.Drawing.Size(131, 21);
             this.cbAcceso.TabIndex = 14;
@@ -185,19 +188,57 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Maroon;
-            this.label7.Location = new System.Drawing.Point(19, 233);
+            this.label7.Location = new System.Drawing.Point(120, 233);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(44, 14);
             this.label7.TabIndex = 15;
             this.label7.Text = "Acceso:";
             // 
-            // AnadirUsuario
+            // btnEditar
+            // 
+            this.btnEditar.BackColor = System.Drawing.Color.Transparent;
+            this.btnEditar.Font = new System.Drawing.Font("Cambria", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.ForeColor = System.Drawing.Color.Maroon;
+            this.btnEditar.Location = new System.Drawing.Point(338, 225);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(97, 31);
+            this.btnEditar.TabIndex = 16;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Maroon;
+            this.label8.Location = new System.Drawing.Point(12, 233);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(22, 14);
+            this.label8.TabIndex = 23;
+            this.label8.Text = "ID:";
+            // 
+            // txbID
+            // 
+            this.txbID.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbID.ForeColor = System.Drawing.Color.Maroon;
+            this.txbID.Location = new System.Drawing.Point(40, 229);
+            this.txbID.Name = "txbID";
+            this.txbID.Size = new System.Drawing.Size(43, 22);
+            this.txbID.TabIndex = 24;
+            this.txbID.Visible = false;
+            // 
+            // FormUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(447, 268);
+            this.Controls.Add(this.txbID);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.cbAcceso);
             this.Controls.Add(this.label6);
@@ -208,13 +249,12 @@
             this.Controls.Add(this.txbNombre);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnRegistro);
+            this.Controls.Add(this.btnCrear);
             this.Controls.Add(this.txbPass);
             this.Controls.Add(this.txbUsuario);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "AnadirUsuario";
-            this.Text = "Añadir usuario";
-            this.Load += new System.EventHandler(this.AnadirUsuario_Load);
+            this.Name = "FormUsuario";
+            this.Load += new System.EventHandler(this.FormUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -225,7 +265,7 @@
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.TextBox txbPass;
         private System.Windows.Forms.TextBox txbUsuario;
-        private System.Windows.Forms.Button btnRegistro;
+        public System.Windows.Forms.Button btnCrear;
         private System.Windows.Forms.TextBox txbApellidos;
         private System.Windows.Forms.TextBox txbNombre;
         private System.Windows.Forms.Label label2;
@@ -236,6 +276,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cbAcceso;
+        public System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txbID;
     }
 }
 

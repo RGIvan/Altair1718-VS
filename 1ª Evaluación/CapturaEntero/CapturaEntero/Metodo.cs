@@ -8,19 +8,15 @@ namespace CapturaEntero
 {
     class Metodo
     {
-
         public static int CapturaEntero(string enunciado, int min, int max)
 
         {
-
             int valor = 0;
-
             bool esCorrecto;
 
             do
 
             {
-
                 Console.Write("\n\n\t{2} [{0}..{1}]: ", min, max, enunciado);
 
                 esCorrecto = Int32.TryParse(Console.ReadLine(), out valor);
