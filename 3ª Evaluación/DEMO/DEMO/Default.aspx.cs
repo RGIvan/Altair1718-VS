@@ -45,7 +45,7 @@ namespace DEMO
 
             texto = txtNombre.Text;
 
-            textoBienvenida = "Bienvenido";
+            textoBienvenida = "¡Bienvenido";
 
             if (radioMayusculas.Checked)
             {
@@ -61,6 +61,5 @@ namespace DEMO
             lbSaludo.Text = textoBienvenida + " " + texto + "!";
             lbSaludo.Visible = true;
         }
-
     }
 }
