@@ -45,8 +45,6 @@ C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.AnadirProducto.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.EditRestaurante.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.AnadirRestaurante.resources
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.EditUsuario.resources
-C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.AnadirUsuario.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.Registro.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.Login.resources
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.Properties.Resources.resources
@@ -99,3 +97,4 @@ C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_I
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.UIUsuario.resources
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.csproj.GenerateResource.Cache
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.FormUsuario.resources
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Roales_Iván\Proyecto (Hostelería PC)\ProyWin_Roales_Iván\obj\Debug\InterfazUsuario.FormUsuario.resources
