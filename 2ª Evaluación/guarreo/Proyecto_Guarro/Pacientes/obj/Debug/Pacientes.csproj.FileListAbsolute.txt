@@ -1,0 +1,43 @@
+C:\Users\Alberto\Desktop\Pacientes\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\bin\Debug\Pacientes.exe
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\bin\Debug\Pacientes.pdb
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\obj\Debug\Pacientes.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\obj\Debug\Pacientes.IUDetalle.resources
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\obj\Debug\Pacientes.IUPacientes.resources
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\obj\Debug\Pacientes.Properties.Resources.resources
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\obj\Debug\Pacientes.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\obj\Debug\Pacientes.exe
+C:\Users\Alberto\Desktop\xWinControlPeso  (1516)\Examen Windows Pacientes 1516\Apellidos_Nombre\Pacientes\obj\Debug\Pacientes.pdb
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.exe
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.pdb
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\bin\Debug\Pacientes.exe
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\bin\Debug\Pacientes.pdb
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.csprojResolveAssemblyReference.cache
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.IUDetalle.resources
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.IUPacientes.resources
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.Properties.Resources.resources
+C:\Altair\xProg\x2 Windows\xWin_Pacientes  (1516)\Examen Windows Pacientes 1516\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.csproj.GenerateResource.Cache
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.exe
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.pdb
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\bin\Debug\Pacientes.exe
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\bin\Debug\Pacientes.pdb
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.csprojResolveAssemblyReference.cache
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.IUDetalle.resources
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.IUPacientes.resources
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.Properties.Resources.resources
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.csproj.GenerateResource.Cache
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET  Pacientes\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET  Pacientes\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.exe
+C:\Altair\Exámenes 16-17\CSI2 DWS\CSI2 DWS Ev2 (170113) ADO.NET  Pacientes\_xWindows Gestión Pacientes 1617\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.pdb
+C:\Altair\xHechos 17-18\CSI2 DWS\CSI2 DWS Ev2 (180110) ADO.NET  Pacientes\_xWindows Gestión Pacientes 1718\Apellido1_Nombre\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Altair\xHechos 17-18\CSI2 DWS\CSI2 DWS Ev2 (180110) ADO.NET  Pacientes\_xWindows Gestión Pacientes 1718\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.exe
+C:\Altair\xHechos 17-18\CSI2 DWS\CSI2 DWS Ev2 (180110) ADO.NET  Pacientes\_xWindows Gestión Pacientes 1718\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.pdb
+C:\Users\carlo\Desktop\guarreo\Apellido1_Nombre\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Users\carlo\Desktop\guarreo\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.exe
+C:\Users\carlo\Desktop\guarreo\Apellido1_Nombre\Pacientes\obj\Debug\Pacientes.pdb
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\obj\Debug\Pacientes.exe
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\obj\Debug\Pacientes.pdb

@@ -1,0 +1,16 @@
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\obj\Debug\Pacientes.exe
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\obj\Debug\Pacientes.pdb
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\bin\Debug\BD_Pacientes.accdb
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\bin\Debug\Pacientes.exe
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\bin\Debug\Pacientes.pdb
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\bin\Debug\LogicaNegocioYAccesoDatos.dll
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\bin\Debug\LogicaNegocioYAccesoDatos.pdb
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\obj\Debug\IUPacientes.csprojResolveAssemblyReference.cache
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\obj\Debug\IUPacientes.IUDetalle.resources
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\obj\Debug\IUPacientes.IUPacientes.resources
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\obj\Debug\Pacientes.Properties.Resources.resources
+C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\Pacientes\obj\Debug\IUPacientes.csproj.GenerateResource.Cache
+C:\Users\Crono\Descargas\Examen\guarreo\Proyecto_Guarro\Pacientes\bin\Debug\Pacientes.exe.config
+C:\Users\Crono\Descargas\Examen\guarreo\Proyecto_Guarro\Pacientes\obj\Debug\Pacientes.exe
+C:\Users\Crono\Descargas\Examen\guarreo\Proyecto_Guarro\Pacientes\obj\Debug\Pacientes.pdb
