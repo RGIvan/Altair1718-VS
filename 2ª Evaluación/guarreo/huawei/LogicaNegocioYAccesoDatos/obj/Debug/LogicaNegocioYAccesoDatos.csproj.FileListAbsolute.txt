@@ -1,7 +1,0 @@
-C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\LogicaNegocioYAccesoDatos\bin\Debug\BD_Pacientes.accdb
-C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\LogicaNegocioYAccesoDatos\bin\Debug\LogicaNegocioYAccesoDatos.dll.config
-C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\LogicaNegocioYAccesoDatos\bin\Debug\LogicaNegocioYAccesoDatos.dll
-C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\LogicaNegocioYAccesoDatos\bin\Debug\LogicaNegocioYAccesoDatos.pdb
-C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\LogicaNegocioYAccesoDatos\obj\Debug\LogicaNegocioYAccesoDatos.csprojResolveAssemblyReference.cache
-C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\LogicaNegocioYAccesoDatos\obj\Debug\LogicaNegocioYAccesoDatos.dll
-C:\Users\carlo\Desktop\guarreo\Laguna_Carlos\LogicaNegocioYAccesoDatos\obj\Debug\LogicaNegocioYAccesoDatos.pdb
