@@ -26,14 +26,14 @@ namespace InterfazUsuario
             errorProvider1.Clear();
             string texto = String.Empty;
 
-            if (txbUsuario.ForeColor == Color.DarkRed || txbUsuario.Text == String.Empty)
+            if (txbUsuario.Text == String.Empty)
             {
                 texto = "El usuario está vacío\n";
                 errorProvider1.SetError(txbUsuario, "El campo está vacío.");
                 txbPass.Text = String.Empty;
             }
 
-            if (txbPass.ForeColor == Color.DarkRed || txbPass.Text == String.Empty)
+            if (txbPass.Text == String.Empty)
             {
                 texto = "La contraseña está vacía\n";
                 errorProvider1.SetError(txbPass, "El campo está vacío.");

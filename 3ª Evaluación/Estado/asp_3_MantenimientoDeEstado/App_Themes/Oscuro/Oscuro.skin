@@ -1,0 +1,55 @@
+
+<asp:TextBox runat="server" 
+BackColor="#454545" 
+Font-Names="Times"
+Font-Size="14pt"
+ForeColor="white"
+Width="211px"></asp:TextBox>
+
+<asp:Label runat="server" 
+Font-Bold="True"
+Font-Names="Times"
+Font-Size="14pt"></asp:Label>
+
+<asp:Label runat="server" 
+Font-Bold="True"
+Font-Names="Times"
+Font-Size="14pt"
+ForeColor="#C0C0C0"
+SkinID="skinPass"></asp:Label>
+
+<asp:RequiredFieldValidator runat="server" 
+ErrorMessage="Este campo no puede estar vacío"
+Font-Italic="True"
+Font-Names="Times"
+Font-Size="12pt"
+ForeColor="Red" 
+Display="Dynamic"></asp:RequiredFieldValidator>
+
+<asp:CompareValidator runat="server" 
+Font-Italic="True" 
+Font-Names="Times"
+Font-Size="12pt"
+ForeColor="Red" 
+Display="Dynamic"></asp:CompareValidator>
+
+<asp:RangeValidator runat="server" 
+Font-Italic="True" 
+Font-Names="Times"
+Font-Size="12pt"
+ForeColor="Red" 
+Display="Dynamic"></asp:RangeValidator>
+
+<asp:RegularExpressionValidator runat="server" 
+Font-Italic="True" 
+Font-Names="Times"
+Font-Size="12pt"
+ForeColor="Red"
+Display="Dynamic"></asp:RegularExpressionValidator>
+
+<asp:CustomValidator runat="server"
+Font-Italic="True"
+Font-Names="Times"
+Font-Size="12pt"
+ForeColor="Red"
+Display="Dynamic"></asp:CustomValidator>

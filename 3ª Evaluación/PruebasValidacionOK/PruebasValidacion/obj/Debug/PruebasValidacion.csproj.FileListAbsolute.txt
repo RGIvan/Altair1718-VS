@@ -52,3 +52,9 @@ C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\bin\Prue
 C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\obj\Debug\PruebasValidacion.csprojResolveAssemblyReference.cache
 C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\obj\Debug\PruebasValidacion.dll
 C:\Users\ALUM01\git\Altair1718-VS\PruebasValidacionOK\PruebasValidacion\obj\Debug\PruebasValidacion.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\PruebasValidacionOK\PruebasValidacion\bin\PruebasValidacion.dll.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\PruebasValidacionOK\PruebasValidacion\bin\PruebasValidacion.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\PruebasValidacionOK\PruebasValidacion\bin\PruebasValidacion.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\PruebasValidacionOK\PruebasValidacion\obj\Debug\PruebasValidacion.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\PruebasValidacionOK\PruebasValidacion\obj\Debug\PruebasValidacion.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\PruebasValidacionOK\PruebasValidacion\obj\Debug\PruebasValidacion.pdb

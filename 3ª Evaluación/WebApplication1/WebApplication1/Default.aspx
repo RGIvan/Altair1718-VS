@@ -20,7 +20,9 @@
             <asp:Label ID="lbEntrada" runat="server" Font-Bold="True" Font-Names="Arial" ForeColor="#336699" BorderStyle="Inset"></asp:Label>
             <br />
             <br />
-            <img alt="Android" class="auto-style1" src="Imagenes/indice.jpg" /><asp:TextBox ID="txtNombre" runat="server" BackColor="#CCCCCC" Font-Size="Medium" ForeColor="#666666" Width="301px" Height="21px" BorderStyle="Dotted" Font-Bold="True"> Introduce un nombre al que saludar</asp:TextBox>
+            <img alt="Android" class="auto-style1" src="Imagenes/indice.jpg" />
+            <asp:TextBox ID="txtNombre" runat="server" BackColor="#CCCCCC" Font-Size="Medium" ForeColor="#666666" Width="286px" Height="21px" BorderStyle="Dotted" Font-Bold="True">Introduce un nombre para saludar</asp:TextBox>
+            <br />
             <br />
             <asp:Button ID="btnSaludo" runat="server" Text="Saludar" OnClick="btnSaludo_Click" Font-Bold="True" BackColor="White" BorderStyle="Dashed" />
             <br />
@@ -28,7 +30,7 @@
             <asp:Label ID="lbSaludo" runat="server" Font-Bold="True" Font-Size="Medium" Visible="False" BorderColor="#666633" BorderStyle="Solid"></asp:Label>
         </div>
         <br />
-        <div style="position: relative">
+        <div style="position: relative; top: 1px; left: 0px; height: 127px;">
             <asp:DropDownList ID="listaNombres" runat="server" Font-Bold="True" ForeColor="#663300"></asp:DropDownList>
             <br />
             <br />

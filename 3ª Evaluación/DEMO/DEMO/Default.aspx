@@ -19,7 +19,7 @@
             <asp:CheckBox ID="CheckBorrar" runat="server" Font-Bold="True" Text="Borrar a la vuelta" AutoPostBack="True" />
             &nbsp;
        
-            <asp:RadioButton ID="radioMayusculas" runat="server" Text="Mayúsculas" GroupName="letra" />
+            <asp:RadioButton ID="radioMayusculas" runat="server" Text="MAYÚSCULAS" GroupName="letra" />
             &nbsp;
        
             <asp:RadioButton ID="radioMinusculas" runat="server" Text="minúsculas" GroupName="letra" />

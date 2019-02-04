@@ -199,7 +199,7 @@
             this.btnEditar.BackColor = System.Drawing.Color.Transparent;
             this.btnEditar.Font = new System.Drawing.Font("Cambria", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.Color.Maroon;
-            this.btnEditar.Location = new System.Drawing.Point(338, 225);
+            this.btnEditar.Location = new System.Drawing.Point(338, 224);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(97, 31);
             this.btnEditar.TabIndex = 16;

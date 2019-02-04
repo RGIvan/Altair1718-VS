@@ -1,0 +1,37 @@
+﻿body {
+    background-color: #454545;
+    display: table;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 70%;
+}
+
+table {
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    font-family: Decorativa;
+    font-size: 14pt;
+}
+
+caption {
+    background-color: brown;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    caption-side: top;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+
+td {
+    background-color: #dcdcdc;
+}
+
+#vacia {
+    height: 50px;
+}

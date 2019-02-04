@@ -11,7 +11,9 @@ namespace ValidationGroup
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string usuario = ((TextBox)Page.PreviousPage.FindControl("txtUsu")).Text;
 
+            lbSaludo.Text = "Bienvenido a la página del cliente,  " + usuario;
         }
     }
 }

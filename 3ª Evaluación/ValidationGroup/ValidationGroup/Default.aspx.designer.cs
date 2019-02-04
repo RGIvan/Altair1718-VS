@@ -67,13 +67,13 @@ namespace ValidationGroup {
         protected global::System.Web.UI.WebControls.TextBox txtUsu;
         
         /// <summary>
-        /// Control rfv.
+        /// Control valReqUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valReqUsuario;
         
         /// <summary>
         /// Control Label4.
@@ -94,13 +94,22 @@ namespace ValidationGroup {
         protected global::System.Web.UI.WebControls.TextBox txtCorreo;
         
         /// <summary>
-        /// Control RegularExpressionValidator1.
+        /// Control valReqMail.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valReqMail;
+        
+        /// <summary>
+        /// Control valExpRegMail.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator valExpRegMail;
         
         /// <summary>
         /// Control Label5.
@@ -121,22 +130,13 @@ namespace ValidationGroup {
         protected global::System.Web.UI.WebControls.TextBox txtPass;
         
         /// <summary>
-        /// Control RequiredFieldValidator1.
+        /// Control valReqPassword1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
-        
-        /// <summary>
-        /// Control cv2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator cv2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valReqPassword1;
         
         /// <summary>
         /// Control Label6.
@@ -157,13 +157,13 @@ namespace ValidationGroup {
         protected global::System.Web.UI.WebControls.TextBox txtPassAdmin;
         
         /// <summary>
-        /// Control rvRepetir.
+        /// Control valReqPasword2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvRepetir;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valReqPasword2;
         
         /// <summary>
         /// Control btnValidarTodo.

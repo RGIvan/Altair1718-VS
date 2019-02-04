@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
 using LogicaNegocioyADatos; // No se te olvide AGREGAR REFERENCIA al proyecto LogicaNegocioyADatos
 using LogicaNegocioyADatos.Entidades;
 
@@ -72,9 +71,6 @@ namespace WebAlumnosFP
             lbCabecera.Text = String.Format("Alumnos de {0}.  ({1} alumnos)", ddlGrupos.SelectedItem.Text, dgv.Rows.Count);
 
         }
-
-
-
 
         protected void dgv_RowEditing(object sender, GridViewEditEventArgs e)
         {

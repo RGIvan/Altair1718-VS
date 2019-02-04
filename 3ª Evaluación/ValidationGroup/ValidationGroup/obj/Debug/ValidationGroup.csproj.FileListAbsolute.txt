@@ -34,15 +34,15 @@ C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\Validat
 C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
 C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.dll
 C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\Demo ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.pdb
-C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\bin\ValidationGroup.dll.config
-C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\bin\ValidationGroup.dll
-C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\bin\ValidationGroup.pdb
-C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
-C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\obj\Debug\ValidationGroup.dll
-C:\Users\Alberto\Desktop\Demo ValidationGroup (inicio)\ValidationGroup\obj\Debug\ValidationGroup.pdb
-C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\bin\ValidationGroup.dll.config
-C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\bin\ValidationGroup.dll
-C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\bin\ValidationGroup.pdb
-C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
-C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.dll
-C:\Users\ALUM01\git\Altair1718-VS\ValidationGroup\ValidationGroup\obj\Debug\ValidationGroup.pdb
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2b ValidationGroup\ValidationGroup (OK)\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2b ValidationGroup\ValidationGroup (OK)\ValidationGroup\bin\ValidationGroup.dll
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2b ValidationGroup\ValidationGroup (OK)\ValidationGroup\bin\ValidationGroup.pdb
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2b ValidationGroup\ValidationGroup (OK)\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2b ValidationGroup\ValidationGroup (OK)\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\_Práctica web2b ValidationGroup\ValidationGroup (OK)\ValidationGroup\obj\Debug\ValidationGroup.pdb
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\web2b ValidationGroup (OK)\ValidationGroup\bin\ValidationGroup.dll.config
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\web2b ValidationGroup (OK)\ValidationGroup\bin\ValidationGroup.dll
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\web2b ValidationGroup (OK)\ValidationGroup\bin\ValidationGroup.pdb
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\web2b ValidationGroup (OK)\ValidationGroup\obj\Debug\ValidationGroup.csprojResolveAssemblyReference.cache
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\web2b ValidationGroup (OK)\ValidationGroup\obj\Debug\ValidationGroup.dll
+C:\Altair\PNet3 ASP.Net\Web2 Validacion de Web Form\web2b ValidationGroup (OK)\ValidationGroup\obj\Debug\ValidationGroup.pdb

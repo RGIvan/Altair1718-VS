@@ -14,6 +14,7 @@ namespace InterfazUsuario
 {
     public partial class FormUsuario : Form
     {
+        #region Propiedades
         Usuario usu;
 
         public Usuario Usu
@@ -28,12 +29,14 @@ namespace InterfazUsuario
                 usu = value;
             }
         }
+        #endregion
 
         public FormUsuario()
         {
             InitializeComponent();
         }
 
+        #region Load
         private void FormUsuario_Load(object sender, EventArgs e)
         {
             this.usu = new Usuario();
@@ -50,7 +53,9 @@ namespace InterfazUsuario
             cbAcceso.Items.Insert(1, "1. Admin");
             cbAcceso.Items.Insert(2, "2. Usuario");
         }
+        #endregion
 
+        #region Crear usuario
         private void btnCrear_Click(object sender, EventArgs e)
         {
             if (!HayErrorEnFormulario())
@@ -80,7 +85,9 @@ namespace InterfazUsuario
                 }
             }
         }
+        #endregion
 
+        #region Editar usuario
         private void btnEditar_Click(object sender, EventArgs e)
         {
             if (!HayErrorEnFormulario())
@@ -98,7 +105,9 @@ namespace InterfazUsuario
                 this.Close();
             }
         }
+        #endregion
 
+        #region Error
         private bool HayErrorEnFormulario()
         {
             errorProvider1.Clear();
@@ -146,5 +155,6 @@ namespace InterfazUsuario
 
             return error;
         }
+        #endregion
     }
 }

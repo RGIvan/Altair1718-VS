@@ -69,7 +69,7 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Constantia", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(133, 9);
+            this.label2.Location = new System.Drawing.Point(152, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(187, 25);
             this.label2.TabIndex = 6;

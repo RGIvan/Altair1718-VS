@@ -76,3 +76,12 @@ C:\Users\Alberto\Desktop\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\bin\LogicaNego
 C:\Users\Alberto\Desktop\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
 C:\Users\Alberto\Desktop\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
 C:\Users\Alberto\Desktop\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\Done_WebAlumnosFP\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\bin\BD_AlumnosFP.accdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\Done_WebAlumnosFP\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\bin\WebAlumnosFP.dll.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\Done_WebAlumnosFP\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\bin\WebAlumnosFP.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\Done_WebAlumnosFP\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\bin\WebAlumnosFP.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\Done_WebAlumnosFP\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\bin\LogicaNegocioyADatos.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\Done_WebAlumnosFP\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\bin\LogicaNegocioyADatos.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\Done_WebAlumnosFP\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\obj\Debug\WebAlumnosFP.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\Done_WebAlumnosFP\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\obj\Debug\WebAlumnosFP.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\3ª Evaluación\Done_WebAlumnosFP\ProyectoWebAlumnosFP (V1.1)\WebAlumnosFP\obj\Debug\WebAlumnosFP.pdb

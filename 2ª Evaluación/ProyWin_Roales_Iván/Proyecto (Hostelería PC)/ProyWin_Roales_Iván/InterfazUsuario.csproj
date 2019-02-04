@@ -55,35 +55,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EditProducto.cs">
+    <Compile Include="FormProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditProducto.Designer.cs">
-      <DependentUpon>EditProducto.cs</DependentUpon>
+    <Compile Include="FormProducto.Designer.cs">
+      <DependentUpon>FormProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="AnadirProducto.cs">
+    <Compile Include="FormRestaurante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnadirProducto.Designer.cs">
-      <DependentUpon>AnadirProducto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EditRestaurante.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditRestaurante.Designer.cs">
-      <DependentUpon>EditRestaurante.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AnadirRestaurante.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AnadirRestaurante.Designer.cs">
-      <DependentUpon>AnadirRestaurante.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EditUsuarioAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditUsuarioAdmin.Designer.cs">
-      <DependentUpon>EditUsuarioAdmin.cs</DependentUpon>
+    <Compile Include="FormRestaurante.Designer.cs">
+      <DependentUpon>FormRestaurante.cs</DependentUpon>
     </Compile>
     <Compile Include="FormUsuario.cs">
       <SubType>Form</SubType>
@@ -128,20 +110,11 @@
     <Compile Include="UIUsuario.Designer.cs">
       <DependentUpon>UIUsuario.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="EditProducto.resx">
-      <DependentUpon>EditProducto.cs</DependentUpon>
+    <EmbeddedResource Include="FormProducto.resx">
+      <DependentUpon>FormProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AnadirProducto.resx">
-      <DependentUpon>AnadirProducto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditRestaurante.resx">
-      <DependentUpon>EditRestaurante.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AnadirRestaurante.resx">
-      <DependentUpon>AnadirRestaurante.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditUsuarioAdmin.resx">
-      <DependentUpon>EditUsuarioAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="FormRestaurante.resx">
+      <DependentUpon>FormRestaurante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUsuario.resx">
       <DependentUpon>FormUsuario.cs</DependentUpon>

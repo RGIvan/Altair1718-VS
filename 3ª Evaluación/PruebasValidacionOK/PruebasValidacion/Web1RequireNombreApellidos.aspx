@@ -34,12 +34,10 @@
          <div style="margin-left: 50px">
              <asp:ImageButton ID="ibtnEnviar" runat="server" Height="129px" ImageUrl="~/Imagenes/password.png" Width="168px" OnClick="btnEnviar_Click" />
          </div>
-   
-   
+
     <div style="margin-left: 320px">
         <br />
         <br />
-
     </div>
     </form>
      <p>
