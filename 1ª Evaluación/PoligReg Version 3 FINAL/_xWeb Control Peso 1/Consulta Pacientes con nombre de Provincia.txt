@@ -1,6 +1,0 @@
-SELECT idPaciente, apellNombre, movil, tlfno, email, domicilio, cp, Pacientes.idProv, Provincias.nombre AS Provincia, fecha, altura, peso
-FROM Pacientes, Provincias
-WHERE Pacientes.idProv=Provincias.idProvincia
-
------------------------------------------------------------
-Atención: recuerda que para que te sirva tienes que insertar la columna Provincia en la tabla de pacientes del DataSet
