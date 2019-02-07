@@ -14,6 +14,7 @@ namespace LogicaNegocioyADatos.Entidades
         double precio;
         int cantidad;
         int idRestaurante;
+        private DataSet1.productoRow regProducto;
         #endregion
 
         #region Constructores
@@ -26,13 +27,18 @@ namespace LogicaNegocioyADatos.Entidades
             this.idRestaurante = idRestaurante;
         }
 
+        public Producto()
+        {
+            this.idProducto = -1;
+            this.idRestaurante = -1;
+            this.nombre = String.Empty;
+            this.precio = 0.0;
+            this.cantidad = 0;
+        }
+
         public Producto(DataSet1.productoRow regProducto)
         {
             this.idProducto = regProducto.idproducto;
-            this.nombre = regProducto.nombre;
-            this.precio = regProducto.precio;
-            this.cantidad = regProducto.cantidad;
-            this.idRestaurante = regProducto.idrestaurante;
         }
         #endregion
 

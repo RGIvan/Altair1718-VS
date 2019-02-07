@@ -29,6 +29,16 @@ namespace LogicaNegocioyADatos.Entidades
             this.nombre = nombre;
         }
 
+        public Restaurante()
+        {
+            this.idRestaurante = -1;
+            this.nombre = String.Empty;
+            this.nif = String.Empty;
+            this.descripcion = String.Empty;
+            this.ciudad = String.Empty;
+            this.telefono = 0;
+        }
+
         public Restaurante(DataSet1.restauranteRow regRestaurante)
         {
             this.idRestaurante = regRestaurante.idrestaurante;

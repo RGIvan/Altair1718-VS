@@ -33,5 +33,12 @@ namespace InterfazUsuario
         {
             InitializeComponent();
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login login = new Login();
+            login.Show();
+        }
     }
 }

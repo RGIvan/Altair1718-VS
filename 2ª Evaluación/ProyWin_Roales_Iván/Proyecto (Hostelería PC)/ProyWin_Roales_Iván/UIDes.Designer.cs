@@ -42,6 +42,7 @@
             this.dgv = new System.Windows.Forms.DataGridView();
             this.Del = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Edit = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
@@ -57,7 +58,7 @@
             this.tsbUsuarios});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(885, 139);
+            this.toolStrip1.Size = new System.Drawing.Size(876, 139);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "UIDes";
             // 
@@ -198,13 +199,27 @@
             this.Edit.UseColumnTextForButtonValue = true;
             this.Edit.Width = 40;
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.Font = new System.Drawing.Font("Cambria", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.Maroon;
+            this.btnVolver.Location = new System.Drawing.Point(789, 498);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 16;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // UIDes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(885, 501);
+            this.ClientSize = new System.Drawing.Size(876, 533);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.dgv);
             this.Controls.Add(this.toolStrip1);
             this.DoubleBuffered = true;
@@ -228,5 +243,6 @@
         private System.Windows.Forms.ToolStripButton tsbUsuarios;
         private System.Windows.Forms.DataGridViewButtonColumn Del;
         private System.Windows.Forms.DataGridViewButtonColumn Edit;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

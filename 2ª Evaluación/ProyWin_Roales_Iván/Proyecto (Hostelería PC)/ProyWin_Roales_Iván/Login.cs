@@ -67,8 +67,9 @@ namespace InterfazUsuario
                     txbPass.Text = String.Empty;
                     txbUsuario.Text = String.Empty;
                     btnEntrar.Focus();
-                    UIUsuario interfaz = new UIUsuario();
+                    MenuUsuario interfaz = new MenuUsuario();
                     interfaz.Usu = usu;
+                    this.Hide();
                     interfaz.ShowDialog();
                     interfaz.Dispose();
                 }
@@ -78,8 +79,9 @@ namespace InterfazUsuario
                     txbPass.Text = String.Empty;
                     txbUsuario.Text = String.Empty;
                     btnEntrar.Focus();
-                    UIAdmin interfaz = new UIAdmin();
+                    MenuAdmin interfaz = new MenuAdmin();
                     interfaz.Usu = usu;
+                    this.Hide();
                     interfaz.ShowDialog();
                     interfaz.Dispose();
                 }
@@ -91,6 +93,7 @@ namespace InterfazUsuario
                     btnEntrar.Focus();
                     UIDes interfaz = new UIDes();
                     interfaz.Usu = usu;
+                    this.Hide();
                     interfaz.ShowDialog();
                     interfaz.Dispose();
                 }
@@ -121,12 +124,13 @@ namespace InterfazUsuario
             Registro regUser = new Registro();
             regUser.ShowDialog();
             regUser.Dispose();
+            
         }
         #endregion
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
     }
 }

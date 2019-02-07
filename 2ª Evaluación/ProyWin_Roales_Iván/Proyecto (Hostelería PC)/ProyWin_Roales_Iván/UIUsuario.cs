@@ -28,36 +28,6 @@ namespace InterfazUsuario
             {
                 usu = value;
             }
-        }
-
-        Producto pro;
-
-        public Producto Pro
-        {
-            get
-            {
-                return pro;
-            }
-
-            set
-            {
-                pro = value;
-            }
-        }
-
-        Restaurante res;
-
-        public Restaurante Res
-        {
-            get
-            {
-                return res;
-            }
-
-            set
-            {
-                res = value;
-            }
         } 
         #endregion
 
@@ -73,96 +43,72 @@ namespace InterfazUsuario
             int fila = e.RowIndex;
 
             if (colum == 1)
-                EditarRegistroProducto(fila);
+                EditarRegistro(fila);
             else if (dgv.Columns[colum].HeaderText == "Del")
-                BorrarRegistroProducto(fila);
+                BorrarRegistro(fila);
             else
                 return;
         }
-
-        private void dgv2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int colum = e.ColumnIndex;
-            int fila = e.RowIndex;
-
-            if (colum == 1)
-                EditarRegistroRestaurante(fila);
-            else if (dgv2.Columns[colum].HeaderText == "Del")
-                BorrarRegistroRestaurante(fila);
-            else
-                return;
-        } 
         #endregion
 
-        #region Editar Registro
-        private void EditarRegistroUsuario(int fila)
+        #region Registros
+        private void BorrarRegistro(int fila)
         {
+            if (DialogResult.No == MessageBox.Show("¿Está seguro de eliminar a:\n" + dgv.Rows[fila].Cells["usuario"].Value.ToString() + "?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
+                return;
 
+            int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
+            LNyAD.BorrarUsuario(idUsuario);
         }
 
-        private void EditarRegistroProducto(int fila)
+        private void EditarRegistro(int fila)
         {
+            int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
+            Usuario usu = LNyAD.ObtenerUsuarioPorId(idUsuario);
 
-        }
+            FormUsuario fusuario = new FormUsuario();
 
-        private void EditarRegistroRestaurante(int fila)
-        {
+            fusuario.btnCrear.Hide();
 
+            fusuario.ShowDialog();
+
+            fusuario.Dispose();
         } 
-        #endregion
-
-        #region Borrar Registro
-        private void BorrarRegistroProducto(int fila)
-        {
-            if (DialogResult.No == MessageBox.Show("¿Está seguro de eliminar a:\n" + dgv.Rows[fila].Cells["nombre"].Value.ToString() + "?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
-                return;
-
-            int idProducto = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
-            LNyAD.BorrarProducto(idProducto);
-        }
-
-        private void BorrarRegistroRestaurante(int fila)
-        {
-            if (DialogResult.No == MessageBox.Show("¿Está seguro de eliminar a:\n" + dgv.Rows[fila].Cells["nombre"].Value.ToString() + "?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
-                return;
-
-            int idRestaurante = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
-            LNyAD.BorrarRestaurante(idRestaurante);
-        }
         #endregion
 
         #region tsb
-        private void tsbRestaurante_Click(object sender, EventArgs e)
-        {
-            dgv2.DataSource = LNyAD.TablaRestaurante();
-            dgv2.Columns["idRestaurante"].Visible = false;
-            dgv2.Columns[3].HeaderText = "NIF";
-            dgv2.Columns[4].HeaderText = "Descripción";
-            dgv2.Columns[5].HeaderText = "Ciudad";
-            dgv2.Columns[6].HeaderText = "Teléfono";
-            dgv2.Columns[7].HeaderText = "Nombre";
-            dgv2.Columns[0].DisplayIndex = dgv2.Columns.Count - 1;
-            dgv.Visible = false;
-            dgv2.Visible = true;
-        }
 
-        private void tsbProductos_Click(object sender, EventArgs e)
+        private void tsbAnadirUsuario_Click(object sender, EventArgs e)
         {
-            dgv.DataSource = LNyAD.TablaProducto();
-            dgv.Columns["idProducto"].Visible = false;
-            dgv.Columns[3].HeaderText = "Nombre";
-            dgv.Columns[4].HeaderText = "Precio";
-            dgv.Columns[5].HeaderText = "Cantidad";
-            dgv.Columns[6].HeaderText = "idRestaurante";
-            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
-            dgv2.Visible = false;
-            dgv.Visible = true;
+            Usuario usu = new Usuario();
+
+            FormUsuario fusuario = new FormUsuario();
+
+            fusuario.btnEditar.Hide();
+
+            fusuario.ShowDialog();
+
+            fusuario.Dispose();
         } 
         #endregion
 
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            MenuAdmin menuAdmin = new MenuAdmin();
+            menuAdmin.Show();
+        }
+
         private void UIUsuario_Load(object sender, EventArgs e)
         {
-
+            dgv.DataSource = LNyAD.TablaUsuarios();
+            dgv.Columns["idUsuario"].Visible = false;
+            dgv.Columns[3].HeaderText = "Usuario";
+            dgv.Columns[4].HeaderText = "Contraseña";
+            dgv.Columns[5].HeaderText = "Nombre";
+            dgv.Columns[6].HeaderText = "Apellidos";
+            dgv.Columns[7].HeaderText = "Acceso";
+            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
         }
     }
 }

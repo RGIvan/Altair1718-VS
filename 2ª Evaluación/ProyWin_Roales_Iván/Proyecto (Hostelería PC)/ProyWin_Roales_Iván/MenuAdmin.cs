@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using LogicaNegocioyADatos.Entidades;
+using LogicaNegocioyADatos;
+
+namespace InterfazUsuario
+{
+    public partial class MenuAdmin : Form
+    {
+        #region Propiedades
+        Usuario usu;
+
+        public Usuario Usu
+        {
+            get
+            {
+                return usu;
+            }
+
+            set
+            {
+                usu = value;
+            }
+        }
+        #endregion
+
+        public MenuAdmin()
+        {
+            InitializeComponent();
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void tsbUsuarios_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            UIUsuario adminUsuario = new UIUsuario();
+            adminUsuario.Show();
+        }
+
+        private void tsbProductos_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            UIProducto adminProducto = new UIProducto();
+            adminProducto.Show();
+        }
+
+        private void tsbRestaurante_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            UIRestaurante adminRestaurante = new UIRestaurante();
+            adminRestaurante.Show();
+        }
+    }
+}

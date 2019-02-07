@@ -35,24 +35,14 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.tsbProductos = new System.Windows.Forms.ToolStripButton();
-            this.tsbRestaurante = new System.Windows.Forms.ToolStripButton();
+            this.tsbAnadirUsuario = new System.Windows.Forms.ToolStripButton();
             this.dgv = new System.Windows.Forms.DataGridView();
             this.Del = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Edit = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.dgv2 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.dataGridViewButtonColumn2 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv2)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -61,41 +51,25 @@
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(110, 110);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsbProductos,
-            this.tsbRestaurante});
+            this.tsbAnadirUsuario});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(885, 139);
+            this.toolStrip1.Size = new System.Drawing.Size(876, 139);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "UIUsuario";
             // 
-            // tsbProductos
+            // tsbAnadirUsuario
             // 
-            this.tsbProductos.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.tsbProductos.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbProductos.ForeColor = System.Drawing.Color.DarkRed;
-            this.tsbProductos.Image = ((System.Drawing.Image)(resources.GetObject("tsbProductos.Image")));
-            this.tsbProductos.ImageTransparentColor = System.Drawing.Color.Transparent;
-            this.tsbProductos.Name = "tsbProductos";
-            this.tsbProductos.Size = new System.Drawing.Size(114, 136);
-            this.tsbProductos.Tag = "";
-            this.tsbProductos.Text = "Productos";
-            this.tsbProductos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbProductos.Click += new System.EventHandler(this.tsbProductos_Click);
-            // 
-            // tsbRestaurante
-            // 
-            this.tsbRestaurante.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbRestaurante.ForeColor = System.Drawing.Color.DarkRed;
-            this.tsbRestaurante.Image = ((System.Drawing.Image)(resources.GetObject("tsbRestaurante.Image")));
-            this.tsbRestaurante.ImageTransparentColor = System.Drawing.Color.Transparent;
-            this.tsbRestaurante.Name = "tsbRestaurante";
-            this.tsbRestaurante.Size = new System.Drawing.Size(134, 136);
-            this.tsbRestaurante.Text = "Restaurantes";
-            this.tsbRestaurante.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbRestaurante.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbRestaurante.Click += new System.EventHandler(this.tsbRestaurante_Click);
+            this.tsbAnadirUsuario.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbAnadirUsuario.ForeColor = System.Drawing.Color.DarkRed;
+            this.tsbAnadirUsuario.Image = ((System.Drawing.Image)(resources.GetObject("tsbAnadirUsuario.Image")));
+            this.tsbAnadirUsuario.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbAnadirUsuario.Name = "tsbAnadirUsuario";
+            this.tsbAnadirUsuario.Size = new System.Drawing.Size(164, 136);
+            this.tsbAnadirUsuario.Text = "Añadir usuarios";
+            this.tsbAnadirUsuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbAnadirUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbAnadirUsuario.Click += new System.EventHandler(this.tsbAnadirUsuario_Click);
             // 
             // dgv
             // 
@@ -135,7 +109,7 @@
             this.dgv.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgv.EnableHeadersVisualStyles = false;
             this.dgv.GridColor = System.Drawing.Color.Black;
-            this.dgv.Location = new System.Drawing.Point(68, 146);
+            this.dgv.Location = new System.Drawing.Point(46, 152);
             this.dgv.MultiSelect = false;
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
@@ -156,7 +130,7 @@
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Snow;
             this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv.Size = new System.Drawing.Size(751, 337);
+            this.dgv.Size = new System.Drawing.Size(760, 350);
             this.dgv.TabIndex = 0;
             this.dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellClick);
             // 
@@ -193,121 +167,37 @@
             this.Edit.UseColumnTextForButtonValue = true;
             this.Edit.Width = 40;
             // 
-            // dgv2
+            // btnVolver
             // 
-            this.dgv2.AllowUserToAddRows = false;
-            this.dgv2.AllowUserToDeleteRows = false;
-            this.dgv2.AllowUserToResizeColumns = false;
-            this.dgv2.AllowUserToResizeRows = false;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.PeachPuff;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.DarkRed;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Maroon;
-            this.dgv2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            this.dgv2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgv2.BackgroundColor = System.Drawing.SystemColors.Info;
-            this.dgv2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Linen;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.DarkRed;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Sienna;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.dgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewButtonColumn1,
-            this.dataGridViewButtonColumn2});
-            this.dgv2.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.IndianRed;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.DarkRed;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.DarkRed;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv2.DefaultCellStyle = dataGridViewCellStyle10;
-            this.dgv2.EnableHeadersVisualStyles = false;
-            this.dgv2.GridColor = System.Drawing.Color.Black;
-            this.dgv2.Location = new System.Drawing.Point(68, 146);
-            this.dgv2.MultiSelect = false;
-            this.dgv2.Name = "dgv2";
-            this.dgv2.ReadOnly = true;
-            this.dgv2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Lucida Handwriting", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Snow;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv2.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            this.dgv2.RowHeadersVisible = false;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.DarkRed;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Snow;
-            this.dgv2.RowsDefaultCellStyle = dataGridViewCellStyle12;
-            this.dgv2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv2.Size = new System.Drawing.Size(751, 337);
-            this.dgv2.TabIndex = 3;
-            this.dgv2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv2_CellContentClick);
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.Font = new System.Drawing.Font("Cambria", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.Maroon;
+            this.btnVolver.Location = new System.Drawing.Point(789, 523);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 14;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // dataGridViewButtonColumn1
-            // 
-            this.dataGridViewButtonColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dataGridViewButtonColumn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.dataGridViewButtonColumn1.HeaderText = "Del";
-            this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
-            this.dataGridViewButtonColumn1.ReadOnly = true;
-            this.dataGridViewButtonColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewButtonColumn1.Text = "x";
-            this.dataGridViewButtonColumn1.ToolTipText = "Borrar Usuario";
-            this.dataGridViewButtonColumn1.UseColumnTextForButtonValue = true;
-            this.dataGridViewButtonColumn1.Width = 40;
-            // 
-            // dataGridViewButtonColumn2
-            // 
-            this.dataGridViewButtonColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.SeaShell;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Consolas", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.dataGridViewButtonColumn2.DefaultCellStyle = dataGridViewCellStyle9;
-            this.dataGridViewButtonColumn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.dataGridViewButtonColumn2.HeaderText = "Edit";
-            this.dataGridViewButtonColumn2.Name = "dataGridViewButtonColumn2";
-            this.dataGridViewButtonColumn2.ReadOnly = true;
-            this.dataGridViewButtonColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewButtonColumn2.Text = "►";
-            this.dataGridViewButtonColumn2.ToolTipText = "Editar Usuarios";
-            this.dataGridViewButtonColumn2.UseColumnTextForButtonValue = true;
-            this.dataGridViewButtonColumn2.Width = 40;
-            // 
-            // UIUsuario
+            // UIAdminUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(885, 501);
-            this.Controls.Add(this.dgv2);
+            this.ClientSize = new System.Drawing.Size(876, 558);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.dgv);
             this.Controls.Add(this.toolStrip1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "UIUsuario";
-            this.Text = "UIUsuario";
+            this.Name = "UIAdminUsuario";
+            this.Text = "UIAdminUsuarios";
             this.Load += new System.EventHandler(this.UIUsuario_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,13 +206,10 @@
         #endregion
 
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton tsbProductos;
-        private System.Windows.Forms.ToolStripButton tsbRestaurante;
         private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.DataGridViewButtonColumn Del;
         private System.Windows.Forms.DataGridViewButtonColumn Edit;
-        private System.Windows.Forms.DataGridView dgv2;
-        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn1;
-        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn2;
+        private System.Windows.Forms.ToolStripButton tsbAnadirUsuario;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

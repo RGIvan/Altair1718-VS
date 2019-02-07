@@ -73,6 +73,18 @@
     <Compile Include="FormUsuario.Designer.cs">
       <DependentUpon>FormUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUsuario.Designer.cs">
+      <DependentUpon>MenuUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdmin.Designer.cs">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,23 +104,29 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="UIAdmin.cs">
+    <Compile Include="UIProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UIAdmin.Designer.cs">
-      <DependentUpon>UIAdmin.cs</DependentUpon>
+    <Compile Include="UIProducto.Designer.cs">
+      <DependentUpon>UIProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="UIDes.cs">
+    <Compile Include="UIRestaurante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UIDes.Designer.cs">
-      <DependentUpon>UIDes.cs</DependentUpon>
+    <Compile Include="UIRestaurante.Designer.cs">
+      <DependentUpon>UIRestaurante.cs</DependentUpon>
     </Compile>
     <Compile Include="UIUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UIUsuario.Designer.cs">
       <DependentUpon>UIUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDes.Designer.cs">
+      <DependentUpon>UIDes.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FormProducto.resx">
       <DependentUpon>FormProducto.cs</DependentUpon>
@@ -118,6 +136,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormUsuario.resx">
       <DependentUpon>FormUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUsuario.resx">
+      <DependentUpon>MenuUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
@@ -130,14 +154,17 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="UIAdmin.resx">
-      <DependentUpon>UIAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="UIProducto.resx">
+      <DependentUpon>UIProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UIDes.resx">
-      <DependentUpon>UIDes.cs</DependentUpon>
+    <EmbeddedResource Include="UIRestaurante.resx">
+      <DependentUpon>UIRestaurante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIUsuario.resx">
       <DependentUpon>UIUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDes.resx">
+      <DependentUpon>UIDes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
