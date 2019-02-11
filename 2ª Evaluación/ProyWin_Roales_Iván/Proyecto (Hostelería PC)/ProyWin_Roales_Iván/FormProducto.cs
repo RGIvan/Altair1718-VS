@@ -21,8 +21,7 @@ namespace InterfazUsuario
 
         private void AnadirProducto_Load(object sender, EventArgs e)
         {
-            cbRestaurante.DataSource = LNyAD.ListaRestaurantes();
-            cbRestaurante.DisplayMember = "idrestaurante";
+            
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)
@@ -33,6 +32,11 @@ namespace InterfazUsuario
         private void btnEditar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

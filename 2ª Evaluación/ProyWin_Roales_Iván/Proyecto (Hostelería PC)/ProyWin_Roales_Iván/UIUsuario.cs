@@ -16,20 +16,26 @@ namespace InterfazUsuario
     {
         #region Propiedades
         Usuario usu;
+        Usuario usuarioDentro;
 
-        public Usuario Usu
+        public Usuario UsuarioDentro
         {
             get
             {
-                return usu;
+                return usuarioDentro;
             }
 
             set
             {
-                usu = value;
+                usuarioDentro = value;
             }
-        } 
+        }
         #endregion
+
+        private void UIUsuario_Load(object sender, EventArgs e)
+        {
+            CargarDGV();
+        }
 
         public UIUsuario()
         {
@@ -64,7 +70,6 @@ namespace InterfazUsuario
         private void EditarRegistro(int fila)
         {
             int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
-            Usuario usu = LNyAD.ObtenerUsuarioPorId(idUsuario);
 
             FormUsuario fusuario = new FormUsuario();
 
@@ -99,16 +104,10 @@ namespace InterfazUsuario
             menuAdmin.Show();
         }
 
-        private void UIUsuario_Load(object sender, EventArgs e)
+        private void CargarDGV()
         {
-            dgv.DataSource = LNyAD.TablaUsuarios();
-            dgv.Columns["idUsuario"].Visible = false;
-            dgv.Columns[3].HeaderText = "Usuario";
-            dgv.Columns[4].HeaderText = "Contraseña";
-            dgv.Columns[5].HeaderText = "Nombre";
-            dgv.Columns[6].HeaderText = "Apellidos";
-            dgv.Columns[7].HeaderText = "Acceso";
-            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
+            if (usuarioDentro.Acceso == 1)
+                dgv.DataSource = LNyAD.TablaUsuarios();
         }
     }
 }

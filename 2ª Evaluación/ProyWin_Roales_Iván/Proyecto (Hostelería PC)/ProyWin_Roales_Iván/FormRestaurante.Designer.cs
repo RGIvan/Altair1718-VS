@@ -44,9 +44,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.txbID = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.lbRestaurante = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -193,15 +193,6 @@
             this.label7.TabIndex = 15;
             this.label7.Text = "Nombre:";
             // 
-            // txbID
-            // 
-            this.txbID.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbID.ForeColor = System.Drawing.Color.Maroon;
-            this.txbID.Location = new System.Drawing.Point(38, 234);
-            this.txbID.Name = "txbID";
-            this.txbID.Size = new System.Drawing.Size(43, 22);
-            this.txbID.TabIndex = 23;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -223,8 +214,17 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 31);
             this.button1.TabIndex = 24;
-            this.button1.Text = "Guardar";
+            this.button1.Text = "Crear";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // lbRestaurante
+            // 
+            this.lbRestaurante.AutoSize = true;
+            this.lbRestaurante.Location = new System.Drawing.Point(36, 237);
+            this.lbRestaurante.Name = "lbRestaurante";
+            this.lbRestaurante.Size = new System.Drawing.Size(18, 13);
+            this.lbRestaurante.TabIndex = 25;
+            this.lbRestaurante.Text = "ID";
             // 
             // FormRestaurante
             // 
@@ -233,8 +233,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(447, 268);
+            this.Controls.Add(this.lbRestaurante);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txbID);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -273,10 +273,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txbID;
         private System.Windows.Forms.Label label8;
         public System.Windows.Forms.Button button1;
         public System.Windows.Forms.Button btnRegistro;
+        private System.Windows.Forms.Label lbRestaurante;
     }
 }
 

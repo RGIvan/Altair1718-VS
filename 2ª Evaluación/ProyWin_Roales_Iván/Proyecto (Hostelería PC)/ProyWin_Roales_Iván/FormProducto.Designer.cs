@@ -40,9 +40,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.cbRestaurante = new System.Windows.Forms.ComboBox();
             this.btnEditar = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,7 +76,7 @@
             this.btnRegistro.Name = "btnRegistro";
             this.btnRegistro.Size = new System.Drawing.Size(97, 31);
             this.btnRegistro.TabIndex = 4;
-            this.btnRegistro.Text = "Guardar";
+            this.btnRegistro.Text = "Crear";
             this.btnRegistro.UseVisualStyleBackColor = false;
             this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
             // 
@@ -96,7 +95,7 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Constantia", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(144, 37);
+            this.label2.Location = new System.Drawing.Point(147, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(187, 25);
             this.label2.TabIndex = 6;
@@ -147,27 +146,6 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Cantidad:";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Maroon;
-            this.label7.Location = new System.Drawing.Point(24, 233);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 14);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Nº restaurante:";
-            // 
-            // cbRestaurante
-            // 
-            this.cbRestaurante.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbRestaurante.FormattingEnabled = true;
-            this.cbRestaurante.Location = new System.Drawing.Point(116, 230);
-            this.cbRestaurante.Name = "cbRestaurante";
-            this.cbRestaurante.Size = new System.Drawing.Size(48, 21);
-            this.cbRestaurante.TabIndex = 16;
-            // 
             // btnEditar
             // 
             this.btnEditar.BackColor = System.Drawing.Color.Transparent;
@@ -181,6 +159,19 @@
             this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.Font = new System.Drawing.Font("Cambria", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.Maroon;
+            this.btnVolver.Location = new System.Drawing.Point(12, 229);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 19;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // FormProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -188,9 +179,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(447, 268);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.cbRestaurante);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -202,6 +192,7 @@
             this.Controls.Add(this.txbUsuario);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormProducto";
+            this.Text = "Editar producto";
             this.Load += new System.EventHandler(this.AnadirProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
@@ -219,10 +210,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox cbRestaurante;
         public System.Windows.Forms.Button btnRegistro;
         public System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnVolver;
     }
 }
 

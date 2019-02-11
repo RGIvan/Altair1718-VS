@@ -41,17 +41,14 @@ namespace InterfazUsuario
         {
             this.usu = new Usuario();
 
-            txbID.Visible = (usu.IdUsuario > 0);
-
-            txbID.Text = usu.IdUsuario.ToString();
             txbUsuario.Text = usu.Login;
             txbPass.Text = usu.Password;
             txbNombre.Text = usu.Nombre;
             txbApellidos.Text = usu.Apellidos;
 
-            cbAcceso.Items.Insert(0, "0. Deshabilitado");
-            cbAcceso.Items.Insert(1, "1. Admin");
-            cbAcceso.Items.Insert(2, "2. Usuario");
+            cbAcceso.Items.Insert(0, "[0] Deshabilitado");
+            cbAcceso.Items.Insert(1, "[1] Administrador");
+            cbAcceso.Items.Insert(2, "[2] User");
         }
         #endregion
 
@@ -156,5 +153,10 @@ namespace InterfazUsuario
             return error;
         }
         #endregion
+
+        private void cbAcceso_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

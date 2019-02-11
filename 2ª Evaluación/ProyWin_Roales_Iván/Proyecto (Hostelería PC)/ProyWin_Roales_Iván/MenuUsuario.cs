@@ -45,21 +45,21 @@ namespace InterfazUsuario
 
         private void tsbUsuarios_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             UIUsuario usu = new UIUsuario();
             usu.Show();
         }
 
         private void tsbProductos_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             UIProducto usu = new UIProducto();
             usu.Show();
         }
 
         private void tsbRestaurante_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             UIRestaurante usu = new UIRestaurante();
             usu.Show();
         }

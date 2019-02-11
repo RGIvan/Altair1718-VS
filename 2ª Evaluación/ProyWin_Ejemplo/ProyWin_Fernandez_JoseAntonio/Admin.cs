@@ -219,10 +219,5 @@ namespace InterfazUsuario
                 btnGuardar_Click(null, null);
             }
         }
-
-        private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

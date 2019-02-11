@@ -100,7 +100,6 @@
             this.dgv.TabIndex = 1;
             this.dgv.TabStop = false;
             this.dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellClick);
-            this.dgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellContentClick);
             // 
             // Del
             // 

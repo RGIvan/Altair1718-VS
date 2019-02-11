@@ -108,14 +108,6 @@ namespace LogicaNegocioyADatos
             return listaUsuarios;
         }
 
-        public static Usuario ObtenerUsuarioPorId(int idUsuario)
-        {
-            DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(idUsuario);
-            
-            Usuario usu = new Usuario(regUsuario);
-            return usu;
-        }
-
         static public void EditarUsuario(Usuario usu)
         {
             DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(usu.IdUsuario);

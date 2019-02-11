@@ -12,3 +12,9 @@ C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\obj\Debug\LNegocioyADatos.csprojResolveAssemblyReference.cache
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\obj\Debug\LNegocioyADatos.dll
 C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\obj\Debug\LNegocioyADatos.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll.config
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\bin\Debug\LNegocioyADatos.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\obj\Debug\LNegocioyADatos.csprojResolveAssemblyReference.cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\obj\Debug\LNegocioyADatos.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\LNegocioyADatos\obj\Debug\LNegocioyADatos.pdb

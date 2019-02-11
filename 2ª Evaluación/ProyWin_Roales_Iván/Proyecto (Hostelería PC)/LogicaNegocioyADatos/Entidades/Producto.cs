@@ -14,7 +14,6 @@ namespace LogicaNegocioyADatos.Entidades
         double precio;
         int cantidad;
         int idRestaurante;
-        private DataSet1.productoRow regProducto;
         #endregion
 
         #region Constructores

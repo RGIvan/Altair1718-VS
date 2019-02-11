@@ -59,22 +59,15 @@ namespace InterfazUsuario
             if (usu != null)
             {
                 errorProvider1.Clear();
-                if (usu.Acceso == 0)
-                    MessageBox.Show("Debes de darte de alta en la aplicación", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                else if
-                    (usu.Acceso == 2)
+                if (usu.Acceso == 3)
                 {
+                    MessageBox.Show("Debes de darte de alta en la aplicación", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     txbPass.Text = String.Empty;
                     txbUsuario.Text = String.Empty;
-                    btnEntrar.Focus();
-                    MenuUsuario interfaz = new MenuUsuario();
-                    interfaz.Usu = usu;
-                    this.Hide();
-                    interfaz.ShowDialog();
-                    interfaz.Dispose();
                 }
 
-                if (usu.Acceso == 1)
+                else if
+                    (usu.Acceso == 1)
                 {
                     txbPass.Text = String.Empty;
                     txbUsuario.Text = String.Empty;
@@ -86,12 +79,12 @@ namespace InterfazUsuario
                     interfaz.Dispose();
                 }
 
-                if (usu.Acceso == 3)
+                if (usu.Acceso == 2)
                 {
                     txbPass.Text = String.Empty;
                     txbUsuario.Text = String.Empty;
                     btnEntrar.Focus();
-                    UIDes interfaz = new UIDes();
+                    MenuUsuario interfaz = new MenuUsuario();
                     interfaz.Usu = usu;
                     this.Hide();
                     interfaz.ShowDialog();

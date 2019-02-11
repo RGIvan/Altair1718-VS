@@ -193,7 +193,7 @@
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UIRestaurante";
-            this.Text = "UIAdminRestaurantes";
+            this.Text = "UIRestaurantes";
             this.Load += new System.EventHandler(this.UIUsuario_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

@@ -45,8 +45,6 @@
             this.cbAcceso = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnEditar = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txbID = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -177,10 +175,11 @@
             // 
             this.cbAcceso.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAcceso.FormattingEnabled = true;
-            this.cbAcceso.Location = new System.Drawing.Point(170, 230);
+            this.cbAcceso.Location = new System.Drawing.Point(74, 230);
             this.cbAcceso.Name = "cbAcceso";
             this.cbAcceso.Size = new System.Drawing.Size(131, 21);
             this.cbAcceso.TabIndex = 14;
+            this.cbAcceso.SelectedIndexChanged += new System.EventHandler(this.cbAcceso_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -188,7 +187,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Maroon;
-            this.label7.Location = new System.Drawing.Point(120, 233);
+            this.label7.Location = new System.Drawing.Point(24, 232);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(44, 14);
             this.label7.TabIndex = 15;
@@ -199,35 +198,13 @@
             this.btnEditar.BackColor = System.Drawing.Color.Transparent;
             this.btnEditar.Font = new System.Drawing.Font("Cambria", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.Color.Maroon;
-            this.btnEditar.Location = new System.Drawing.Point(338, 224);
+            this.btnEditar.Location = new System.Drawing.Point(338, 225);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(97, 31);
             this.btnEditar.TabIndex = 16;
-            this.btnEditar.Text = "Editar";
+            this.btnEditar.Text = "Guardar cambios";
             this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Maroon;
-            this.label8.Location = new System.Drawing.Point(12, 233);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(22, 14);
-            this.label8.TabIndex = 23;
-            this.label8.Text = "ID:";
-            // 
-            // txbID
-            // 
-            this.txbID.Font = new System.Drawing.Font("Cambria", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbID.ForeColor = System.Drawing.Color.Maroon;
-            this.txbID.Location = new System.Drawing.Point(40, 229);
-            this.txbID.Name = "txbID";
-            this.txbID.Size = new System.Drawing.Size(43, 22);
-            this.txbID.TabIndex = 24;
-            this.txbID.Visible = false;
             // 
             // FormUsuario
             // 
@@ -236,8 +213,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(447, 268);
-            this.Controls.Add(this.txbID);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.cbAcceso);
@@ -277,8 +252,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cbAcceso;
         public System.Windows.Forms.Button btnEditar;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txbID;
     }
 }
 
