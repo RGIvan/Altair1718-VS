@@ -76,6 +76,7 @@ namespace InterfazUsuario
                     interfaz.Usu = usu;
                     this.Hide();
                     interfaz.ShowDialog();
+                    this.Show();
                     interfaz.Dispose();
                 }
 
@@ -88,6 +89,7 @@ namespace InterfazUsuario
                     interfaz.Usu = usu;
                     this.Hide();
                     interfaz.ShowDialog();
+                    this.Show();
                     interfaz.Dispose();
                 }
             }
