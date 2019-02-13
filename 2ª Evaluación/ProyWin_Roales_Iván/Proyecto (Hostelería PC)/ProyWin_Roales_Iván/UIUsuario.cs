@@ -66,7 +66,7 @@ namespace InterfazUsuario
                 return;
             {
 
-                if (LNyAD.BuscarAdministrador().Count == 1)
+                if (LNyAD.BuscarAdministrador().Count == 1 && usu.Acceso == 1)
                 {
                     MessageBox.Show("No se puede borrar al único administrador", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
