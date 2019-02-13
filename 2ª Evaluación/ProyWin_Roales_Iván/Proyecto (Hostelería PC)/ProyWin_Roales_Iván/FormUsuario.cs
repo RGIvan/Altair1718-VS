@@ -48,7 +48,7 @@ namespace InterfazUsuario
 
             cbAcceso.Items.Insert(0, "[0] Deshabilitado");
             cbAcceso.Items.Insert(1, "[1] Administrador");
-            cbAcceso.Items.Insert(2, "[2] User");
+            cbAcceso.Items.Insert(2, "[2] Usuario");
         }
         #endregion
 
@@ -153,10 +153,5 @@ namespace InterfazUsuario
             return error;
         }
         #endregion
-
-        private void cbAcceso_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

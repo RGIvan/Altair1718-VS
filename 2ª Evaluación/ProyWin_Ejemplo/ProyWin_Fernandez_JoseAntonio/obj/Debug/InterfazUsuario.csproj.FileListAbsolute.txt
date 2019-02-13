@@ -53,3 +53,7 @@ C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.Properties.Resources.resources
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.RegistroUsuario.resources
 C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\obj\Debug\InterfazUsuario.csproj.GenerateResource.Cache
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\bin\Debug\ProyWin_Fernandez_JoseAntonio.exe
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\bin\Debug\ProyWin_Fernandez_JoseAntonio.pdb
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\bin\Debug\LNegocioyADatos.dll
+C:\Users\AlumnoCSI2\Documents\git\Altair1718-VS\2ª Evaluación\ProyWin_Ejemplo\ProyWin_Fernandez_JoseAntonio\bin\Debug\LNegocioyADatos.pdb

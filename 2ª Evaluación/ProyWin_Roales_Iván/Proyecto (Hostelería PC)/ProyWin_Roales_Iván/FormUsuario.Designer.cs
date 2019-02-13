@@ -179,7 +179,6 @@
             this.cbAcceso.Name = "cbAcceso";
             this.cbAcceso.Size = new System.Drawing.Size(131, 21);
             this.cbAcceso.TabIndex = 14;
-            this.cbAcceso.SelectedIndexChanged += new System.EventHandler(this.cbAcceso_SelectedIndexChanged);
             // 
             // label7
             // 

@@ -16,7 +16,6 @@ namespace InterfazUsuario
     {
         #region Propiedades
         Usuario usu;
-
         public Usuario Usu
         {
             get
@@ -43,23 +42,24 @@ namespace InterfazUsuario
 
         private void tsbUsuarios_Click(object sender, EventArgs e)
         {
-            UIUsuario adminUsuario = new UIUsuario();
+            UIUsuario interfazUsuario = new UIUsuario();
+            interfazUsuario.Usu = usu;
             this.Hide();
-            adminUsuario.ShowDialog();
+            interfazUsuario.ShowDialog();
         }
 
         private void tsbProductos_Click(object sender, EventArgs e)
         {
-            UIProducto adminProducto = new UIProducto();
+            UIProducto interfazProducto = new UIProducto();
             this.Hide();
-            adminProducto.ShowDialog();
+            interfazProducto.ShowDialog();
         }
 
         private void tsbRestaurante_Click(object sender, EventArgs e)
         {
-            UIRestaurante adminRestaurante = new UIRestaurante();
+            UIRestaurante interfazRestaurante = new UIRestaurante();
             this.Hide();
-            adminRestaurante.ShowDialog();
+            interfazRestaurante.ShowDialog();
         }
     }
 }

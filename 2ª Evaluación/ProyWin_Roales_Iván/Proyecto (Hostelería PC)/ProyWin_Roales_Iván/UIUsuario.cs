@@ -16,25 +16,27 @@ namespace InterfazUsuario
     {
         #region Propiedades
         Usuario usu;
-        Usuario usuarioDentro;
 
-        public Usuario UsuarioDentro
+        public Usuario Usu
         {
             get
             {
-                return usuarioDentro;
+                return usu;
             }
 
             set
             {
-                usuarioDentro = value;
+                usu = value;
             }
         }
+
         #endregion
 
         private void UIUsuario_Load(object sender, EventArgs e)
         {
             CargarDGV();
+            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
+            dgv.Columns["idusuario"].Visible = false;
         }
 
         public UIUsuario()
@@ -62,9 +64,20 @@ namespace InterfazUsuario
         {
             if (DialogResult.No == MessageBox.Show("¿Está seguro de eliminar a:\n" + dgv.Rows[fila].Cells["usuario"].Value.ToString() + "?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
                 return;
+            {
 
-            int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
-            LNyAD.BorrarUsuario(idUsuario);
+                if (LNyAD.BuscarAdministrador().Count == 1)
+                {
+                    MessageBox.Show("No se puede borrar al único administrador", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                else
+                {
+                    int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
+                    LNyAD.BorrarUsuario(idUsuario);
+                    CargarDGV();
+                }
+            }
         }
 
         private void EditarRegistro(int fila)
@@ -104,7 +117,18 @@ namespace InterfazUsuario
 
         private void CargarDGV()
         {
-            
+            if (usu.Acceso == 1)
+            {
+                dgv.DataSource = LNyAD.TablaUsuarios();
+            }
+
+            else
+
+            {
+                dgv.DataSource = LNyAD.TablaUsuarios(usu.IdUsuario);
+                tsbAnadirUsuario.Visible = false;
+                dgv.Columns["del"].Visible = false;
+            }
         }
     }
 }

@@ -70,6 +70,12 @@ namespace LogicaNegocioyADatos
             return productosTabla;
         }
 
+        static public DataSet1.usuarioDataTable TablaUsuarios(int idUsuario)
+        {
+            usuariosTabla = usuariosAdapter.BuscarPorId(idUsuario);
+            return usuariosTabla;
+        }
+
         #endregion
 
         #region Consultas Usuario
