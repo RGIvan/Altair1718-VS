@@ -116,11 +116,14 @@ namespace LogicaNegocioyADatos
 
         static public void EditarUsuario(Usuario usu)
         {
-            DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(usu.IdUsuario);
-            regUsuario.usuario = usu.Login;
+            usuariosTabla = usuariosAdapter.BuscarPorId(usu.IdUsuario);
+            DataSet1.usuarioRow regUsuario = usuariosTabla[0];
+
             regUsuario.nombre = usu.Nombre;
-            regUsuario.password = usu.Password;
             regUsuario.apellidos = usu.Apellidos;
+            regUsuario.acceso = usu.Acceso;
+            regUsuario.password = usu.Password;
+            regUsuario.usuario = usu.Login;
 
             usuariosAdapter.Update(regUsuario);
         }
