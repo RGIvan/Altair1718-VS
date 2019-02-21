@@ -76,7 +76,7 @@ namespace InterfazUsuario
                 else
 
                 {
-                    LNyAD.AgregarUsuario(usu);
+                    LNyAD.ActualizarAnyadirUsuario(usu);
                     MessageBox.Show("El usuario se ha insertado correctamente", "Ha sido creado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Close();
                 }
@@ -89,15 +89,13 @@ namespace InterfazUsuario
         {
             if (!HayErrorEnFormulario())
             {
-                this.usu = new Usuario();
-
                 usu.Login = txbUsuario.Text;
                 usu.Password = txbPass.Text;
                 usu.Nombre = txbNombre.Text;
                 usu.Apellidos = txbApellidos.Text;
                 cbAcceso.SelectedIndex = Convert.ToInt32(usu.Acceso);
 
-                LNyAD.EditarUsuario(usu);
+                LNyAD.ActualizarAnyadirUsuario(usu);
                 MessageBox.Show("El usuario se ha editado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }

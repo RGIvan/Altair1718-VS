@@ -1,0 +1,16 @@
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\bin\Debug\GestionAlumnosFP_En2capas.exe.config
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\bin\Debug\GestionAlumnosFP_En2capas.exe
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\bin\Debug\GestionAlumnosFP_En2capas.pdb
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.FormDetalleAlumno.resources
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.FormPrincipal.resources
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.Properties.Resources.resources
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.exe
+C:\Users\Alberto\Desktop\GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.pdb
+C:\Altair\PNet2 Windows Form\wd AccesoDatos 1819\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\GestionAlumnosFP_En2capas\bin\Debug\GestionAlumnosFP_En2capas.exe.config
+C:\Altair\PNet2 Windows Form\wd AccesoDatos 1819\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.exe
+C:\Altair\PNet2 Windows Form\wd AccesoDatos 1819\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.pdb
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\bin\Debug\GestionAlumnosFP_En2capas.exe.config
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.exe
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\GestionAlumnosFP_En2capas\obj\Debug\GestionAlumnosFP_En2capas.pdb

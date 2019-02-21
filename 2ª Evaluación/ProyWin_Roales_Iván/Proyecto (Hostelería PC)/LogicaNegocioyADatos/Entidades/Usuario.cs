@@ -14,11 +14,12 @@ namespace LogicaNegocioyADatos.Entidades
         String nombre;
         String apellidos;
         String password;
+        String tipo;
         int acceso; 
         #endregion
 
         #region Constructores
-        public Usuario(int idUsuario, string login, string nombre, string apellidos, string password, int acceso)
+        public Usuario(int idUsuario, string login, string nombre, string apellidos, string password, string tipo, int acceso)
         {
             this.idUsuario = idUsuario;
             this.login = login;
@@ -26,6 +27,7 @@ namespace LogicaNegocioyADatos.Entidades
             this.apellidos = apellidos;
             this.password = password;
             this.acceso = acceso;
+            this.tipo = tipo;
         }
 
         public Usuario()
@@ -113,6 +115,19 @@ namespace LogicaNegocioyADatos.Entidades
             set
             {
                 password = value;
+            }
+        }
+
+        public string Tipo
+        {
+            get
+            {
+                return tipo;
+            }
+
+            set
+            {
+                tipo = value;
             }
         }
 

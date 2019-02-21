@@ -105,20 +105,6 @@ namespace LogicaNegocioyADatos
             LNyAD.usuariosAdapter.Update(regUsuario);
         }
 
-        static public void EditarUsuario(Usuario usu)
-        {
-            usuariosTabla = usuariosAdapter.BuscarPorId(usu.IdUsuario);
-            DataSet1.usuarioRow regUsuario = usuariosTabla[0];
-
-            regUsuario.nombre = usu.Nombre;
-            regUsuario.apellidos = usu.Apellidos;
-            regUsuario.acceso = usu.Acceso;
-            regUsuario.password = usu.Password;
-            regUsuario.usuario = usu.Login;
-
-            usuariosAdapter.Update(regUsuario);
-        }
-
         static public Usuario BuscarUsuario(string user)
         {
             Usuario usuario = null;
@@ -133,18 +119,25 @@ namespace LogicaNegocioyADatos
             return usuario;
         }
 
-        static public void AgregarUsuario(Usuario usu)
+        static public void ActualizarAnyadirUsuario(Usuario usu)
         {
-            DataSet1.usuarioRow regUsuario = usuariosTabla.NewusuarioRow();
+            DataSet1.usuarioRow regUsuario;
+
+            if (usu.IdUsuario > 0)
+                regUsuario = usuariosTabla.FindByidusuario(usu.IdUsuario);
+            else
+                regUsuario = usuariosTabla.NewusuarioRow();
 
             regUsuario.usuario = usu.Login;
             regUsuario.password = usu.Password;
             regUsuario.nombre = usu.Nombre;
             regUsuario.apellidos = usu.Apellidos;
             regUsuario.acceso = usu.Acceso;
+            regUsuario.tipo = usu.Tipo;
 
-            usuariosTabla.AddusuarioRow(regUsuario);
-            
+            if (usu.IdUsuario < 0)
+                usuariosTabla.AddusuarioRow(regUsuario);
+
             usuariosAdapter.Update(regUsuario);
         }
         #endregion
