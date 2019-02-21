@@ -1,0 +1,23 @@
+BuscarPorUsuario (usuario)
+
+SELECT idusuario, usuario, nombre, apellidos, [password], acceso, tipo FROM usuario WHERE (usuario = ?)
+
+BuscarPorAdministrador
+
+SELECT idusuario, acceso, [password], usuario, nombre, apellidos, tipo FROM usuario WHERE (acceso = 1)
+
+BuscarPorId (idusuario)
+
+SELECT idusuario, usuario, nombre, apellidos, [password], acceso, tipo FROM usuario WHERE (idusuario = ?)
+
+BuscarPorUserPass (usuario, password)
+
+SELECT acceso, apellidos, idusuario, nombre, [password], usuario, tipo FROM usuario WHERE (usuario = ?) AND ([password] = ?)
+
+Fill, GetData()
+
+SELECT acceso, apellidos, idusuario, nombre, [password], usuario, tipo FROM usuario
+
+FillBy, GetDataUsuario (usuario)
+
+SELECT idusuario, usuario, nombre, apellidos, [password], acceso, tipo FROM usuario WHERE (usuario = ?)
