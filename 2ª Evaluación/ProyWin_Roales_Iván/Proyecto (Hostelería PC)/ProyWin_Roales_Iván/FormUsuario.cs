@@ -63,6 +63,7 @@ namespace InterfazUsuario
                 usu.Password = txbPass.Text;
                 usu.Nombre = txbNombre.Text;
                 usu.Apellidos = txbApellidos.Text;
+                usu.Email = txbEmail.Text;
                 cbAcceso.SelectedIndex = Convert.ToInt32(usu.Acceso);
 
                 if (LNyAD.BuscarUsuario(txbUsuario.Text) != null)
