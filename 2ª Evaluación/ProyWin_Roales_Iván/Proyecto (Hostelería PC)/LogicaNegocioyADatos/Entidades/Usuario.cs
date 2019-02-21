@@ -15,11 +15,12 @@ namespace LogicaNegocioyADatos.Entidades
         String apellidos;
         String password;
         String tipo;
+        String email;
         int acceso; 
         #endregion
 
         #region Constructores
-        public Usuario(int idUsuario, string login, string nombre, string apellidos, string password, string tipo, int acceso)
+        public Usuario(int idUsuario, string login, string nombre, string apellidos, string password, string tipo, string email, int acceso)
         {
             this.idUsuario = idUsuario;
             this.login = login;
@@ -28,6 +29,7 @@ namespace LogicaNegocioyADatos.Entidades
             this.password = password;
             this.acceso = acceso;
             this.tipo = tipo;
+            this.email = email;
         }
 
         public Usuario()
@@ -38,6 +40,8 @@ namespace LogicaNegocioyADatos.Entidades
             this.Nombre = String.Empty;
             this.apellidos = String.Empty;
             this.acceso = 2;
+            this.tipo = String.Empty;
+            this.email = String.Empty;
         }
 
 
@@ -49,6 +53,8 @@ namespace LogicaNegocioyADatos.Entidades
             this.apellidos = regUsuarios.apellidos;
             this.password = regUsuarios.password;
             this.acceso = regUsuarios.acceso;
+            this.tipo = regUsuarios.tipo;
+            this.email = regUsuarios.email;
         }  
         #endregion
 
@@ -128,6 +134,19 @@ namespace LogicaNegocioyADatos.Entidades
             set
             {
                 tipo = value;
+            }
+        }
+
+        public string Email
+        {
+            get
+            {
+                return email;
+            }
+
+            set
+            {
+                email = value;
             }
         }
 
