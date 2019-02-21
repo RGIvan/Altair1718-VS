@@ -35,8 +35,10 @@ namespace InterfazUsuario
         private void UIUsuario_Load(object sender, EventArgs e)
         {
             CargarDGV();
+            añadirTabla();
             dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
             dgv.Columns["idusuario"].Visible = false;
+            dgv.Columns["acceso"].Visible = false;
         }
 
         public UIUsuario()
@@ -66,7 +68,7 @@ namespace InterfazUsuario
                 return;
             {
 
-                if (LNyAD.BuscarAdministrador().Count == 1 && usu.Acceso == 1)
+                if (dgv.Rows[fila].Cells["usuario"].Value.ToString() == "11")
                 {
                     MessageBox.Show("No se puede borrar al único administrador", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -77,6 +79,21 @@ namespace InterfazUsuario
                     LNyAD.BorrarUsuario(idUsuario);
                     CargarDGV();
                 }
+            }
+        }
+
+        private void añadirTabla()
+        {
+            for (int i = 0; i < dgv.RowCount; i++)
+            {
+                if (Convert.ToInt32(dgv.Rows[i].Cells["Acceso"].Value) == 0)
+                    dgv.Rows[i].Cells["tipo"].Value = "Deshabilitado";
+
+                else if (Convert.ToInt32(dgv.Rows[i].Cells["Acceso"].Value) == 1)
+                    dgv.Rows[i].Cells["tipo"].Value = "Administrador";
+
+                else if (Convert.ToInt32(dgv.Rows[i].Cells["Acceso"].Value) == 2)
+                    dgv.Rows[i].Cells["tipo"].Value = "Usuario";
             }
         }
 

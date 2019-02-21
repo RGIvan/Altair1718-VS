@@ -96,22 +96,13 @@ namespace LogicaNegocioyADatos
 
         public static void BorrarUsuario(int idUsuario)
         {
-            DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(idUsuario);
+            usuariosTabla = usuariosAdapter.BuscarPorId(idUsuario);
+
+            DataSet1.usuarioRow regUsuario = usuariosTabla[0];
 
             regUsuario.Delete();
 
-            usuariosAdapter.Update(regUsuario);
-        }
-
-        static public List<Usuario> BuscarAdministrador()
-        {
-            List<Usuario> listaUsuarios = new List<Usuario>();
-            usuariosTabla = usuariosAdapter.BuscarAdministrador();
-
-            foreach (DataSet1.usuarioRow regUsuario in usuariosTabla)
-                listaUsuarios.Add(new Usuario(regUsuario));
-
-            return listaUsuarios;
+            LNyAD.usuariosAdapter.Update(regUsuario);
         }
 
         static public void EditarUsuario(Usuario usu)
