@@ -16,25 +16,29 @@ namespace InterfazUsuario
     {
         #region Propiedades
         Usuario usu;
-        Usuario usuarioDentro;
 
-        public Usuario UsuarioDentro
+        public Usuario Usu
         {
             get
             {
-                return usuarioDentro;
+                return usu;
             }
 
             set
             {
-                usuarioDentro = value;
+                usu = value;
             }
         }
+
         #endregion
 
         private void UIUsuario_Load(object sender, EventArgs e)
         {
             CargarDGV();
+            añadirTabla();
+            dgv.Columns[0].DisplayIndex = dgv.Columns.Count - 1;
+            dgv.Columns["idusuario"].Visible = false;
+            dgv.Columns["acceso"].Visible = false;
         }
 
         public UIUsuario()
@@ -62,9 +66,35 @@ namespace InterfazUsuario
         {
             if (DialogResult.No == MessageBox.Show("¿Está seguro de eliminar a:\n" + dgv.Rows[fila].Cells["usuario"].Value.ToString() + "?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
                 return;
+            {
 
-            int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
-            LNyAD.BorrarUsuario(idUsuario);
+                if (dgv.Rows[fila].Cells["usuario"].Value.ToString() == "11")
+                {
+                    MessageBox.Show("No se puede borrar al único administrador", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                else
+                {
+                    int idUsuario = Convert.ToInt32(dgv.Rows[fila].Cells[2].Value);
+                    LNyAD.BorrarUsuario(idUsuario);
+                    CargarDGV();
+                }
+            }
+        }
+
+        private void añadirTabla()
+        {
+            for (int i = 0; i < dgv.RowCount; i++)
+            {
+                if (Convert.ToInt32(dgv.Rows[i].Cells["Acceso"].Value) == 0)
+                    dgv.Rows[i].Cells["tipo"].Value = "Deshabilitado";
+
+                else if (Convert.ToInt32(dgv.Rows[i].Cells["Acceso"].Value) == 1)
+                    dgv.Rows[i].Cells["tipo"].Value = "Administrador";
+
+                else if (Convert.ToInt32(dgv.Rows[i].Cells["Acceso"].Value) == 2)
+                    dgv.Rows[i].Cells["tipo"].Value = "Usuario";
+            }
         }
 
         private void EditarRegistro(int fila)
@@ -100,14 +130,22 @@ namespace InterfazUsuario
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Close();
-            MenuAdmin menuAdmin = new MenuAdmin();
-            menuAdmin.Show();
         }
 
         private void CargarDGV()
         {
-            if (usuarioDentro.Acceso == 1)
+            if (usu.Acceso == 1)
+            {
                 dgv.DataSource = LNyAD.TablaUsuarios();
+            }
+
+            else
+
+            {
+                dgv.DataSource = LNyAD.TablaUsuarios(usu.IdUsuario);
+                tsbAnadirUsuario.Visible = false;
+                dgv.Columns["del"].Visible = false;
+            }
         }
     }
 }

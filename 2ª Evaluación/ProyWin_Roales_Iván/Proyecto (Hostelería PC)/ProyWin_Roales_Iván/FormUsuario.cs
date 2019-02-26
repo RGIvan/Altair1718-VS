@@ -46,9 +46,9 @@ namespace InterfazUsuario
             txbNombre.Text = usu.Nombre;
             txbApellidos.Text = usu.Apellidos;
 
-            cbAcceso.Items.Insert(0, "[0] Deshabilitado");
-            cbAcceso.Items.Insert(1, "[1] Administrador");
-            cbAcceso.Items.Insert(2, "[2] User");
+            cbAcceso.Items.Insert(0, "Deshabilitado");
+            cbAcceso.Items.Insert(1, "Administrador");
+            cbAcceso.Items.Insert(2, "Usuario");
         }
         #endregion
 
@@ -63,6 +63,7 @@ namespace InterfazUsuario
                 usu.Password = txbPass.Text;
                 usu.Nombre = txbNombre.Text;
                 usu.Apellidos = txbApellidos.Text;
+                usu.Email = txbEmail.Text;
                 cbAcceso.SelectedIndex = Convert.ToInt32(usu.Acceso);
 
                 if (LNyAD.BuscarUsuario(txbUsuario.Text) != null)
@@ -76,7 +77,7 @@ namespace InterfazUsuario
                 else
 
                 {
-                    LNyAD.AgregarUsuario(usu);
+                    LNyAD.ActualizarAnyadirUsuario(usu);
                     MessageBox.Show("El usuario se ha insertado correctamente", "Ha sido creado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Close();
                 }
@@ -89,15 +90,13 @@ namespace InterfazUsuario
         {
             if (!HayErrorEnFormulario())
             {
-                this.usu = new Usuario();
-
                 usu.Login = txbUsuario.Text;
                 usu.Password = txbPass.Text;
                 usu.Nombre = txbNombre.Text;
                 usu.Apellidos = txbApellidos.Text;
-                cbAcceso.SelectedIndex = Convert.ToInt32(usu.Acceso);
+                cbAcceso.SelectedIndex = Convert.ToInt32(usu.Tipo);
 
-                LNyAD.EditarUsuario(usu);
+                LNyAD.ActualizarAnyadirUsuario(usu);
                 MessageBox.Show("El usuario se ha editado correctamente", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
@@ -153,10 +152,5 @@ namespace InterfazUsuario
             return error;
         }
         #endregion
-
-        private void cbAcceso_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

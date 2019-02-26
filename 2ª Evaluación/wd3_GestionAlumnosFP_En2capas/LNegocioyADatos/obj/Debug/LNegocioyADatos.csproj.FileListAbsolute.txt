@@ -1,0 +1,7 @@
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\bin\Debug\bd_AlumnosFP.accdb
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll.config
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\bin\Debug\LNegocioyADatos.pdb
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\obj\Debug\LNegocioyADatos.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\obj\Debug\LNegocioyADatos.dll
+C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\obj\Debug\LNegocioyADatos.pdb

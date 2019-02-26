@@ -70,6 +70,12 @@ namespace LogicaNegocioyADatos
             return productosTabla;
         }
 
+        static public DataSet1.usuarioDataTable TablaUsuarios(int idUsuario)
+        {
+            usuariosTabla = usuariosAdapter.BuscarPorId(idUsuario);
+            return usuariosTabla;
+        }
+
         #endregion
 
         #region Consultas Usuario
@@ -90,33 +96,13 @@ namespace LogicaNegocioyADatos
 
         public static void BorrarUsuario(int idUsuario)
         {
-            DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(idUsuario);
+            usuariosTabla = usuariosAdapter.BuscarPorId(idUsuario);
+
+            DataSet1.usuarioRow regUsuario = usuariosTabla[0];
 
             regUsuario.Delete();
 
-            usuariosAdapter.Update(regUsuario);
-        }
-
-        static public List<Usuario> BuscarAdministrador()
-        {
-            List<Usuario> listaUsuarios = new List<Usuario>();
-            usuariosTabla = usuariosAdapter.BuscarAdministrador();
-
-            foreach (DataSet1.usuarioRow regUsuario in usuariosTabla)
-                listaUsuarios.Add(new Usuario(regUsuario));
-
-            return listaUsuarios;
-        }
-
-        static public void EditarUsuario(Usuario usu)
-        {
-            DataSet1.usuarioRow regUsuario = usuariosTabla.FindByidusuario(usu.IdUsuario);
-            regUsuario.usuario = usu.Login;
-            regUsuario.nombre = usu.Nombre;
-            regUsuario.password = usu.Password;
-            regUsuario.apellidos = usu.Apellidos;
-
-            usuariosAdapter.Update(regUsuario);
+            LNyAD.usuariosAdapter.Update(regUsuario);
         }
 
         static public Usuario BuscarUsuario(string user)
@@ -133,18 +119,25 @@ namespace LogicaNegocioyADatos
             return usuario;
         }
 
-        static public void AgregarUsuario(Usuario usu)
+        static public void ActualizarAnyadirUsuario(Usuario usu)
         {
-            DataSet1.usuarioRow regUsuario = usuariosTabla.NewusuarioRow();
+            DataSet1.usuarioRow regUsuario;
+
+            if (usu.IdUsuario > 0)
+                regUsuario = usuariosTabla.FindByidusuario(usu.IdUsuario);
+            else
+                regUsuario = usuariosTabla.NewusuarioRow();
 
             regUsuario.usuario = usu.Login;
             regUsuario.password = usu.Password;
             regUsuario.nombre = usu.Nombre;
             regUsuario.apellidos = usu.Apellidos;
             regUsuario.acceso = usu.Acceso;
+            regUsuario.tipo = usu.Tipo;
 
-            usuariosTabla.AddusuarioRow(regUsuario);
-            
+            if (usu.IdUsuario < 0)
+                usuariosTabla.AddusuarioRow(regUsuario);
+
             usuariosAdapter.Update(regUsuario);
         }
         #endregion

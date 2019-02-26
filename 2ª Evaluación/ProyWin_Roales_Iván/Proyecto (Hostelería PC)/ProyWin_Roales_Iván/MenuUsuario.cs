@@ -39,29 +39,28 @@ namespace InterfazUsuario
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Close();
-            Login login = new Login();
-            login.Show();
         }
 
         private void tsbUsuarios_Click(object sender, EventArgs e)
         {
+            UIUsuario interfazUsuario = new UIUsuario();
+            interfazUsuario.Usu = usu;
             this.Hide();
-            UIUsuario usu = new UIUsuario();
-            usu.Show();
+            interfazUsuario.ShowDialog();
         }
 
         private void tsbProductos_Click(object sender, EventArgs e)
         {
+            UIProducto interfazProducto = new UIProducto();
             this.Hide();
-            UIProducto usu = new UIProducto();
-            usu.Show();
+            interfazProducto.ShowDialog();
         }
 
         private void tsbRestaurante_Click(object sender, EventArgs e)
         {
+            UIRestaurante interfazRestaurante = new UIRestaurante();
             this.Hide();
-            UIRestaurante usu = new UIRestaurante();
-            usu.Show();
+            interfazRestaurante.ShowDialog();
         }
     }
 }

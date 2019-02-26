@@ -107,8 +107,6 @@ namespace InterfazUsuario
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Close();
-            MenuAdmin menuAdmin = new MenuAdmin();
-            menuAdmin.Show();
         }
     }
 }

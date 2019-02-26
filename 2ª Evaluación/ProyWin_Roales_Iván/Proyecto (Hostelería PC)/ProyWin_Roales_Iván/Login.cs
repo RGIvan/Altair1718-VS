@@ -59,7 +59,7 @@ namespace InterfazUsuario
             if (usu != null)
             {
                 errorProvider1.Clear();
-                if (usu.Acceso == 3)
+                if (usu.Acceso == 0)
                 {
                     MessageBox.Show("Debes de darte de alta en la aplicación", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     txbPass.Text = String.Empty;
@@ -76,6 +76,7 @@ namespace InterfazUsuario
                     interfaz.Usu = usu;
                     this.Hide();
                     interfaz.ShowDialog();
+                    this.Show();
                     interfaz.Dispose();
                 }
 
@@ -88,6 +89,7 @@ namespace InterfazUsuario
                     interfaz.Usu = usu;
                     this.Hide();
                     interfaz.ShowDialog();
+                    this.Show();
                     interfaz.Dispose();
                 }
             }

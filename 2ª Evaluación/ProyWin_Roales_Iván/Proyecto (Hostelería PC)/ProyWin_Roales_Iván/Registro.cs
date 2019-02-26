@@ -83,7 +83,7 @@ namespace InterfazUsuario
                 usu.Nombre = txbNombre.Text;
                 usu.Apellidos = txbApellidos.Text;
 
-                LNyAD.AgregarUsuario(usu);
+                LNyAD.ActualizarAnyadirUsuario(usu);
                 errorProvider1.Clear();
                 MessageBox.Show("El usuario ha sido registrado con éxito", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();

@@ -14,11 +14,14 @@ namespace LogicaNegocioyADatos.Entidades
         String nombre;
         String apellidos;
         String password;
-        int acceso; 
+        String tipo;
+        String email;
+        int acceso;
+        int telefono;
         #endregion
 
         #region Constructores
-        public Usuario(int idUsuario, string login, string nombre, string apellidos, string password, int acceso)
+        public Usuario(int idUsuario, string login, string nombre, string apellidos, string password, string tipo, string email, int acceso, int telefono)
         {
             this.idUsuario = idUsuario;
             this.login = login;
@@ -26,6 +29,9 @@ namespace LogicaNegocioyADatos.Entidades
             this.apellidos = apellidos;
             this.password = password;
             this.acceso = acceso;
+            this.tipo = tipo;
+            this.email = email;
+            this.telefono = telefono;
         }
 
         public Usuario()
@@ -36,6 +42,9 @@ namespace LogicaNegocioyADatos.Entidades
             this.Nombre = String.Empty;
             this.apellidos = String.Empty;
             this.acceso = 2;
+            this.tipo = String.Empty;
+            this.email = String.Empty;
+            this.telefono = 0;
         }
 
 
@@ -47,7 +56,9 @@ namespace LogicaNegocioyADatos.Entidades
             this.apellidos = regUsuarios.apellidos;
             this.password = regUsuarios.password;
             this.acceso = regUsuarios.acceso;
-        }  
+            this.tipo = regUsuarios.tipo;
+            this.email = regUsuarios.email;
+        }
         #endregion
 
         #region Propiedades
@@ -113,6 +124,32 @@ namespace LogicaNegocioyADatos.Entidades
             set
             {
                 password = value;
+            }
+        }
+
+        public string Tipo
+        {
+            get
+            {
+                return tipo;
+            }
+
+            set
+            {
+                tipo = value;
+            }
+        }
+
+        public string Email
+        {
+            get
+            {
+                return email;
+            }
+
+            set
+            {
+                email = value;
             }
         }
 
