@@ -7,19 +7,19 @@
 <DiagramLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ex:showrelationlabel="False" ViewPortX="434" ViewPortY="0" xmlns:ex="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" xmlns="urn:schemas-microsoft-com:xml-msdatasource-layout">
   <Shapes>
     <Shape ID="DesignTable:producto" ZOrder="3" X="609" Y="104" Height="172" Width="198" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="121" />
-    <Shape ID="DesignTable:restaurante" ZOrder="2" X="901" Y="111" Height="210" Width="211" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="159" />
+    <Shape ID="DesignTable:restaurante" ZOrder="2" X="904" Y="85" Height="210" Width="211" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="159" />
     <Shape ID="DesignTable:usuario" ZOrder="1" X="1220" Y="86" Height="324" Width="250" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="197" />
   </Shapes>
   <Connectors>
     <Connector ID="DesignRelation:restauranteproducto" ZOrder="5" LineWidth="11">
       <RoutePoints>
         <Point>
-          <X>901</X>
-          <Y>201</Y>
+          <X>904</X>
+          <Y>175</Y>
         </Point>
         <Point>
           <X>807</X>
-          <Y>201</Y>
+          <Y>175</Y>
         </Point>
       </RoutePoints>
     </Connector>
@@ -27,11 +27,11 @@
       <RoutePoints>
         <Point>
           <X>1220</X>
-          <Y>202</Y>
+          <Y>176</Y>
         </Point>
         <Point>
-          <X>1112</X>
-          <Y>202</Y>
+          <X>1115</X>
+          <Y>176</Y>
         </Point>
       </RoutePoints>
     </Connector>

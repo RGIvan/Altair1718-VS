@@ -5,3 +5,10 @@ C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2c
 C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\obj\Debug\LNegocioyADatos.csprojResolveAssemblyReference.cache
 C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\obj\Debug\LNegocioyADatos.dll
 C:\Users\Alberto\Desktop\wd3_GestionAlumnosFP_En2capas\wd3_GestionAlumnosFP_En2capas (inicio)\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\obj\Debug\LNegocioyADatos.pdb
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\bin\Debug\bd_AlumnosFP.accdb
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll.config
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\bin\Debug\LNegocioyADatos.dll
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\bin\Debug\LNegocioyADatos.pdb
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\obj\Debug\LNegocioyADatos.csprojResolveAssemblyReference.cache
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\obj\Debug\LNegocioyADatos.dll
+C:\Users\Crono\git\Altair1718-VS\2ª Evaluación\wd3_GestionAlumnosFP_En2capas\LNegocioyADatos\obj\Debug\LNegocioyADatos.pdb

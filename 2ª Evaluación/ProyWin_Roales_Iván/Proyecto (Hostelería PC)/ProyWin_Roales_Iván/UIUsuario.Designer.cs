@@ -28,48 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UIUsuario));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.tsbAnadirUsuario = new System.Windows.Forms.ToolStripButton();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UIUsuario));
             this.dgv = new System.Windows.Forms.DataGridView();
             this.Del = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Edit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.toolStrip1.SuspendLayout();
+            this.tsbAnadirUsuario = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.BackColor = System.Drawing.Color.Transparent;
-            this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(110, 110);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsbAnadirUsuario});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(876, 139);
-            this.toolStrip1.TabIndex = 2;
-            this.toolStrip1.Text = "UIUsuario";
-            // 
-            // tsbAnadirUsuario
-            // 
-            this.tsbAnadirUsuario.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbAnadirUsuario.ForeColor = System.Drawing.Color.DarkRed;
-            this.tsbAnadirUsuario.Image = ((System.Drawing.Image)(resources.GetObject("tsbAnadirUsuario.Image")));
-            this.tsbAnadirUsuario.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbAnadirUsuario.Name = "tsbAnadirUsuario";
-            this.tsbAnadirUsuario.Size = new System.Drawing.Size(164, 136);
-            this.tsbAnadirUsuario.Text = "Añadir usuarios";
-            this.tsbAnadirUsuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbAnadirUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbAnadirUsuario.Click += new System.EventHandler(this.tsbAnadirUsuario_Click);
             // 
             // dgv
             // 
@@ -109,7 +83,7 @@
             this.dgv.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgv.EnableHeadersVisualStyles = false;
             this.dgv.GridColor = System.Drawing.Color.Black;
-            this.dgv.Location = new System.Drawing.Point(46, 152);
+            this.dgv.Location = new System.Drawing.Point(12, 152);
             this.dgv.MultiSelect = false;
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
@@ -130,7 +104,7 @@
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Snow;
             this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv.Size = new System.Drawing.Size(760, 350);
+            this.dgv.Size = new System.Drawing.Size(893, 370);
             this.dgv.TabIndex = 0;
             this.dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellClick);
             // 
@@ -172,7 +146,7 @@
             this.btnVolver.BackColor = System.Drawing.Color.Transparent;
             this.btnVolver.Font = new System.Drawing.Font("Cambria", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.ForeColor = System.Drawing.Color.Maroon;
-            this.btnVolver.Location = new System.Drawing.Point(789, 523);
+            this.btnVolver.Location = new System.Drawing.Point(830, 535);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 14;
@@ -180,13 +154,40 @@
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
+            // tsbAnadirUsuario
+            // 
+            this.tsbAnadirUsuario.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbAnadirUsuario.ForeColor = System.Drawing.Color.DarkRed;
+            this.tsbAnadirUsuario.Image = ((System.Drawing.Image)(resources.GetObject("tsbAnadirUsuario.Image")));
+            this.tsbAnadirUsuario.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbAnadirUsuario.Name = "tsbAnadirUsuario";
+            this.tsbAnadirUsuario.Size = new System.Drawing.Size(164, 136);
+            this.tsbAnadirUsuario.Text = "Añadir usuarios";
+            this.tsbAnadirUsuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbAnadirUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbAnadirUsuario.Click += new System.EventHandler(this.tsbAnadirUsuario_Click);
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(110, 110);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsbAnadirUsuario});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(917, 139);
+            this.toolStrip1.Stretch = true;
+            this.toolStrip1.TabIndex = 2;
+            this.toolStrip1.Text = "UIUsuario";
+            // 
             // UIUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(876, 558);
+            this.ClientSize = new System.Drawing.Size(917, 570);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.dgv);
             this.Controls.Add(this.toolStrip1);
@@ -195,21 +196,20 @@
             this.Name = "UIUsuario";
             this.Text = "UIUsuarios";
             this.Load += new System.EventHandler(this.UIUsuario_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.DataGridViewButtonColumn Del;
         private System.Windows.Forms.DataGridViewButtonColumn Edit;
-        private System.Windows.Forms.ToolStripButton tsbAnadirUsuario;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.ToolStripButton tsbAnadirUsuario;
+        private System.Windows.Forms.ToolStrip toolStrip1;
     }
 }
